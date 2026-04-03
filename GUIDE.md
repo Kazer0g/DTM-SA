@@ -16,7 +16,7 @@ This guide outlines the workflow, branching strategy, and best practices for con
 - **Merging**: Only changes from these named branches can be pushed to `dev`. You can merge any necessary branches into your personal branch, but it's recommended to create separate branches for different tasks (e.g., `Kazer0g/New-branch`) and merge them into your personal branch before pushing to `dev`.
 
 ### Feature/Task Branches
-- **Naming Convention**: Use the format `nickname/feature-name` (e.g., `Kazer0g/New-branch`).
+- **Naming Convention**: Use the format `nickname-feature-name` (e.g., `Kazer0g-New-branch`).
 - Create short-lived branches for specific tasks from your personal branch.
 - Merge these into your personal branch when ready, then push your personal branch to `dev`.
 - Do not push feature branches directly to the remote repository. Keep them local or merge them into your personal branch.
@@ -29,7 +29,7 @@ This guide outlines the workflow, branching strategy, and best practices for con
 ## Workflow
 
 1. **Start a Task**:
-   - Create a feature branch from your personal branch: `git checkout -b Kazer0g/New-branch`.
+   - Create a feature branch from your personal branch: `git checkout -b Kazer0g-New-branch`.
 
 2. **Develop and Commit**:
    - Make changes and commit with proper messages (see Commit Message Policy below).
@@ -44,7 +44,7 @@ This guide outlines the workflow, branching strategy, and best practices for con
    - From `dev`, create a PR to `main` when ready for release.
 
 5. **Clean Up**:
-   - Delete local feature branches after merging: `git branch -d Kazer0g/New-branch`.
+   - Delete local feature branches after merging: `git branch -d Kazer0g-New-branch`.
    - Prune remote branches if needed: `git remote prune origin`.
 
 ## Commit Message Policy
