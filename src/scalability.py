@@ -16,9 +16,8 @@ def parse_args():
     parser.add_argument("--input-csv", required=True)
     parser.add_argument("--output-csv", default="outputs/scalability_results.csv")
     parser.add_argument("--output-dir", default="outputs/scalability_runs")
-    parser.add_argument("--vectorizer-path", default="../tfidf_vectorizer.pkl")
-    parser.add_argument("--model-path", default="../sentiment_model.pkl")
-    parser.add_argument("--label-encoder-path", default="../label_encoder.pkl")
+    parser.add_argument("--vectorizer-path", default="../model/models/tfidf_vectorizer.pkl")
+    parser.add_argument("--model-path", default="../model/models/sentiment_model.pkl")
     parser.add_argument("--text-col", default="text")
     parser.add_argument("--group-col", default="group")
     parser.add_argument("--doc-counts", default="1000,10000,100000")
@@ -49,7 +48,6 @@ def main():
                 output_dir=run_output_dir,
                 vectorizer_path=Path(args.vectorizer_path),
                 model_path=Path(args.model_path),
-                label_encoder_path=Path(args.label_encoder_path),
                 text_col=args.text_col,
                 group_col=args.group_col,
                 chunksize=chunk_size,

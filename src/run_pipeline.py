@@ -15,18 +15,13 @@ def parse_args():
     )
     parser.add_argument(
         "--vectorizer-path",
-        default="../tfidf_vectorizer.pkl",
+        default="../model/models/tfidf_vectorizer.pkl",
         help="Path to TF-IDF vectorizer artifact.",
     )
     parser.add_argument(
         "--model-path",
-        default="../sentiment_model.pkl",
+        default="../model/models/sentiment_model.pkl",
         help="Path to sentiment model artifact.",
-    )
-    parser.add_argument(
-        "--label-encoder-path",
-        default="../label_encoder.pkl",
-        help="Path to label encoder artifact.",
     )
     parser.add_argument("--text-col", default="text", help="Text column name.")
     parser.add_argument("--group-col", default="group", help="Group column name.")
@@ -54,7 +49,6 @@ def main():
         output_dir=Path(args.output_dir),
         vectorizer_path=Path(args.vectorizer_path),
         model_path=Path(args.model_path),
-        label_encoder_path=Path(args.label_encoder_path),
         text_col=args.text_col,
         group_col=args.group_col,
         chunksize=args.chunk_size,

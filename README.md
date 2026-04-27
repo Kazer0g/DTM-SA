@@ -1,39 +1,80 @@
-# Distributed Text Mining and Sentiment Analysis
+# DTM-SA: Distributed Text Mining & Sentiment Analysis
 
-## Overview
+## Model Directory
 
-This project studies a distributed MapReduce-based pipeline for text mining and sentiment analysis. It is designed to process large text corpora and produce aggregated insights, such as word frequencies and sentiment-aware term rankings.
+### `train_model.py`
+**Purpose**: Core training script for the sentiment analysis model.
 
-## Goals
+**Functionality**:
+- Loads training data from multiple public datasets via Hugging Face:
+  - `SetFit/sst5` (movie reviews)
+  - `Yelp/yelp_review_full` (restaurant reviews)
+  - `cardiffnlp/tweet_eval` (tweet sentiment)
+- Maps multi-class labels to unified 3-class format: `negative`, `neutral`, `positive`
+- Samples up to 12,000 examples per dataset to balance training data
+- Combines datasets with category prefixes for domain adaptation
+- Trains a TF-IDF vectorizer + Logistic Regression pipeline
+- Evaluates model performance with comprehensive metrics (accuracy, F1, precision, recall)
+- Saves trained model artifacts directly in the model folder:
+  - `models/tfidf_vectorizer.pkl` - TF-IDF vectorizer
+  - `models/sentiment_model.pkl` - Logistic Regression classifier
+  - `models/label_encoder.pkl` - Label encoder for string labels
+  - `metadata/sentiment_model_metadata.json` - Training metadata and statistics
 
-- Extract word frequency distributions from input text.
-- Apply sentiment analysis to identify positive and negative terms.
-- Group results by document metadata (e.g., source, category, author) and rank top terms.
-- Validate correctness and performance with reproducible checks.
+**Key Parameters**:
+- TF-IDF: lowercase, English stopwords, max 50k features, unigrams+bigrams
+- Logistic Regression: max_iter=1000, balanced class weights
+- 80/20 train/test split with stratification
 
-## Input Data
+### `predictions.py`
+**Purpose**: Demonstration script showing how to use the trained model for inference.
 
-Acceptable inputs include:
+**Functionality**:
+- Loads the trained model components and reconstructs the pipeline
+- Provides example predictions on sample texts from different categories
+- Shows the model input format (category + " " + text)
 
-- Tweets
-- Product reviews
-- News headlines or articles
-- Web-scraped text
+### `train_data_for_ai.csv`
+**Purpose**: Sample training data file for reference.
 
-## Output
+**Structure**: Contains columns for `text`, `group` (category), and `sentiment` labels.
 
-Expected outputs include:
+## Model Training Process
 
-- Term frequency statistics per corpus or group
-- Positive/negative term rankings per group
-- Performance metrics for scalability tests
+1. **Data Acquisition**:
+   - Download datasets from Hugging Face Hub
+   - Standardize label formats across datasets
+   - Sample balanced subsets (12k per domain)
 
-## Validation Checklist
+2. **Preprocessing**:
+   - Combine domain prefix with text: `"movies " + review_text`
+   - Remove null/empty texts
+   - Stratified train/test split
 
-- [ ] Verify term frequencies against sample texts
-- [ ] Compare sentiment classification accuracy to expected labels
-- [ ] Demonstrate scalability with document count and chunk size
+3. **Model Architecture**:
+   ```
+   Input Text → TF-IDF Vectorization → Logistic Regression → Sentiment Prediction
+   ```
 
-## Notes
+4. **Training**:
+   - Fit TF-IDF on training texts
+   - Train logistic regression with balanced class weights
+   - Evaluate on held-out test set
 
-Keep this README as a reference for implementation and testing. No additional features are added in this change; the structure and clarity are improved only.
+5. **Artifact Generation**:
+   - Save individual model components for pipeline compatibility
+   - Record training statistics and performance metrics
+
+## Usage
+
+### Training the Model
+```bash
+cd model
+python train_model.py
+```
+
+### Running Predictions
+```bash
+cd model
+python predictions.py
+```

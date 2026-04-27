@@ -82,3 +82,5 @@ Keep messages concise but descriptive. Use the imperative mood (e.g., "add" inst
 - Communicate with the team via PR comments for reviews.
 
 For questions, refer to the README.md or contact the team lead.
+
+public branches naming are relates on project components so it will be like docs, backend etc, the we cloning it on local machines on local we create some branches like backend-api work on it then localy merge inte backend it push then pull requesting backend into dev and from dev into main

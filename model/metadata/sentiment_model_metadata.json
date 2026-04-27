@@ -1,7 +1,7 @@
 {
     "model_name": "sentiment_tfidf_logistic_regression",
     "model_type": "TF-IDF + Logistic Regression",
-    "created_at": "2026-04-27T13:51:58",
+    "created_at": "2026-04-27T14:05:15",
     "random_state": 42,
     "sample_size_per_dataset": 12000,
     "training_data": {
@@ -118,7 +118,6 @@
     "saved_files": {
         "vectorizer": "./model/models/tfidf_vectorizer.pkl",
         "model": "./model/models/sentiment_model.pkl",
-        "label_encoder": "./model/models/label_encoder.pkl",
         "metadata": "./model/metadata/sentiment_model_metadata.json"
     }
 }

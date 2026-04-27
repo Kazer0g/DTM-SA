@@ -18,7 +18,6 @@ from sklearn.metrics import (
 )
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.linear_model import LogisticRegression
-from sklearn.preprocessing import LabelEncoder
 
 
 RANDOM_STATE = 42
@@ -30,7 +29,7 @@ METADATA_DIR = os.path.join(ARTIFACTS_DIR, "metadata")
 
 MODEL_PATH = os.path.join(MODEL_DIR, "sentiment_model.pkl")
 VECTORIZER_PATH = os.path.join(MODEL_DIR, "tfidf_vectorizer.pkl")
-LABEL_ENCODER_PATH = os.path.join(MODEL_DIR, "label_encoder.pkl")
+
 METADATA_PATH = os.path.join(METADATA_DIR, "sentiment_model_metadata.json")
 
 
@@ -207,7 +206,6 @@ def save_metadata(data, metrics):
         "saved_files": {
             "vectorizer": VECTORIZER_PATH,
             "model": MODEL_PATH,
-            "label_encoder": LABEL_ENCODER_PATH,
             "metadata": METADATA_PATH
         }
     }
@@ -260,30 +258,23 @@ def main():
     model.fit(X_train, y_train)
     print("Model training completed")
 
-    print("\n7. Creating label encoder...")
-    label_encoder = LabelEncoder()
-    label_encoder.fit(y_train)
-    print("Label encoder created")
-
-    print("\n8. Evaluating model on test set...")
+    print("\n7. Evaluating model on test set...")
     metrics = calculate_metrics(model, X_test, y_test)
     print("Evaluation completed")
 
-    print("\n9. Saving model artifacts...")
+    print("\n8. Saving model artifacts...")
     os.makedirs(MODEL_DIR, exist_ok=True)
     os.makedirs(METADATA_DIR, exist_ok=True)
 
     # Save individual components for pipeline compatibility
     joblib.dump(model.named_steps['tfidf'], VECTORIZER_PATH)
     joblib.dump(model.named_steps['classifier'], MODEL_PATH)
-    joblib.dump(label_encoder, LABEL_ENCODER_PATH)
     
     save_metadata(data, metrics)
 
     print("\nTraining completed successfully!")
     print("Vectorizer saved:", VECTORIZER_PATH)
     print("Model saved:", MODEL_PATH)
-    print("Label encoder saved:", LABEL_ENCODER_PATH)
     print("Metadata saved:", METADATA_PATH)
     print("Accuracy:", round(metrics["accuracy"], 4))
     print("F1 macro:", round(metrics["f1_macro"], 4))

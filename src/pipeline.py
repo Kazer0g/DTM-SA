@@ -29,23 +29,21 @@ def tokenize(text: str) -> List[str]:
 
 
 def load_artifacts(
-    vectorizer_path: Path, model_path: Path, label_encoder_path: Path
+    vectorizer_path: Path, model_path: Path
 ):
     vectorizer = joblib.load(vectorizer_path)
     model = joblib.load(model_path)
-    label_encoder = joblib.load(label_encoder_path)
-    return vectorizer, model, label_encoder
+    return vectorizer, model
 
 
 def _predict_partition(
     rows: Iterable[Tuple[int, str, str]],
     vectorizer_path: str,
     model_path: str,
-    label_encoder_path: str,
     chunk_size: int,
 ):
-    vectorizer, model, label_encoder = load_artifacts(
-        Path(vectorizer_path), Path(model_path), Path(label_encoder_path)
+    vectorizer, model = load_artifacts(
+        Path(vectorizer_path), Path(model_path)
     )
     buffered_row_ids: List[int] = []
     buffered_texts: List[str] = []
@@ -55,8 +53,7 @@ def _predict_partition(
         if not buffered_texts:
             return []
         features = vectorizer.transform(buffered_texts)
-        pred_ids = model.predict(features)
-        pred_labels = label_encoder.inverse_transform(pred_ids)
+        pred_labels = model.predict(features)
         output = [
             (int(row_id), group_name, text, str(sentiment))
             for row_id, group_name, text, sentiment in zip(
@@ -115,7 +112,6 @@ def run_pipeline(
     output_dir: Path,
     vectorizer_path: Path,
     model_path: Path,
-    label_encoder_path: Path,
     text_col: str = "text",
     group_col: str = "group",
     chunksize: int = 2000,
@@ -150,7 +146,6 @@ def run_pipeline(
                 rows=rows,
                 vectorizer_path=str(vectorizer_path),
                 model_path=str(model_path),
-                label_encoder_path=str(label_encoder_path),
                 chunk_size=max(1, int(chunksize)),
             )
         )
