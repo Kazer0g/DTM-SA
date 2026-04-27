@@ -43,11 +43,11 @@ def validate_term_frequencies(df: pd.DataFrame, sample_size: int = 50) -> Dict[s
 
 
 def validate_sentiment(predictions_df: pd.DataFrame, labels_df: pd.DataFrame) -> Dict[str, object]:
-    merged = predictions_df.merge(labels_df[["row_id", "label"]], on="row_id", how="inner")
+    merged = predictions_df.merge(labels_df[["row_id", "sentiment"]], on="row_id", how="inner")
     if merged.empty:
         return {"accuracy": None, "classification_report": {}, "confusion_matrix": []}
 
-    y_true = merged["label"].astype(str)
+    y_true = merged["sentiment"].astype(str)
     y_pred = merged["predicted_sentiment"].astype(str)
     return {
         "samples_compared": len(merged),

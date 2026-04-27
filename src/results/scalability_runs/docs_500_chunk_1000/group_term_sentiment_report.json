@@ -1,0 +1,168 @@
+{
+  "movies": {
+    "top_positive_terms": [
+      {
+        "term": "the",
+        "count": 193
+      },
+      {
+        "term": "and",
+        "count": 133
+      },
+      {
+        "term": "of",
+        "count": 112
+      },
+      {
+        "term": "to",
+        "count": 82
+      },
+      {
+        "term": "is",
+        "count": 71
+      },
+      {
+        "term": "in",
+        "count": 62
+      },
+      {
+        "term": "it",
+        "count": 60
+      },
+      {
+        "term": "'s",
+        "count": 58
+      },
+      {
+        "term": "that",
+        "count": 49
+      },
+      {
+        "term": "as",
+        "count": 43
+      },
+      {
+        "term": "film",
+        "count": 31
+      },
+      {
+        "term": "but",
+        "count": 30
+      },
+      {
+        "term": "this",
+        "count": 30
+      },
+      {
+        "term": "with",
+        "count": 30
+      },
+      {
+        "term": "an",
+        "count": 25
+      },
+      {
+        "term": "be",
+        "count": 25
+      },
+      {
+        "term": "for",
+        "count": 21
+      },
+      {
+        "term": "its",
+        "count": 19
+      },
+      {
+        "term": "you",
+        "count": 18
+      },
+      {
+        "term": "his",
+        "count": 17
+      }
+    ],
+    "top_negative_terms": [
+      {
+        "term": "the",
+        "count": 184
+      },
+      {
+        "term": "of",
+        "count": 102
+      },
+      {
+        "term": "and",
+        "count": 90
+      },
+      {
+        "term": "is",
+        "count": 75
+      },
+      {
+        "term": "it",
+        "count": 69
+      },
+      {
+        "term": "'s",
+        "count": 68
+      },
+      {
+        "term": "to",
+        "count": 65
+      },
+      {
+        "term": "that",
+        "count": 58
+      },
+      {
+        "term": "in",
+        "count": 54
+      },
+      {
+        "term": "as",
+        "count": 43
+      },
+      {
+        "term": "movie",
+        "count": 39
+      },
+      {
+        "term": "for",
+        "count": 36
+      },
+      {
+        "term": "this",
+        "count": 35
+      },
+      {
+        "term": "but",
+        "count": 33
+      },
+      {
+        "term": "its",
+        "count": 28
+      },
+      {
+        "term": "an",
+        "count": 27
+      },
+      {
+        "term": "with",
+        "count": 25
+      },
+      {
+        "term": "film",
+        "count": 23
+      },
+      {
+        "term": "you",
+        "count": 21
+      },
+      {
+        "term": "one",
+        "count": 20
+      }
+    ]
+  }
+}

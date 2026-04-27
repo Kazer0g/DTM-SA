@@ -1,9 +1,0 @@
-{
-  "processed_docs": 50,
-  "chunksize": 2000,
-  "workers": 1,
-  "top_n": 20,
-  "elapsed_seconds": 7.0152460830286145,
-  "predictions_path": "test_output/predictions.csv",
-  "group_report_path": "test_output/group_term_sentiment_report.json"
-}
