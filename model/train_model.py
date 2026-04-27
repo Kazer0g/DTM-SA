@@ -24,7 +24,7 @@ from sklearn.preprocessing import LabelEncoder
 RANDOM_STATE = 42
 SAMPLE_SIZE = 12000
 
-ARTIFACTS_DIR = "."
+ARTIFACTS_DIR = "./model"
 MODEL_DIR = os.path.join(ARTIFACTS_DIR, "models")
 METADATA_DIR = os.path.join(ARTIFACTS_DIR, "metadata")
 
