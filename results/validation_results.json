@@ -1,0 +1,145 @@
+{
+  "term_frequency_validation": {
+    "checked_rows": 50,
+    "unique_terms": 989,
+    "token_total": 1629,
+    "overlap_tokens": 1629,
+    "match_ratio": 1.0,
+    "top_terms": [
+      [
+        "restaurants",
+        21
+      ],
+      [
+        "food",
+        20
+      ],
+      [
+        "room",
+        19
+      ],
+      [
+        "movies",
+        17
+      ],
+      [
+        "tweets",
+        12
+      ],
+      [
+        "bed",
+        11
+      ],
+      [
+        "place",
+        10
+      ],
+      [
+        "good",
+        10
+      ],
+      [
+        "right",
+        10
+      ],
+      [
+        "like",
+        10
+      ],
+      [
+        "great",
+        10
+      ],
+      [
+        "got",
+        10
+      ],
+      [
+        "just",
+        9
+      ],
+      [
+        "didn't",
+        9
+      ],
+      [
+        "staff",
+        9
+      ],
+      [
+        "went",
+        9
+      ],
+      [
+        "day",
+        9
+      ],
+      [
+        "say",
+        9
+      ],
+      [
+        "told",
+        8
+      ],
+      [
+        "did",
+        7
+      ]
+    ]
+  },
+  "sentiment_validation": {
+    "samples_compared": 6509,
+    "accuracy": 0.6397296051620832,
+    "classification_report": {
+      "negative": {
+        "precision": 0.6534983341266064,
+        "recall": 0.6913393756294058,
+        "f1-score": 0.6718864692928799,
+        "support": 1986.0
+      },
+      "neutral": {
+        "precision": 0.5289783889980354,
+        "recall": 0.5710498409331919,
+        "f1-score": 0.549209586945436,
+        "support": 1886.0
+      },
+      "positive": {
+        "precision": 0.7225969645868465,
+        "recall": 0.6499810390595373,
+        "f1-score": 0.684368137352765,
+        "support": 2637.0
+      },
+      "accuracy": 0.6397296051620832,
+      "macro avg": {
+        "precision": 0.6350245625704961,
+        "recall": 0.637456751874045,
+        "f1-score": 0.635154731197027,
+        "support": 6509.0
+      },
+      "weighted avg": {
+        "precision": 0.6454123719221462,
+        "recall": 0.6397296051620832,
+        "f1-score": 0.6413972326308178,
+        "support": 6509.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        1373,
+        378,
+        235
+      ],
+      [
+        386,
+        1077,
+        423
+      ],
+      [
+        342,
+        581,
+        1714
+      ]
+    ]
+  }
+}

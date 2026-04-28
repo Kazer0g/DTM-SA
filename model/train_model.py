@@ -1,5 +1,6 @@
 import os
 import json
+import csv
 import joblib
 import pandas as pd
 
@@ -23,7 +24,7 @@ from sklearn.linear_model import LogisticRegression
 RANDOM_STATE = 42
 SAMPLE_SIZE = 12000
 
-ARTIFACTS_DIR = "./model"
+ARTIFACTS_DIR = "."
 MODEL_DIR = os.path.join(ARTIFACTS_DIR, "models")
 METADATA_DIR = os.path.join(ARTIFACTS_DIR, "metadata")
 
@@ -239,6 +240,7 @@ def main():
 
     print("\n4. Creating model inputs...")
     data["model_input"] = data["category"] + " " + data["text"]
+    data["group"] = data["category"]
     print("Added category prefixes to texts")
 
     print("\n5. Splitting data into train/test sets...")
@@ -265,6 +267,27 @@ def main():
     print("\n8. Saving model artifacts...")
     os.makedirs(MODEL_DIR, exist_ok=True)
     os.makedirs(METADATA_DIR, exist_ok=True)
+
+    # Save train/test datasets
+    data_dir = "../data"
+    os.makedirs(data_dir, exist_ok=True)
+    
+    train_data = pd.DataFrame({
+        "text": X_train,
+        "sentiment": y_train,
+        "group": data.loc[X_train.index, "group"],
+    })
+    test_data = pd.DataFrame({
+        "text": X_test,
+        "sentiment": y_test,
+        "group": data.loc[X_test.index, "group"],
+    })
+    
+    train_data.to_csv(os.path.join(data_dir, "train.csv"), index=False, quoting=csv.QUOTE_ALL)
+    test_data.to_csv(os.path.join(data_dir, "test.csv"), index=False, quoting=csv.QUOTE_ALL)
+    
+    print("Train data saved to:", os.path.join(data_dir, "train.csv"))
+    print("Test data saved to:", os.path.join(data_dir, "test.csv"))
 
     # Save individual components for pipeline compatibility
     joblib.dump(model.named_steps['tfidf'], VECTORIZER_PATH)

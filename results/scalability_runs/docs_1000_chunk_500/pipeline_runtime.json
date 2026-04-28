@@ -1,0 +1,9 @@
+{
+  "processed_docs": 1000,
+  "chunksize": 500,
+  "workers": 1,
+  "top_n": 20,
+  "elapsed_seconds": 3.6873862500069663,
+  "predictions_path": "../results/scalability_runs/docs_1000_chunk_500/predictions.csv",
+  "group_report_path": "../results/scalability_runs/docs_1000_chunk_500/group_term_sentiment_report.json"
+}

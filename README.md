@@ -2,321 +2,216 @@
 
 ## Project Overview
 
-This project implements a distributed text mining and sentiment analysis pipeline using PySpark and scikit-learn. The system processes large-scale text data to perform sentiment classification and extract meaningful term frequency patterns across different document groups.
+DTM-SA is a modular project for distributed text mining and sentiment analysis. It combines PySpark for scalable data processing with scikit-learn model training and evaluation. The repository includes model training, a distributed inference pipeline, validation, scalability testing, and visualization.
 
-## Project Structure
+## Repository Structure
 
-### Root Directory Files
+### Root Files
 
-- **`README.md`** - This file. Contains project overview, setup instructions, and usage guide.
-- **`REPORT.md`** - Project report and documentation (currently empty).
-- **`requirements.txt`** - Python dependencies required for the project.
-- **`.gitignore`** - Git ignore rules for version control.
-- **`.git/`** - Git repository metadata.
-- **`.venv/`** - Python virtual environment (created during setup).
+- `README.md` - Project overview, setup, and usage guide.
+- `REPORT.md` - Project report and documentation.
+- `requirements.txt` - Python dependencies.
+- `.gitignore` - Files excluded from version control.
+- `.venv/` - Optional Python virtual environment directory.
 
-### `docs/` Directory - Documentation
+### `data/`
 
-Contains project documentation and guidelines:
+Contains curated input datasets for training and evaluation:
 
-- **`GUIDE.md`** - Developer guide outlining workflow, branching strategy, and best practices for contributing to the project.
-- **`PROJECT-RULES.md`** - Project rules, workflow, and issue board management guidelines.
+- `train.csv` - Training dataset used by `model/train_model.py`.
+- `test.csv` - Evaluation dataset used by the pipeline and validation.
 
-### `model/` Directory - Machine Learning Models
+### `docs/`
 
-Contains all machine learning model training and prediction code:
+Documentation and project guidelines:
 
-#### Core Files:
-- **`train_model.py`** - Main training script for the sentiment analysis model.
-- **`predictions.py`** - Demonstration script for running predictions on trained models.
-- **`train_data_for_ai.csv`** - Sample training data for reference.
+- `GUIDE.md` - Developer guide and workflow best practices.
+- `PROJECT-RULES.md` - Project rules and issue management guidelines.
 
-#### Generated Directories (after training):
-- **`models/`** - Trained model artifacts:
-  - `tfidf_vectorizer.pkl` - TF-IDF vectorizer for text feature extraction
-  - `sentiment_model.pkl` - Logistic Regression classifier for sentiment prediction
+### `model/`
 
-- **`metadata/`** - Training metadata and statistics:
-  - `sentiment_model_metadata.json` - Model training details, performance metrics, and configuration
+Contains model training scripts, inference examples, and saved artifacts:
 
-### `src/` Directory - Processing Pipeline
+- `train_model.py` - Loads datasets, trains the sentiment model, and saves artifacts.
+- `predictions.py` - Demonstrates how to load the saved model and predict sentiment for new text.
+- `models/` - Saved model artifacts:
+  - `tfidf_vectorizer.pkl`
+  - `sentiment_model.pkl`
+- `metadata/` - Training metadata and performance summary:
+  - `sentiment_model_metadata.json`
+
+### `src/`
 
 Contains the distributed processing pipeline and analysis tools:
 
-#### Core Pipeline:
-- **`pipeline.py`** - Main distributed processing engine using PySpark for sentiment analysis and term mining.
-- **`run_pipeline.py`** - Command-line interface for executing the sentiment analysis pipeline.
-- **`runner.py`**: Complete workflow orchestrator that runs pipeline, scalability testing, validation, and visualization in sequence.
+- `pipeline.py` - Core Spark-based sentiment analysis and term mining pipeline.
+- `run_pipeline.py` - CLI wrapper for running the pipeline.
+- `runner.py` - Full workflow orchestrator for pipeline, scalability, validation, and visualization.
+- `validate.py` - Validates model predictions and tokenization.
+- `visualize_results.py` - Creates dashboard visualizations from pipeline outputs.
+- `scalability.py` - Benchmarks pipeline performance.
+- `results/` - Generated output artifacts.
+- `test_results/` - Optional experimental output directory.
 
-#### Analysis Tools:
-- **`validate.py`** - Validation and quality assurance for pipeline outputs.
-- **`visualize_results.py`** - Creates comprehensive dashboard visualizations from pipeline results.
-- **`scalability.py`** - Performance benchmarking and scalability testing.
+## Model Training
 
-#### Generated Directories (after pipeline execution):
-- **`output/`** - Main output directory for pipeline results.
-- **`test_output/`** - Test output directory for development and testing.
-- **`__pycache__/`** - Python bytecode cache (auto-generated).
+### Purpose
 
-## Model Directory Details
+The model training pipeline builds a sentiment classifier from multiple datasets and saves the resulting artifacts and train/test data.
 
-### `train_model.py`
-**Purpose**: Core training script for the sentiment analysis model.
+### Data Sources
 
-**Functionality**:
-- Loads training data from multiple public datasets via Hugging Face:
-  - `SetFit/sst5` (movie reviews)
-  - `Yelp/yelp_review_full` (restaurant reviews)
-  - `cardiffnlp/tweet_eval` (tweet sentiment)
-- Maps multi-class labels to unified 3-class format: `negative`, `neutral`, `positive`
-- Samples up to 12,000 examples per dataset to balance training data
-- Combines datasets with category prefixes for domain adaptation
-- Trains a TF-IDF vectorizer + Logistic Regression pipeline
-- Evaluates model performance with comprehensive metrics (accuracy, F1, precision, recall)
-- Saves trained model artifacts directly in the model folder:
-  - `models/tfidf_vectorizer.pkl` - TF-IDF vectorizer
-  - `models/sentiment_model.pkl` - Logistic Regression classifier
-  - `models/label_encoder.pkl` - Label encoder for string labels
-  - `metadata/sentiment_model_metadata.json` - Training metadata and statistics
+- `SetFit/sst5` — movie reviews
+- `Yelp/yelp_review_full` — restaurant reviews
+- `cardiffnlp/tweet_eval` — tweet sentiment
 
-**Key Parameters**:
-- TF-IDF: lowercase, English stopwords, max 50k features, unigrams+bigrams
-- Logistic Regression: max_iter=1000, balanced class weights
-- 80/20 train/test split with stratification
+### Training Workflow
 
-### `predictions.py`
-**Purpose**: Demonstration script showing how to use the trained model for inference.
+1. Load datasets from Hugging Face.
+2. Standardize labels to three classes: `negative`, `neutral`, `positive`.
+3. Sample balanced subsets for each domain.
+4. Add `group` metadata and prefix text with the dataset category.
+5. Split data into 80% train and 20% test sets.
+6. Train a TF-IDF + Logistic Regression model.
+7. Save model artifacts, metadata, and train/test CSV files.
 
-**Functionality**:
-- Loads the trained model components and reconstructs the pipeline
-- Provides example predictions on sample texts from different categories
-- Shows the model input format (category + " " + text)
+### Saved Artifacts
 
-### `train_data_for_ai.csv`
-**Purpose**: Sample training data file for reference.
+- `model/models/tfidf_vectorizer.pkl`
+- `model/models/sentiment_model.pkl`
+- `model/metadata/sentiment_model_metadata.json`
+- `data/train.csv`
+- `data/test.csv`
 
-**Structure**: Contains columns for `text`, `group` (category), and `sentiment` labels.
+## Pipeline Overview
 
-## Pipeline Directory Details
+### `src/pipeline.py`
 
-### `pipeline.py` - **Core Pipeline Engine**
-**Purpose**: The main distributed processing pipeline that performs sentiment analysis and term frequency mining on large datasets.
+This is the project’s core distributed processing engine. It:
 
-**Key Functions**:
-- **`tokenize()`**: Breaks text into words using regex pattern `[A-Za-z']+`
-- **`load_artifacts()`**: Loads the trained model components (vectorizer, classifier)
-- **`_predict_partition()`**: Processes data in distributed partitions using PySpark
-- **`reduce_term_counts_spark()`**: Aggregates term frequencies by sentiment and group
-- **`run_pipeline()`**: Main pipeline orchestrator
+- Reads input CSV data.
+- Applies the saved TF-IDF vectorizer and classifier to text.
+- Uses Spark `mapPartitions` for distributed inference.
+- Tokenizes text and aggregates top terms by sentiment and group.
+- Writes predictions, term reports, and runtime metadata.
 
-**Workflow**:
-1. **Setup**: Creates PySpark session with configurable workers
-2. **Data Loading**: Reads CSV input, selects text/group columns
-3. **Distributed Prediction**: Uses `mapPartitions` to process data across Spark workers in batches
-4. **Term Mining**: Tokenizes texts, counts term frequencies by sentiment/group
-5. **Output**: Saves predictions CSV, term frequency JSON, and runtime metadata
+### Outputs
 
-**Key Features**:
-- Memory-efficient batch processing (configurable chunk sizes)
-- Fault-tolerant distributed execution
-- Configurable worker threads for parallel processing
+- `predictions.csv`
+- `group_term_sentiment_report.json`
+- `pipeline_runtime.json`
 
-### `runner.py` - **Complete Workflow Orchestrator**
-**Purpose**: All-in-one script that runs the entire DTM-SA workflow automatically.
+## Workflow Orchestration
 
-**Functionality**:
-- Executes the sentiment analysis pipeline
-- Performs scalability benchmarking
-- Validates results against ground truth
-- Generates comprehensive visualizations
-- Provides detailed progress reporting
+### `src/runner.py`
 
-**Usage**: `python runner.py --input-csv ../model/train_data_for_ai.csv --output-dir results`
+Runs the full workflow end-to-end:
 
-**Parameters**:
-- `--input-csv`: Path to input data file
-- `--output-dir`: Where to save all results
-- `--max-docs`: Limit documents processed (optional)
-- `--scalability-doc-counts`: Document counts for benchmarking
-- `--scalability-chunk-sizes`: Chunk sizes for benchmarking
-- `--skip-scalability`: Skip performance testing
-- `--skip-visualization`: Skip dashboard generation
+- sentiment analysis pipeline
+- scalability experiments
+- validation
+- visualization
 
-**Outputs**: All pipeline, validation, scalability, and visualization results in one directory.
+### Recommended command
 
-### `validate.py` - **Quality Assurance & Validation**
-**Purpose**: Validates pipeline outputs and compares against ground truth.
-
-**Functions**:
-- **`validate_term_frequencies()`**: Checks tokenization consistency by comparing manual vs computed tokenization
-- **`validate_sentiment()`**: Measures prediction accuracy against labeled data
-
-**Outputs**:
-- Classification reports and confusion matrices
-- Term frequency validation metrics
-- JSON file with validation results
-
-**Usage**: `python validate.py --input-csv data.csv --predictions-csv results/predictions.csv`
-
-### `visualize_results.py` - **Results Visualization**
-**Purpose**: Creates comprehensive dashboard visualizations from pipeline outputs.
-
-**Charts Generated**:
-1. **Runtime vs Chunk Size**: Performance curves
-2. **Speedup Analysis**: Efficiency improvements
-3. **Confusion Matrix**: Prediction accuracy visualization
-4. **Top Terms**: Most frequent positive/negative terms across groups
-5. **Sentiment Distribution**: Overall prediction breakdown
-
-**Output**: Single PNG dashboard combining all visualizations.
-
-**Usage**: `python visualize_results.py --output-png dashboard.png`
-
-### `scalability.py` - **Performance Benchmarking**
-**Purpose**: Tests pipeline performance across different configurations.
-
-**Functionality**:
-- Runs pipeline with varying document counts and chunk sizes
-- Measures execution time and calculates speedup ratios
-- Tests scalability characteristics
-
-**Parameters**:
-- `--doc-counts`: Different dataset sizes to test (e.g., "1000,10000,100000")
-- `--chunk-sizes`: Different batch sizes (e.g., "500,2000,5000,10000")
-
-**Output**: CSV with scalability metrics for analysis.
-
-**Usage**: `python scalability.py --input-csv data.csv --doc-counts "1000,10000" --chunk-sizes "500,2000"`
-
-## Model Training Process
-
-1. **Data Acquisition**:
-   - Download datasets from Hugging Face Hub
-   - Standardize label formats across datasets
-   - Sample balanced subsets (12k per domain)
-
-2. **Preprocessing**:
-   - Combine domain prefix with text: `"movies " + review_text`
-   - Remove null/empty texts
-   - Stratified train/test split
-
-3. **Model Architecture**:
-   ```
-   Input Text → TF-IDF Vectorization → Logistic Regression → Sentiment Prediction
-   ```
-
-4. **Training**:
-   - Fit TF-IDF on training texts
-   - Train logistic regression with balanced class weights
-   - Evaluate on held-out test set
-
-5. **Artifact Generation**:
-   - Save individual model components for pipeline compatibility
-   - Record training statistics and performance metrics
-
-## Pipeline Execution Logic
-
-The pipeline follows a MapReduce-inspired architecture:
-
-### Map Phase (Distributed Prediction)
-- **Input**: CSV rows with text and group columns
-- **Processing**: Partition data across Spark workers
-- **Model Application**: Load artifacts and predict sentiment in batches
-- **Output**: (row_id, group, text, predicted_sentiment) tuples
-
-### Reduce Phase (Term Aggregation)
-- **Input**: Prediction results
-- **Tokenization**: Extract meaningful terms from texts
-- **Filtering**: Keep only positive/negative sentiment documents
-- **Counting**: Aggregate term frequencies by group × sentiment
-- **Ranking**: Sort and select top N terms per combination
-
-### Output Generation
-- **Predictions CSV**: Complete prediction results
-- **Term Report JSON**: Hierarchical term frequency data
-- **Runtime Metadata**: Performance and configuration info
-
-## Dependencies
-
-```
-pandas
-numpy
-scikit-learn
-joblib
-matplotlib
-seaborn
-pyspark
-datasets  # For Hugging Face dataset loading
+```bash
+cd src
+python runner.py --input-csv ../data/test.csv --output-dir results
 ```
 
-## Setup Instructions
+## Validation and Visualization
 
-### 1. Install Dependencies
+### `src/validate.py`
+
+Validates predictions by comparing them against the ground truth labels in `data/test.csv`.
+
+- Computes classification metrics and confusion matrix.
+- Validates tokenization and term frequency extraction.
+- Saves results to JSON.
+
+### `src/visualize_results.py`
+
+Generates a dashboard with:
+
+- runtime and performance charts
+- confusion matrix visualization
+- top sentiment terms by group
+- sentiment distribution
+
+### `src/scalability.py`
+
+Benchmarks pipeline performance across:
+
+- different document counts
+- different chunk sizes
+- fixed worker counts
+
+## Setup
+
+### Install dependencies
+
 ```bash
 pip install -r requirements.txt
 ```
 
-### 2. Install Java 17 (Required for PySpark)
+### Java requirement
+
+PySpark requires Java 17. On macOS:
+
 ```bash
-# On macOS
 brew install openjdk@17
 echo 'export PATH="/opt/homebrew/opt/openjdk@17/bin:$PATH"' >> ~/.zshrc
 echo 'export JAVA_HOME="/opt/homebrew/opt/openjdk@17"' >> ~/.zshrc
 source ~/.zshrc
-
-# Verify installation
-java -version  # Should show Java 17
+java -version
 ```
 
-### 3. Train the Model
+## Usage
+
+### Train the model
+
 ```bash
 cd model
 python train_model.py
 ```
 
-### 4. Run Predictions (Optional)
-```bash
-cd model
-python predictions.py
-```
+### Run the full workflow
 
-### 5. Run the Full Pipeline
 ```bash
 cd src
-python run_pipeline.py --input-csv ../path/to/data.csv --output-dir results
+python runner.py --input-csv ../data/test.csv --output-dir results
 ```
 
-## Usage Examples
+### Run just the pipeline
 
-### Complete Workflow (Recommended)
 ```bash
 cd src
-python runner.py --input-csv ../model/train_data_for_ai.csv --output-dir results
+python run_pipeline.py --input-csv ../data/test.csv --output-dir results
 ```
 
-### Individual Components
+### Validate predictions
+
 ```bash
 cd src
-# Run just the pipeline
-python run_pipeline.py --input-csv ../model/train_data_for_ai.csv --output-dir results
-
-# Run validation
-python validate.py --input-csv ../model/train_data_for_ai.csv --predictions-csv results/predictions.csv
-
-# Run visualization
-python visualize_results.py --output-png results/dashboard.png
-
-# Run scalability testing
-python scalability.py --input-csv ../model/train_data_for_ai.csv --doc-counts "100,500" --chunk-sizes "500,1000"
+python validate.py --input-csv ../data/test.csv --predictions-csv results/predictions.csv
 ```
 
-## Project Architecture
+### Generate the dashboard
 
-The project follows a modular architecture:
+```bash
+cd src
+python visualize_results.py --scalability-csv results/scalability_results.csv --validation-json results/validation_results.json --group-report-json results/group_term_sentiment_report.json --predictions-csv results/predictions.csv --output-png results/dashboard.png
+```
 
-1. **Model Training** (`model/`): Independent ML model development
-2. **Distributed Processing** (`src/`): Scalable data processing pipeline
-3. **Documentation** (`docs/`): Development and project guidelines
-4. **Results Analysis**: Validation, visualization, and performance testing
+### Run scalability tests
 
-All components are designed to work together while remaining independently testable and maintainable.
+```bash
+cd src
+python scalability.py --input-csv ../data/test.csv --doc-counts "100,500,1000" --chunk-sizes "500,1000,2000"
+```
+
+## Notes
+
+- Use `data/test.csv` for pipeline evaluation and validation.
+- The pipeline supports inputs without a `group` column by defaulting missing values to `unknown`.
+- The project is designed for reproducible training and scalable evaluation.

@@ -135,10 +135,16 @@ def run_pipeline(
     )
     try:
         source_df = spark.read.option("header", True).csv(str(input_csv))
-        selected_df = source_df.select(
-            F.coalesce(F.col(text_col).cast("string"), F.lit("")).alias("text"),
-            F.coalesce(F.col(group_col).cast("string"), F.lit("unknown")).alias("group"),
-        )
+        if group_col in source_df.columns:
+            selected_df = source_df.select(
+                F.coalesce(F.col(text_col).cast("string"), F.lit("")).alias("text"),
+                F.coalesce(F.col(group_col).cast("string"), F.lit("unknown")).alias("group"),
+            )
+        else:
+            selected_df = source_df.select(
+                F.coalesce(F.col(text_col).cast("string"), F.lit("")).alias("text"),
+                F.lit("unknown").alias("group"),
+            )
 
         if max_docs is not None:
             selected_df = selected_df.limit(int(max_docs))
@@ -187,7 +193,8 @@ def run_pipeline(
 
     with predictions_path.open("w", newline="", encoding="utf-8") as csv_file:
         writer = csv.DictWriter(
-            csv_file, fieldnames=["row_id", "group", "text", "predicted_sentiment"]
+            csv_file, fieldnames=["row_id", "group", "text", "predicted_sentiment"],
+            quoting=csv.QUOTE_ALL
         )
         writer.writeheader()
         writer.writerows(prediction_rows)

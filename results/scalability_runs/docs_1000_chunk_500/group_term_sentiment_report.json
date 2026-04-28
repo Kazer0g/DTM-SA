@@ -1,0 +1,3548 @@
+{
+  " Blood pressure weight and height and simple history questions like allergy to meds and my medical history ": {
+    "top_positive_terms": [],
+    "top_negative_terms": [
+      {
+        "term": "area",
+        "count": 4
+      },
+      {
+        "term": "nurse",
+        "count": 4
+      },
+      {
+        "term": "symptoms",
+        "count": 4
+      },
+      {
+        "term": "wait",
+        "count": 4
+      },
+      {
+        "term": "asked",
+        "count": 3
+      },
+      {
+        "term": "families",
+        "count": 3
+      },
+      {
+        "term": "ni",
+        "count": 3
+      },
+      {
+        "term": "said",
+        "count": 3
+      },
+      {
+        "term": "waiting",
+        "count": 3
+      },
+      {
+        "term": "ask",
+        "count": 2
+      },
+      {
+        "term": "bit",
+        "count": 2
+      },
+      {
+        "term": "busy",
+        "count": 2
+      },
+      {
+        "term": "chest",
+        "count": 2
+      },
+      {
+        "term": "clean",
+        "count": 2
+      },
+      {
+        "term": "did",
+        "count": 2
+      },
+      {
+        "term": "didn't",
+        "count": 2
+      },
+      {
+        "term": "flu",
+        "count": 2
+      },
+      {
+        "term": "got",
+        "count": 2
+      },
+      {
+        "term": "insurance",
+        "count": 2
+      },
+      {
+        "term": "main",
+        "count": 2
+      }
+    ]
+  },
+  " I think I actually prefer it better.\\n\\nWe went on Labor Day weekend Saturday so needless to say it was packed by the time we got there. Luckily we reserved a table and had a great host so getting in was a breeze (even we arrived a little later than suggested time); Our host ended up hooking us up with a great daybed right in the middle of Tao Beach right in front of the DJ booth (Thanks so much again Chris!). We ordered just about every single type of pitchers on the menu as well as beers and straight liquor. Our waitress was very friendly and took care of us even though by 1PM the place was insanely packed.\\n\\nDJ played a great selection of music": {
+    "top_positive_terms": [],
+    "top_negative_terms": [
+      {
+        "term": "beach",
+        "count": 1
+      },
+      {
+        "term": "compare",
+        "count": 1
+      },
+      {
+        "term": "heard",
+        "count": 1
+      },
+      {
+        "term": "i've",
+        "count": 1
+      },
+      {
+        "term": "parties",
+        "count": 1
+      },
+      {
+        "term": "pool",
+        "count": 1
+      },
+      {
+        "term": "restaurants",
+        "count": 1
+      },
+      {
+        "term": "small",
+        "count": 1
+      },
+      {
+        "term": "tao",
+        "count": 1
+      }
+    ]
+  },
+  " I will no longer stay at Mandalay Bay anymore.\"": {
+    "top_positive_terms": [],
+    "top_negative_terms": [
+      {
+        "term": "vpn",
+        "count": 14
+      },
+      {
+        "term": "cox",
+        "count": 4
+      },
+      {
+        "term": "internet",
+        "count": 4
+      },
+      {
+        "term": "work",
+        "count": 4
+      },
+      {
+        "term": "blocking",
+        "count": 3
+      },
+      {
+        "term": "business",
+        "count": 3
+      },
+      {
+        "term": "got",
+        "count": 3
+      },
+      {
+        "term": "hours",
+        "count": 3
+      },
+      {
+        "term": "like",
+        "count": 3
+      },
+      {
+        "term": "looks",
+        "count": 3
+      },
+      {
+        "term": "pretty",
+        "count": 3
+      },
+      {
+        "term": "use",
+        "count": 3
+      },
+      {
+        "term": "agree",
+        "count": 2
+      },
+      {
+        "term": "computer",
+        "count": 2
+      },
+      {
+        "term": "free",
+        "count": 2
+      },
+      {
+        "term": "hotel",
+        "count": 2
+      },
+      {
+        "term": "identify",
+        "count": 2
+      },
+      {
+        "term": "later",
+        "count": 2
+      },
+      {
+        "term": "log",
+        "count": 2
+      },
+      {
+        "term": "nwhat",
+        "count": 2
+      }
+    ]
+  },
+  " Nachos to share": {
+    "top_positive_terms": [],
+    "top_negative_terms": [
+      {
+        "term": "available",
+        "count": 3
+      },
+      {
+        "term": "booths",
+        "count": 2
+      },
+      {
+        "term": "didn't",
+        "count": 2
+      },
+      {
+        "term": "dinner",
+        "count": 2
+      },
+      {
+        "term": "fianc",
+        "count": 2
+      },
+      {
+        "term": "half",
+        "count": 2
+      },
+      {
+        "term": "tables",
+        "count": 2
+      },
+      {
+        "term": "arrived",
+        "count": 1
+      },
+      {
+        "term": "asked",
+        "count": 1
+      },
+      {
+        "term": "behold",
+        "count": 1
+      },
+      {
+        "term": "came",
+        "count": 1
+      },
+      {
+        "term": "close",
+        "count": 1
+      },
+      {
+        "term": "closed",
+        "count": 1
+      },
+      {
+        "term": "did",
+        "count": 1
+      },
+      {
+        "term": "dining",
+        "count": 1
+      },
+      {
+        "term": "fast",
+        "count": 1
+      },
+      {
+        "term": "feel",
+        "count": 1
+      },
+      {
+        "term": "food",
+        "count": 1
+      },
+      {
+        "term": "good",
+        "count": 1
+      },
+      {
+        "term": "greeted",
+        "count": 1
+      }
+    ]
+  },
+  " WHY DIDN'T HE JUST SOLVE THE PROBLEM.  Beds are decent": {
+    "top_positive_terms": [],
+    "top_negative_terms": [
+      {
+        "term": "manager",
+        "count": 2
+      },
+      {
+        "term": "say",
+        "count": 2
+      },
+      {
+        "term": "ask",
+        "count": 1
+      },
+      {
+        "term": "can't",
+        "count": 1
+      },
+      {
+        "term": "customer",
+        "count": 1
+      },
+      {
+        "term": "factory",
+        "count": 1
+      },
+      {
+        "term": "girls",
+        "count": 1
+      },
+      {
+        "term": "he's",
+        "count": 1
+      },
+      {
+        "term": "help",
+        "count": 1
+      },
+      {
+        "term": "isn't",
+        "count": 1
+      },
+      {
+        "term": "issue",
+        "count": 1
+      },
+      {
+        "term": "resolved",
+        "count": 1
+      },
+      {
+        "term": "restaurants",
+        "count": 1
+      },
+      {
+        "term": "service",
+        "count": 1
+      },
+      {
+        "term": "tan",
+        "count": 1
+      },
+      {
+        "term": "terrible",
+        "count": 1
+      },
+      {
+        "term": "trying",
+        "count": 1
+      },
+      {
+        "term": "work",
+        "count": 1
+      }
+    ]
+  },
+  " Youri Alexander": {
+    "top_positive_terms": [
+      {
+        "term": "bird",
+        "count": 1
+      },
+      {
+        "term": "birdhouse",
+        "count": 1
+      },
+      {
+        "term": "edition",
+        "count": 1
+      },
+      {
+        "term": "flava",
+        "count": 1
+      },
+      {
+        "term": "fly",
+        "count": 1
+      },
+      {
+        "term": "friday",
+        "count": 1
+      },
+      {
+        "term": "jimmy",
+        "count": 1
+      },
+      {
+        "term": "lets",
+        "count": 1
+      },
+      {
+        "term": "like",
+        "count": 1
+      },
+      {
+        "term": "new",
+        "count": 1
+      },
+      {
+        "term": "tweets",
+        "count": 1
+      },
+      {
+        "term": "woo",
+        "count": 1
+      }
+    ],
+    "top_negative_terms": []
+  },
+  " aber der Tisch war klebrig": {
+    "top_positive_terms": [
+      {
+        "term": "und",
+        "count": 5
+      },
+      {
+        "term": "das",
+        "count": 4
+      },
+      {
+        "term": "ich",
+        "count": 3
+      },
+      {
+        "term": "ist",
+        "count": 3
+      },
+      {
+        "term": "nicht",
+        "count": 3
+      },
+      {
+        "term": "war",
+        "count": 3
+      },
+      {
+        "term": "der",
+        "count": 2
+      },
+      {
+        "term": "gro",
+        "count": 2
+      },
+      {
+        "term": "gut",
+        "count": 2
+      },
+      {
+        "term": "abend",
+        "count": 1
+      },
+      {
+        "term": "als",
+        "count": 1
+      },
+      {
+        "term": "anschlie",
+        "count": 1
+      },
+      {
+        "term": "auch",
+        "count": 1
+      },
+      {
+        "term": "auf",
+        "count": 1
+      },
+      {
+        "term": "aufdringlich",
+        "count": 1
+      },
+      {
+        "term": "aufgefallen",
+        "count": 1
+      },
+      {
+        "term": "ausreichend",
+        "count": 1
+      },
+      {
+        "term": "begeisterung",
+        "count": 1
+      },
+      {
+        "term": "bei",
+        "count": 1
+      },
+      {
+        "term": "bietet",
+        "count": 1
+      }
+    ],
+    "top_negative_terms": []
+  },
+  " and I really like how it's served with wedges of tomatoes and a couple of cornichon (?) pickles.  We always ask for warm": {
+    "top_positive_terms": [
+      {
+        "term": "arm",
+        "count": 1
+      },
+      {
+        "term": "bisque",
+        "count": 1
+      },
+      {
+        "term": "brown",
+        "count": 1
+      },
+      {
+        "term": "byblos",
+        "count": 1
+      },
+      {
+        "term": "close",
+        "count": 1
+      },
+      {
+        "term": "delicious",
+        "count": 1
+      },
+      {
+        "term": "die",
+        "count": 1
+      },
+      {
+        "term": "dine",
+        "count": 1
+      },
+      {
+        "term": "it's",
+        "count": 1
+      },
+      {
+        "term": "lamb",
+        "count": 1
+      },
+      {
+        "term": "love",
+        "count": 1
+      },
+      {
+        "term": "mom's",
+        "count": 1
+      },
+      {
+        "term": "nuts",
+        "count": 1
+      },
+      {
+        "term": "restaurants",
+        "count": 1
+      },
+      {
+        "term": "rice",
+        "count": 1
+      },
+      {
+        "term": "served",
+        "count": 1
+      },
+      {
+        "term": "shanks",
+        "count": 1
+      },
+      {
+        "term": "studded",
+        "count": 1
+      },
+      {
+        "term": "tomato",
+        "count": 1
+      },
+      {
+        "term": "twist",
+        "count": 1
+      }
+    ],
+    "top_negative_terms": []
+  },
+  " and the staff knows a good bit of their clientele by name which is impressive since this 52 floor building has a lot of coffee addicts.  On occasions that my syrups have tasted off": {
+    "top_positive_terms": [
+      {
+        "term": "home",
+        "count": 1
+      },
+      {
+        "term": "restaurants",
+        "count": 1
+      },
+      {
+        "term": "starbucks",
+        "count": 1
+      },
+      {
+        "term": "store",
+        "count": 1
+      }
+    ],
+    "top_negative_terms": []
+  },
+  " and their most popular flavor is salted butter caramel swirl. I sampled the almond butter crunch and didn't need to sample anything else. This was it. The ice cream has the perfect amount of sweetness. There are whole almonds mixed in": {
+    "top_positive_terms": [
+      {
+        "term": "cream",
+        "count": 2
+      },
+      {
+        "term": "did",
+        "count": 2
+      },
+      {
+        "term": "ice",
+        "count": 2
+      },
+      {
+        "term": "airport",
+        "count": 1
+      },
+      {
+        "term": "artisanal",
+        "count": 1
+      },
+      {
+        "term": "attention",
+        "count": 1
+      },
+      {
+        "term": "butter",
+        "count": 1
+      },
+      {
+        "term": "buy",
+        "count": 1
+      },
+      {
+        "term": "caught",
+        "count": 1
+      },
+      {
+        "term": "chip",
+        "count": 1
+      },
+      {
+        "term": "course",
+        "count": 1
+      },
+      {
+        "term": "dreyers",
+        "count": 1
+      },
+      {
+        "term": "flavors",
+        "count": 1
+      },
+      {
+        "term": "food",
+        "count": 1
+      },
+      {
+        "term": "glad",
+        "count": 1
+      },
+      {
+        "term": "i'm",
+        "count": 1
+      },
+      {
+        "term": "isn't",
+        "count": 1
+      },
+      {
+        "term": "like",
+        "count": 1
+      },
+      {
+        "term": "location",
+        "count": 1
+      },
+      {
+        "term": "peanut",
+        "count": 1
+      }
+    ],
+    "top_negative_terms": []
+  },
+  " but I'll be back in the day when the waitresses aren't overweight goths with a bad attitude.\"": {
+    "top_positive_terms": [],
+    "top_negative_terms": [
+      {
+        "term": "wait",
+        "count": 3
+      },
+      {
+        "term": "waitress",
+        "count": 3
+      },
+      {
+        "term": "absolutely",
+        "count": 2
+      },
+      {
+        "term": "considerable",
+        "count": 2
+      },
+      {
+        "term": "food",
+        "count": 2
+      },
+      {
+        "term": "street",
+        "count": 2
+      },
+      {
+        "term": "acknowledged",
+        "count": 1
+      },
+      {
+        "term": "admittedly",
+        "count": 1
+      },
+      {
+        "term": "attitudes",
+        "count": 1
+      },
+      {
+        "term": "average",
+        "count": 1
+      },
+      {
+        "term": "awful",
+        "count": 1
+      },
+      {
+        "term": "came",
+        "count": 1
+      },
+      {
+        "term": "cents",
+        "count": 1
+      },
+      {
+        "term": "change",
+        "count": 1
+      },
+      {
+        "term": "cking",
+        "count": 1
+      },
+      {
+        "term": "completely",
+        "count": 1
+      },
+      {
+        "term": "day",
+        "count": 1
+      },
+      {
+        "term": "dick",
+        "count": 1
+      },
+      {
+        "term": "dissatisfied",
+        "count": 1
+      },
+      {
+        "term": "doing",
+        "count": 1
+      }
+    ]
+  },
+  " buttery and silky. The ingredients around this main piece were all correct and well chosen": {
+    "top_positive_terms": [
+      {
+        "term": "cheese",
+        "count": 3
+      },
+      {
+        "term": "dish",
+        "count": 3
+      },
+      {
+        "term": "goat",
+        "count": 3
+      },
+      {
+        "term": "like",
+        "count": 3
+      },
+      {
+        "term": "nthe",
+        "count": 3
+      },
+      {
+        "term": "butternut",
+        "count": 2
+      },
+      {
+        "term": "fell",
+        "count": 2
+      },
+      {
+        "term": "felt",
+        "count": 2
+      },
+      {
+        "term": "flavor",
+        "count": 2
+      },
+      {
+        "term": "flavors",
+        "count": 2
+      },
+      {
+        "term": "layers",
+        "count": 2
+      },
+      {
+        "term": "lemon",
+        "count": 2
+      },
+      {
+        "term": "mushrooms",
+        "count": 2
+      },
+      {
+        "term": "nuts",
+        "count": 2
+      },
+      {
+        "term": "presentation",
+        "count": 2
+      },
+      {
+        "term": "salad",
+        "count": 2
+      },
+      {
+        "term": "short",
+        "count": 2
+      },
+      {
+        "term": "squash",
+        "count": 2
+      },
+      {
+        "term": "strong",
+        "count": 2
+      },
+      {
+        "term": "turnip",
+        "count": 2
+      }
+    ],
+    "top_negative_terms": []
+  },
+  " eating alone and it was the start of the dinner rush. I don't think this is an excuse for the neglect of service. What little I did interact with the staff": {
+    "top_positive_terms": [],
+    "top_negative_terms": [
+      {
+        "term": "ask",
+        "count": 1
+      },
+      {
+        "term": "attention",
+        "count": 1
+      },
+      {
+        "term": "beer",
+        "count": 1
+      },
+      {
+        "term": "brought",
+        "count": 1
+      },
+      {
+        "term": "check",
+        "count": 1
+      },
+      {
+        "term": "did",
+        "count": 1
+      },
+      {
+        "term": "food",
+        "count": 1
+      },
+      {
+        "term": "good",
+        "count": 1
+      },
+      {
+        "term": "granted",
+        "count": 1
+      },
+      {
+        "term": "like",
+        "count": 1
+      },
+      {
+        "term": "practically",
+        "count": 1
+      },
+      {
+        "term": "response",
+        "count": 1
+      },
+      {
+        "term": "restaurants",
+        "count": 1
+      },
+      {
+        "term": "service",
+        "count": 1
+      },
+      {
+        "term": "sucked",
+        "count": 1
+      },
+      {
+        "term": "trying",
+        "count": 1
+      },
+      {
+        "term": "waiter",
+        "count": 1
+      },
+      {
+        "term": "waitress",
+        "count": 1
+      },
+      {
+        "term": "wave",
+        "count": 1
+      },
+      {
+        "term": "way",
+        "count": 1
+      }
+    ]
+  },
+  " especially because the food here is not on the cheaper side. \\n\\nFor dinner we had - \\n\\nNew England Fry - Clams and Calamari \\nCaramelized Sea Scallops\\nGrass-fed Filet Mignon \\nSide of their well known Kale and Anaheim pepper Mac & Cheese\\n\\nI will tell you": {
+    "top_positive_terms": [
+      {
+        "term": "place",
+        "count": 2
+      },
+      {
+        "term": "restaurants",
+        "count": 2
+      },
+      {
+        "term": "best",
+        "count": 1
+      },
+      {
+        "term": "business",
+        "count": 1
+      },
+      {
+        "term": "busy",
+        "count": 1
+      },
+      {
+        "term": "course",
+        "count": 1
+      },
+      {
+        "term": "crowed",
+        "count": 1
+      },
+      {
+        "term": "definitely",
+        "count": 1
+      },
+      {
+        "term": "family",
+        "count": 1
+      },
+      {
+        "term": "fresh",
+        "count": 1
+      },
+      {
+        "term": "going",
+        "count": 1
+      },
+      {
+        "term": "hate",
+        "count": 1
+      },
+      {
+        "term": "heard",
+        "count": 1
+      },
+      {
+        "term": "hip",
+        "count": 1
+      },
+      {
+        "term": "hype",
+        "count": 1
+      },
+      {
+        "term": "i'm",
+        "count": 1
+      },
+      {
+        "term": "i've",
+        "count": 1
+      },
+      {
+        "term": "ingredients",
+        "count": 1
+      },
+      {
+        "term": "just",
+        "count": 1
+      },
+      {
+        "term": "keen",
+        "count": 1
+      }
+    ],
+    "top_negative_terms": []
+  },
+  " if you are an iced tea person... don't do it.  It tastes like cardboard.  not good people.\"": {
+    "top_positive_terms": [],
+    "top_negative_terms": [
+      {
+        "term": "husband",
+        "count": 2
+      },
+      {
+        "term": "old",
+        "count": 2
+      },
+      {
+        "term": "really",
+        "count": 2
+      },
+      {
+        "term": "restaurant",
+        "count": 2
+      },
+      {
+        "term": "spice",
+        "count": 2
+      },
+      {
+        "term": "year",
+        "count": 2
+      },
+      {
+        "term": "added",
+        "count": 1
+      },
+      {
+        "term": "asparagus",
+        "count": 1
+      },
+      {
+        "term": "balance",
+        "count": 1
+      },
+      {
+        "term": "broccoli",
+        "count": 1
+      },
+      {
+        "term": "carrots",
+        "count": 1
+      },
+      {
+        "term": "did",
+        "count": 1
+      },
+      {
+        "term": "food",
+        "count": 1
+      },
+      {
+        "term": "good",
+        "count": 1
+      },
+      {
+        "term": "grouponers",
+        "count": 1
+      },
+      {
+        "term": "hot",
+        "count": 1
+      },
+      {
+        "term": "hotter",
+        "count": 1
+      },
+      {
+        "term": "kids",
+        "count": 1
+      },
+      {
+        "term": "let",
+        "count": 1
+      },
+      {
+        "term": "liked",
+        "count": 1
+      }
+    ]
+  },
+  " it was always special to go to The Cheesecake Factory in Chicago and wait your 2 hours for a table and la te da.  \\n\\nNow": {
+    "top_positive_terms": [],
+    "top_negative_terms": [
+      {
+        "term": "cheesecake",
+        "count": 1
+      },
+      {
+        "term": "hate",
+        "count": 1
+      },
+      {
+        "term": "people",
+        "count": 1
+      },
+      {
+        "term": "restaurants",
+        "count": 1
+      }
+    ]
+  },
+  " it was packed! The place is exactly as described in the prior reviews...its a time warp its stuck in the 1960's ": {
+    "top_positive_terms": [],
+    "top_negative_terms": [
+      {
+        "term": "like",
+        "count": 2
+      },
+      {
+        "term": "living",
+        "count": 2
+      },
+      {
+        "term": "people",
+        "count": 2
+      },
+      {
+        "term": "social",
+        "count": 2
+      },
+      {
+        "term": "ago",
+        "count": 1
+      },
+      {
+        "term": "arrived",
+        "count": 1
+      },
+      {
+        "term": "ask",
+        "count": 1
+      },
+      {
+        "term": "asked",
+        "count": 1
+      },
+      {
+        "term": "beef",
+        "count": 1
+      },
+      {
+        "term": "blvd",
+        "count": 1
+      },
+      {
+        "term": "book",
+        "count": 1
+      },
+      {
+        "term": "bottle",
+        "count": 1
+      },
+      {
+        "term": "building",
+        "count": 1
+      },
+      {
+        "term": "buy",
+        "count": 1
+      },
+      {
+        "term": "construction",
+        "count": 1
+      },
+      {
+        "term": "driving",
+        "count": 1
+      },
+      {
+        "term": "excited",
+        "count": 1
+      },
+      {
+        "term": "face",
+        "count": 1
+      },
+      {
+        "term": "going",
+        "count": 1
+      },
+      {
+        "term": "industrial",
+        "count": 1
+      }
+    ]
+  },
+  " it was the size of a fist": {
+    "top_positive_terms": [],
+    "top_negative_terms": [
+      {
+        "term": "said",
+        "count": 4
+      },
+      {
+        "term": "bakery",
+        "count": 2
+      },
+      {
+        "term": "owner",
+        "count": 2
+      },
+      {
+        "term": "sandwich",
+        "count": 2
+      },
+      {
+        "term": "starbucks",
+        "count": 2
+      },
+      {
+        "term": "walked",
+        "count": 2
+      },
+      {
+        "term": "wanted",
+        "count": 2
+      },
+      {
+        "term": "absolutely",
+        "count": 1
+      },
+      {
+        "term": "buy",
+        "count": 1
+      },
+      {
+        "term": "buying",
+        "count": 1
+      },
+      {
+        "term": "came",
+        "count": 1
+      },
+      {
+        "term": "cashier",
+        "count": 1
+      },
+      {
+        "term": "coming",
+        "count": 1
+      },
+      {
+        "term": "counter",
+        "count": 1
+      },
+      {
+        "term": "coworkers",
+        "count": 1
+      },
+      {
+        "term": "dessert",
+        "count": 1
+      },
+      {
+        "term": "didn't",
+        "count": 1
+      },
+      {
+        "term": "door",
+        "count": 1
+      },
+      {
+        "term": "food",
+        "count": 1
+      },
+      {
+        "term": "friends",
+        "count": 1
+      }
+    ]
+  },
+  " it would be a shame to have to avoid Pitta Souvli in favor of other establishments that understand": {
+    "top_positive_terms": [],
+    "top_negative_terms": [
+      {
+        "term": "food",
+        "count": 3
+      },
+      {
+        "term": "contamination",
+        "count": 2
+      },
+      {
+        "term": "cross",
+        "count": 2
+      },
+      {
+        "term": "allergies",
+        "count": 1
+      },
+      {
+        "term": "autoimmunities",
+        "count": 1
+      },
+      {
+        "term": "avoiding",
+        "count": 1
+      },
+      {
+        "term": "came",
+        "count": 1
+      },
+      {
+        "term": "celiac",
+        "count": 1
+      },
+      {
+        "term": "complete",
+        "count": 1
+      },
+      {
+        "term": "contact",
+        "count": 1
+      },
+      {
+        "term": "crumb",
+        "count": 1
+      },
+      {
+        "term": "difficult",
+        "count": 1
+      },
+      {
+        "term": "diners",
+        "count": 1
+      },
+      {
+        "term": "dish",
+        "count": 1
+      },
+      {
+        "term": "excellent",
+        "count": 1
+      },
+      {
+        "term": "explain",
+        "count": 1
+      },
+      {
+        "term": "haha",
+        "count": 1
+      },
+      {
+        "term": "importance",
+        "count": 1
+      },
+      {
+        "term": "it's",
+        "count": 1
+      },
+      {
+        "term": "kindly",
+        "count": 1
+      }
+    ]
+  },
+  " it's probably because I'm too nice of a person by nature. Be warned if you actually have experience with good pizza and don't like spending a ton for food that is just sub par. Ok": {
+    "top_positive_terms": [],
+    "top_negative_terms": [
+      {
+        "term": "actually",
+        "count": 3
+      },
+      {
+        "term": "pizza",
+        "count": 3
+      },
+      {
+        "term": "sicilian",
+        "count": 3
+      },
+      {
+        "term": "pizzerias",
+        "count": 2
+      },
+      {
+        "term": "place",
+        "count": 2
+      },
+      {
+        "term": "terrible",
+        "count": 2
+      },
+      {
+        "term": "wow",
+        "count": 2
+      },
+      {
+        "term": "asking",
+        "count": 1
+      },
+      {
+        "term": "baby",
+        "count": 1
+      },
+      {
+        "term": "beg",
+        "count": 1
+      },
+      {
+        "term": "behalf",
+        "count": 1
+      },
+      {
+        "term": "bitch",
+        "count": 1
+      },
+      {
+        "term": "borderline",
+        "count": 1
+      },
+      {
+        "term": "bugs",
+        "count": 1
+      },
+      {
+        "term": "charge",
+        "count": 1
+      },
+      {
+        "term": "consider",
+        "count": 1
+      },
+      {
+        "term": "cost",
+        "count": 1
+      },
+      {
+        "term": "cow",
+        "count": 1
+      },
+      {
+        "term": "demarco's",
+        "count": 1
+      },
+      {
+        "term": "descendants",
+        "count": 1
+      }
+    ]
+  },
+  " just different warranty.  I got my tint done for $150 anyways": {
+    "top_positive_terms": [],
+    "top_negative_terms": [
+      {
+        "term": "warranty",
+        "count": 3
+      },
+      {
+        "term": "called",
+        "count": 1
+      },
+      {
+        "term": "great",
+        "count": 1
+      },
+      {
+        "term": "lifetime",
+        "count": 1
+      },
+      {
+        "term": "needs",
+        "count": 1
+      },
+      {
+        "term": "ok",
+        "count": 1
+      },
+      {
+        "term": "place",
+        "count": 1
+      },
+      {
+        "term": "restaurants",
+        "count": 1
+      },
+      {
+        "term": "said",
+        "count": 1
+      },
+      {
+        "term": "thought",
+        "count": 1
+      },
+      {
+        "term": "tint",
+        "count": 1
+      },
+      {
+        "term": "tinted",
+        "count": 1
+      },
+      {
+        "term": "windows",
+        "count": 1
+      },
+      {
+        "term": "year",
+        "count": 1
+      },
+      {
+        "term": "yr",
+        "count": 1
+      }
+    ]
+  },
+  " lettuce": {
+    "top_positive_terms": [],
+    "top_negative_terms": [
+      {
+        "term": "family",
+        "count": 2
+      },
+      {
+        "term": "fries",
+        "count": 2
+      },
+      {
+        "term": "restaurants",
+        "count": 2
+      },
+      {
+        "term": "add",
+        "count": 1
+      },
+      {
+        "term": "bbq",
+        "count": 1
+      },
+      {
+        "term": "birthday",
+        "count": 1
+      },
+      {
+        "term": "box",
+        "count": 1
+      },
+      {
+        "term": "cheese",
+        "count": 1
+      },
+      {
+        "term": "chicken",
+        "count": 1
+      },
+      {
+        "term": "chips",
+        "count": 1
+      },
+      {
+        "term": "claims",
+        "count": 1
+      },
+      {
+        "term": "club",
+        "count": 1
+      },
+      {
+        "term": "coleslaw",
+        "count": 1
+      },
+      {
+        "term": "daily",
+        "count": 1
+      },
+      {
+        "term": "different",
+        "count": 1
+      },
+      {
+        "term": "fish",
+        "count": 1
+      },
+      {
+        "term": "flavor",
+        "count": 1
+      },
+      {
+        "term": "food",
+        "count": 1
+      },
+      {
+        "term": "fresh",
+        "count": 1
+      },
+      {
+        "term": "husband's",
+        "count": 1
+      }
+    ]
+  },
+  " nail art and pedicure).\\n\\nI've always been a very generous tipper and that just irked me that they would do that to me when I was giving them business! \\n\\nI'm never going back even though it's in a very convenient location and do NOT recommend this place.\"": {
+    "top_positive_terms": [],
+    "top_negative_terms": [
+      {
+        "term": "nail",
+        "count": 3
+      },
+      {
+        "term": "tech",
+        "count": 3
+      },
+      {
+        "term": "time",
+        "count": 3
+      },
+      {
+        "term": "went",
+        "count": 3
+      },
+      {
+        "term": "gel",
+        "count": 2
+      },
+      {
+        "term": "just",
+        "count": 2
+      },
+      {
+        "term": "looking",
+        "count": 2
+      },
+      {
+        "term": "manicure",
+        "count": 2
+      },
+      {
+        "term": "nails",
+        "count": 2
+      },
+      {
+        "term": "pedicure",
+        "count": 2
+      },
+      {
+        "term": "said",
+        "count": 2
+      },
+      {
+        "term": "times",
+        "count": 2
+      },
+      {
+        "term": "wax",
+        "count": 2
+      },
+      {
+        "term": "anymore",
+        "count": 1
+      },
+      {
+        "term": "apologized",
+        "count": 1
+      },
+      {
+        "term": "art",
+        "count": 1
+      },
+      {
+        "term": "asian",
+        "count": 1
+      },
+      {
+        "term": "best",
+        "count": 1
+      },
+      {
+        "term": "brought",
+        "count": 1
+      },
+      {
+        "term": "came",
+        "count": 1
+      }
+    ]
+  },
+  " nothing special.\\n\\nOh and on another note the free bread should have been brought out with the appetizers": {
+    "top_positive_terms": [],
+    "top_negative_terms": [
+      {
+        "term": "food",
+        "count": 3
+      },
+      {
+        "term": "time",
+        "count": 3
+      },
+      {
+        "term": "ask",
+        "count": 2
+      },
+      {
+        "term": "bread",
+        "count": 2
+      },
+      {
+        "term": "decided",
+        "count": 2
+      },
+      {
+        "term": "nwe",
+        "count": 2
+      },
+      {
+        "term": "quite",
+        "count": 2
+      },
+      {
+        "term": "appetizer",
+        "count": 1
+      },
+      {
+        "term": "arizona",
+        "count": 1
+      },
+      {
+        "term": "birthday",
+        "count": 1
+      },
+      {
+        "term": "cheesy",
+        "count": 1
+      },
+      {
+        "term": "completely",
+        "count": 1
+      },
+      {
+        "term": "cook",
+        "count": 1
+      },
+      {
+        "term": "country",
+        "count": 1
+      },
+      {
+        "term": "decent",
+        "count": 1
+      },
+      {
+        "term": "desperate",
+        "count": 1
+      },
+      {
+        "term": "devoured",
+        "count": 1
+      },
+      {
+        "term": "difference",
+        "count": 1
+      },
+      {
+        "term": "dinner",
+        "count": 1
+      },
+      {
+        "term": "does",
+        "count": 1
+      }
+    ]
+  },
+  " or just plain uncomfortable": {
+    "top_positive_terms": [
+      {
+        "term": "bras",
+        "count": 3
+      },
+      {
+        "term": "add",
+        "count": 1
+      },
+      {
+        "term": "bit",
+        "count": 1
+      },
+      {
+        "term": "discovering",
+        "count": 1
+      },
+      {
+        "term": "funky",
+        "count": 1
+      },
+      {
+        "term": "got",
+        "count": 1
+      },
+      {
+        "term": "nnow",
+        "count": 1
+      },
+      {
+        "term": "occasional",
+        "count": 1
+      },
+      {
+        "term": "older",
+        "count": 1
+      },
+      {
+        "term": "pj's",
+        "count": 1
+      },
+      {
+        "term": "place",
+        "count": 1
+      },
+      {
+        "term": "practical",
+        "count": 1
+      },
+      {
+        "term": "restaurants",
+        "count": 1
+      },
+      {
+        "term": "sport",
+        "count": 1
+      },
+      {
+        "term": "winner",
+        "count": 1
+      },
+      {
+        "term": "you've",
+        "count": 1
+      }
+    ],
+    "top_negative_terms": []
+  },
+  " overall odd the time it took to get the food out. With 3 cooks": {
+    "top_positive_terms": [],
+    "top_negative_terms": [
+      {
+        "term": "kids",
+        "count": 5
+      },
+      {
+        "term": "chicken",
+        "count": 3
+      },
+      {
+        "term": "teriyaki",
+        "count": 3
+      },
+      {
+        "term": "thai",
+        "count": 3
+      },
+      {
+        "term": "brown",
+        "count": 2
+      },
+      {
+        "term": "food",
+        "count": 2
+      },
+      {
+        "term": "good",
+        "count": 2
+      },
+      {
+        "term": "like",
+        "count": 2
+      },
+      {
+        "term": "looked",
+        "count": 2
+      },
+      {
+        "term": "meals",
+        "count": 2
+      },
+      {
+        "term": "medium",
+        "count": 2
+      },
+      {
+        "term": "minutes",
+        "count": 2
+      },
+      {
+        "term": "nnext",
+        "count": 2
+      },
+      {
+        "term": "noodles",
+        "count": 2
+      },
+      {
+        "term": "pad",
+        "count": 2
+      },
+      {
+        "term": "plate",
+        "count": 2
+      },
+      {
+        "term": "small",
+        "count": 2
+      },
+      {
+        "term": "taste",
+        "count": 2
+      },
+      {
+        "term": "adults",
+        "count": 1
+      },
+      {
+        "term": "barely",
+        "count": 1
+      }
+    ]
+  },
+  " so I got a sauteed mushroom Gardenburger with swiss. It was pretty basic. I paid $8.50 for that bad boy. \\n\\nThe fries and onion rings were mediocre. \\n\\nI also got an Incredible Hulk": {
+    "top_positive_terms": [
+      {
+        "term": "soup",
+        "count": 3
+      },
+      {
+        "term": "beverly",
+        "count": 2
+      },
+      {
+        "term": "burger",
+        "count": 2
+      },
+      {
+        "term": "got",
+        "count": 2
+      },
+      {
+        "term": "hills",
+        "count": 2
+      },
+      {
+        "term": "like",
+        "count": 2
+      },
+      {
+        "term": "meat",
+        "count": 2
+      },
+      {
+        "term": "tasty",
+        "count": 2
+      },
+      {
+        "term": "women",
+        "count": 2
+      },
+      {
+        "term": "age",
+        "count": 1
+      },
+      {
+        "term": "alterantive",
+        "count": 1
+      },
+      {
+        "term": "alternative",
+        "count": 1
+      },
+      {
+        "term": "apiece",
+        "count": 1
+      },
+      {
+        "term": "appreciate",
+        "count": 1
+      },
+      {
+        "term": "bf",
+        "count": 1
+      },
+      {
+        "term": "bf's",
+        "count": 1
+      },
+      {
+        "term": "came",
+        "count": 1
+      },
+      {
+        "term": "certain",
+        "count": 1
+      },
+      {
+        "term": "chaperoned",
+        "count": 1
+      },
+      {
+        "term": "drink",
+        "count": 1
+      }
+    ],
+    "top_negative_terms": []
+  },
+  " the acting sucks": {
+    "top_positive_terms": [],
+    "top_negative_terms": [
+      {
+        "term": "don't",
+        "count": 1
+      },
+      {
+        "term": "sharknado",
+        "count": 1
+      },
+      {
+        "term": "thing",
+        "count": 1
+      },
+      {
+        "term": "tweets",
+        "count": 1
+      },
+      {
+        "term": "understand",
+        "count": 1
+      }
+    ]
+  },
+  " to which I said yes": {
+    "top_positive_terms": [],
+    "top_negative_terms": [
+      {
+        "term": "pedicure",
+        "count": 3
+      },
+      {
+        "term": "polish",
+        "count": 3
+      },
+      {
+        "term": "asked",
+        "count": 2
+      },
+      {
+        "term": "chose",
+        "count": 2
+      },
+      {
+        "term": "gel",
+        "count": 2
+      },
+      {
+        "term": "little",
+        "count": 2
+      },
+      {
+        "term": "place",
+        "count": 2
+      },
+      {
+        "term": "regular",
+        "count": 2
+      },
+      {
+        "term": "tech",
+        "count": 2
+      },
+      {
+        "term": "way",
+        "count": 2
+      },
+      {
+        "term": "beds",
+        "count": 1
+      },
+      {
+        "term": "callous",
+        "count": 1
+      },
+      {
+        "term": "card",
+        "count": 1
+      },
+      {
+        "term": "chair",
+        "count": 1
+      },
+      {
+        "term": "chance",
+        "count": 1
+      },
+      {
+        "term": "choose",
+        "count": 1
+      },
+      {
+        "term": "cleavage",
+        "count": 1
+      },
+      {
+        "term": "combos",
+        "count": 1
+      },
+      {
+        "term": "come",
+        "count": 1
+      },
+      {
+        "term": "complaints",
+        "count": 1
+      }
+    ]
+  },
+  " veal and cheese stuffed ravioli in a red vodka sauce. The sauce was hot": {
+    "top_positive_terms": [],
+    "top_negative_terms": [
+      {
+        "term": "bread",
+        "count": 3
+      },
+      {
+        "term": "given",
+        "count": 3
+      },
+      {
+        "term": "restaurant",
+        "count": 3
+      },
+      {
+        "term": "butter",
+        "count": 2
+      },
+      {
+        "term": "food",
+        "count": 2
+      },
+      {
+        "term": "walked",
+        "count": 2
+      },
+      {
+        "term": "wow",
+        "count": 2
+      },
+      {
+        "term": "add",
+        "count": 1
+      },
+      {
+        "term": "bad",
+        "count": 1
+      },
+      {
+        "term": "bathroom",
+        "count": 1
+      },
+      {
+        "term": "beiges",
+        "count": 1
+      },
+      {
+        "term": "bland",
+        "count": 1
+      },
+      {
+        "term": "brown",
+        "count": 1
+      },
+      {
+        "term": "customer",
+        "count": 1
+      },
+      {
+        "term": "definitely",
+        "count": 1
+      },
+      {
+        "term": "disgusted",
+        "count": 1
+      },
+      {
+        "term": "eat",
+        "count": 1
+      },
+      {
+        "term": "extremely",
+        "count": 1
+      },
+      {
+        "term": "gosh",
+        "count": 1
+      },
+      {
+        "term": "got",
+        "count": 1
+      }
+    ]
+  },
+  " verifying the reservation 1 week before arrival and getting a room that made our stay miserable. If you have any handicap family members I would pass on   Monte Carlo. They do not care or understand what it is like need assistance.\"": {
+    "top_positive_terms": [],
+    "top_negative_terms": [
+      {
+        "term": "booked",
+        "count": 2
+      },
+      {
+        "term": "handicap",
+        "count": 2
+      },
+      {
+        "term": "reservation",
+        "count": 2
+      },
+      {
+        "term": "room",
+        "count": 2
+      },
+      {
+        "term": "rooms",
+        "count": 2
+      },
+      {
+        "term": "wife",
+        "count": 2
+      },
+      {
+        "term": "arrival",
+        "count": 1
+      },
+      {
+        "term": "arrived",
+        "count": 1
+      },
+      {
+        "term": "asked",
+        "count": 1
+      },
+      {
+        "term": "assistance",
+        "count": 1
+      },
+      {
+        "term": "attempts",
+        "count": 1
+      },
+      {
+        "term": "available",
+        "count": 1
+      },
+      {
+        "term": "beds",
+        "count": 1
+      },
+      {
+        "term": "breath",
+        "count": 1
+      },
+      {
+        "term": "called",
+        "count": 1
+      },
+      {
+        "term": "car",
+        "count": 1
+      },
+      {
+        "term": "case",
+        "count": 1
+      },
+      {
+        "term": "check",
+        "count": 1
+      },
+      {
+        "term": "complained",
+        "count": 1
+      },
+      {
+        "term": "couple",
+        "count": 1
+      }
+    ]
+  },
+  " we can't do that. Store policy\\\"\" with a \\\"\"yeah": {
+    "top_positive_terms": [],
+    "top_negative_terms": [
+      {
+        "term": "asked",
+        "count": 2
+      },
+      {
+        "term": "manager",
+        "count": 2
+      },
+      {
+        "term": "waited",
+        "count": 2
+      },
+      {
+        "term": "alcoholic",
+        "count": 1
+      },
+      {
+        "term": "ask",
+        "count": 1
+      },
+      {
+        "term": "awful",
+        "count": 1
+      },
+      {
+        "term": "beer",
+        "count": 1
+      },
+      {
+        "term": "beverages",
+        "count": 1
+      },
+      {
+        "term": "came",
+        "count": 1
+      },
+      {
+        "term": "chardonnay",
+        "count": 1
+      },
+      {
+        "term": "come",
+        "count": 1
+      },
+      {
+        "term": "drinks",
+        "count": 1
+      },
+      {
+        "term": "experience",
+        "count": 1
+      },
+      {
+        "term": "food",
+        "count": 1
+      },
+      {
+        "term": "friend",
+        "count": 1
+      },
+      {
+        "term": "glass",
+        "count": 1
+      },
+      {
+        "term": "great",
+        "count": 1
+      },
+      {
+        "term": "having",
+        "count": 1
+      },
+      {
+        "term": "issues",
+        "count": 1
+      },
+      {
+        "term": "menu",
+        "count": 1
+      }
+    ]
+  },
+  " which is even more than we needed": {
+    "top_positive_terms": [],
+    "top_negative_terms": [
+      {
+        "term": "cake",
+        "count": 2
+      },
+      {
+        "term": "daughter",
+        "count": 2
+      },
+      {
+        "term": "special",
+        "count": 2
+      },
+      {
+        "term": "baker",
+        "count": 1
+      },
+      {
+        "term": "bakery",
+        "count": 1
+      },
+      {
+        "term": "birthday",
+        "count": 1
+      },
+      {
+        "term": "cakes",
+        "count": 1
+      },
+      {
+        "term": "cheap",
+        "count": 1
+      },
+      {
+        "term": "coming",
+        "count": 1
+      },
+      {
+        "term": "costco",
+        "count": 1
+      },
+      {
+        "term": "couldn't",
+        "count": 1
+      },
+      {
+        "term": "edible",
+        "count": 1
+      },
+      {
+        "term": "i've",
+        "count": 1
+      },
+      {
+        "term": "jake",
+        "count": 1
+      },
+      {
+        "term": "just",
+        "count": 1
+      },
+      {
+        "term": "kid",
+        "count": 1
+      },
+      {
+        "term": "kind",
+        "count": 1
+      },
+      {
+        "term": "know",
+        "count": 1
+      },
+      {
+        "term": "looked",
+        "count": 1
+      },
+      {
+        "term": "love",
+        "count": 1
+      }
+    ]
+  },
+  " you caught it!  Haha": {
+    "top_positive_terms": [],
+    "top_negative_terms": [
+      {
+        "term": "sandwich",
+        "count": 3
+      },
+      {
+        "term": "say",
+        "count": 3
+      },
+      {
+        "term": "walk",
+        "count": 3
+      },
+      {
+        "term": "asked",
+        "count": 2
+      },
+      {
+        "term": "came",
+        "count": 2
+      },
+      {
+        "term": "counter",
+        "count": 2
+      },
+      {
+        "term": "did",
+        "count": 2
+      },
+      {
+        "term": "doesn't",
+        "count": 2
+      },
+      {
+        "term": "finally",
+        "count": 2
+      },
+      {
+        "term": "got",
+        "count": 2
+      },
+      {
+        "term": "just",
+        "count": 2
+      },
+      {
+        "term": "right",
+        "count": 2
+      },
+      {
+        "term": "says",
+        "count": 2
+      },
+      {
+        "term": "there's",
+        "count": 2
+      },
+      {
+        "term": "think",
+        "count": 2
+      },
+      {
+        "term": "time",
+        "count": 2
+      },
+      {
+        "term": "today",
+        "count": 2
+      },
+      {
+        "term": "wanted",
+        "count": 2
+      },
+      {
+        "term": "actually",
+        "count": 1
+      },
+      {
+        "term": "ahead",
+        "count": 1
+      }
+    ]
+  },
+  "movies": {
+    "top_positive_terms": [
+      {
+        "term": "movies",
+        "count": 118
+      },
+      {
+        "term": "'s",
+        "count": 35
+      },
+      {
+        "term": "film",
+        "count": 19
+      },
+      {
+        "term": "man",
+        "count": 9
+      },
+      {
+        "term": "funny",
+        "count": 7
+      },
+      {
+        "term": "movie",
+        "count": 7
+      },
+      {
+        "term": "time",
+        "count": 7
+      },
+      {
+        "term": "documentary",
+        "count": 6
+      },
+      {
+        "term": "family",
+        "count": 6
+      },
+      {
+        "term": "like",
+        "count": 6
+      },
+      {
+        "term": "story",
+        "count": 6
+      },
+      {
+        "term": "cast",
+        "count": 4
+      },
+      {
+        "term": "characters",
+        "count": 4
+      },
+      {
+        "term": "comes",
+        "count": 4
+      },
+      {
+        "term": "far",
+        "count": 4
+      },
+      {
+        "term": "good",
+        "count": 4
+      },
+      {
+        "term": "human",
+        "count": 4
+      },
+      {
+        "term": "life",
+        "count": 4
+      },
+      {
+        "term": "little",
+        "count": 4
+      },
+      {
+        "term": "n't",
+        "count": 4
+      }
+    ],
+    "top_negative_terms": [
+      {
+        "term": "movies",
+        "count": 157
+      },
+      {
+        "term": "'s",
+        "count": 48
+      },
+      {
+        "term": "movie",
+        "count": 27
+      },
+      {
+        "term": "film",
+        "count": 20
+      },
+      {
+        "term": "n't",
+        "count": 19
+      },
+      {
+        "term": "like",
+        "count": 11
+      },
+      {
+        "term": "just",
+        "count": 10
+      },
+      {
+        "term": "funny",
+        "count": 9
+      },
+      {
+        "term": "better",
+        "count": 8
+      },
+      {
+        "term": "characters",
+        "count": 8
+      },
+      {
+        "term": "does",
+        "count": 8
+      },
+      {
+        "term": "story",
+        "count": 8
+      },
+      {
+        "term": "time",
+        "count": 7
+      },
+      {
+        "term": "lrb",
+        "count": 6
+      },
+      {
+        "term": "makes",
+        "count": 6
+      },
+      {
+        "term": "minute",
+        "count": 6
+      },
+      {
+        "term": "rrb",
+        "count": 6
+      },
+      {
+        "term": "way",
+        "count": 6
+      },
+      {
+        "term": "''",
+        "count": 5
+      },
+      {
+        "term": "'re",
+        "count": 5
+      }
+    ]
+  },
+  "negative": {
+    "top_positive_terms": [],
+    "top_negative_terms": [
+      {
+        "term": "cable",
+        "count": 2
+      },
+      {
+        "term": "want",
+        "count": 2
+      },
+      {
+        "term": "bait",
+        "count": 1
+      },
+      {
+        "term": "basic",
+        "count": 1
+      },
+      {
+        "term": "believe",
+        "count": 1
+      },
+      {
+        "term": "bundle",
+        "count": 1
+      },
+      {
+        "term": "burned",
+        "count": 1
+      },
+      {
+        "term": "channels",
+        "count": 1
+      },
+      {
+        "term": "dont",
+        "count": 1
+      },
+      {
+        "term": "fees",
+        "count": 1
+      },
+      {
+        "term": "flight",
+        "count": 1
+      },
+      {
+        "term": "fuck",
+        "count": 1
+      },
+      {
+        "term": "going",
+        "count": 1
+      },
+      {
+        "term": "hd",
+        "count": 1
+      },
+      {
+        "term": "hype",
+        "count": 1
+      },
+      {
+        "term": "i'm",
+        "count": 1
+      },
+      {
+        "term": "math",
+        "count": 1
+      },
+      {
+        "term": "minute",
+        "count": 1
+      },
+      {
+        "term": "monthly",
+        "count": 1
+      },
+      {
+        "term": "morning",
+        "count": 1
+      }
+    ]
+  },
+  "neutral": {
+    "top_positive_terms": [
+      {
+        "term": "tweets",
+        "count": 4
+      },
+      {
+        "term": "boys",
+        "count": 1
+      },
+      {
+        "term": "brings",
+        "count": 1
+      },
+      {
+        "term": "carly",
+        "count": 1
+      },
+      {
+        "term": "clinton",
+        "count": 1
+      },
+      {
+        "term": "coffee",
+        "count": 1
+      },
+      {
+        "term": "cong",
+        "count": 1
+      },
+      {
+        "term": "coulson",
+        "count": 1
+      },
+      {
+        "term": "dunkin",
+        "count": 1
+      },
+      {
+        "term": "fiorina",
+        "count": 1
+      },
+      {
+        "term": "girls",
+        "count": 1
+      },
+      {
+        "term": "got",
+        "count": 1
+      },
+      {
+        "term": "hillary",
+        "count": 1
+      },
+      {
+        "term": "hope",
+        "count": 1
+      },
+      {
+        "term": "iced",
+        "count": 1
+      },
+      {
+        "term": "jemma",
+        "count": 1
+      },
+      {
+        "term": "just",
+        "count": 1
+      },
+      {
+        "term": "leaders",
+        "count": 1
+      },
+      {
+        "term": "realised",
+        "count": 1
+      },
+      {
+        "term": "rid",
+        "count": 1
+      }
+    ],
+    "top_negative_terms": [
+      {
+        "term": "cait",
+        "count": 2
+      },
+      {
+        "term": "aren't",
+        "count": 1
+      },
+      {
+        "term": "bad",
+        "count": 1
+      },
+      {
+        "term": "caitlyn",
+        "count": 1
+      },
+      {
+        "term": "high",
+        "count": 1
+      },
+      {
+        "term": "hopes",
+        "count": 1
+      },
+      {
+        "term": "jenner's",
+        "count": 1
+      },
+      {
+        "term": "low",
+        "count": 1
+      },
+      {
+        "term": "news",
+        "count": 1
+      },
+      {
+        "term": "ratings",
+        "count": 1
+      },
+      {
+        "term": "tweets",
+        "count": 1
+      }
+    ]
+  },
+  "positive": {
+    "top_positive_terms": [
+      {
+        "term": "tweets",
+        "count": 8
+      },
+      {
+        "term": "love",
+        "count": 3
+      },
+      {
+        "term": "busy",
+        "count": 2
+      },
+      {
+        "term": "come",
+        "count": 2
+      },
+      {
+        "term": "game",
+        "count": 2
+      },
+      {
+        "term": "happy",
+        "count": 2
+      },
+      {
+        "term": "morning",
+        "count": 2
+      },
+      {
+        "term": "ncounter",
+        "count": 2
+      },
+      {
+        "term": "accidental",
+        "count": 1
+      },
+      {
+        "term": "amazing",
+        "count": 1
+      },
+      {
+        "term": "appreciate",
+        "count": 1
+      },
+      {
+        "term": "atmosphere",
+        "count": 1
+      },
+      {
+        "term": "bike",
+        "count": 1
+      },
+      {
+        "term": "birthday",
+        "count": 1
+      },
+      {
+        "term": "boise",
+        "count": 1
+      },
+      {
+        "term": "breakfast",
+        "count": 1
+      },
+      {
+        "term": "brew",
+        "count": 1
+      },
+      {
+        "term": "casual",
+        "count": 1
+      },
+      {
+        "term": "cinema",
+        "count": 1
+      },
+      {
+        "term": "coffee",
+        "count": 1
+      }
+    ],
+    "top_negative_terms": [
+      {
+        "term": "sandwich",
+        "count": 3
+      },
+      {
+        "term": "guy",
+        "count": 2
+      },
+      {
+        "term": "actually",
+        "count": 1
+      },
+      {
+        "term": "asked",
+        "count": 1
+      },
+      {
+        "term": "boyfriend",
+        "count": 1
+      },
+      {
+        "term": "close",
+        "count": 1
+      },
+      {
+        "term": "decided",
+        "count": 1
+      },
+      {
+        "term": "doesn't",
+        "count": 1
+      },
+      {
+        "term": "guess",
+        "count": 1
+      },
+      {
+        "term": "hahaha",
+        "count": 1
+      },
+      {
+        "term": "hit",
+        "count": 1
+      },
+      {
+        "term": "lets",
+        "count": 1
+      },
+      {
+        "term": "make",
+        "count": 1
+      },
+      {
+        "term": "making",
+        "count": 1
+      },
+      {
+        "term": "mean",
+        "count": 1
+      },
+      {
+        "term": "night",
+        "count": 1
+      },
+      {
+        "term": "nutz",
+        "count": 1
+      },
+      {
+        "term": "piled",
+        "count": 1
+      },
+      {
+        "term": "restaurants",
+        "count": 1
+      },
+      {
+        "term": "subway",
+        "count": 1
+      }
+    ]
+  },
+  "restaurants": {
+    "top_positive_terms": [
+      {
+        "term": "restaurants",
+        "count": 138
+      },
+      {
+        "term": "good",
+        "count": 83
+      },
+      {
+        "term": "great",
+        "count": 82
+      },
+      {
+        "term": "place",
+        "count": 70
+      },
+      {
+        "term": "food",
+        "count": 60
+      },
+      {
+        "term": "like",
+        "count": 41
+      },
+      {
+        "term": "service",
+        "count": 41
+      },
+      {
+        "term": "love",
+        "count": 38
+      },
+      {
+        "term": "best",
+        "count": 37
+      },
+      {
+        "term": "time",
+        "count": 37
+      },
+      {
+        "term": "it's",
+        "count": 33
+      },
+      {
+        "term": "just",
+        "count": 31
+      },
+      {
+        "term": "really",
+        "count": 27
+      },
+      {
+        "term": "i've",
+        "count": 26
+      },
+      {
+        "term": "friendly",
+        "count": 25
+      },
+      {
+        "term": "staff",
+        "count": 25
+      },
+      {
+        "term": "delicious",
+        "count": 24
+      },
+      {
+        "term": "little",
+        "count": 24
+      },
+      {
+        "term": "nice",
+        "count": 24
+      },
+      {
+        "term": "try",
+        "count": 22
+      }
+    ],
+    "top_negative_terms": [
+      {
+        "term": "restaurants",
+        "count": 143
+      },
+      {
+        "term": "food",
+        "count": 103
+      },
+      {
+        "term": "place",
+        "count": 76
+      },
+      {
+        "term": "like",
+        "count": 65
+      },
+      {
+        "term": "just",
+        "count": 63
+      },
+      {
+        "term": "time",
+        "count": 61
+      },
+      {
+        "term": "got",
+        "count": 52
+      },
+      {
+        "term": "didn't",
+        "count": 42
+      },
+      {
+        "term": "really",
+        "count": 41
+      },
+      {
+        "term": "don't",
+        "count": 38
+      },
+      {
+        "term": "people",
+        "count": 37
+      },
+      {
+        "term": "good",
+        "count": 36
+      },
+      {
+        "term": "said",
+        "count": 36
+      },
+      {
+        "term": "service",
+        "count": 36
+      },
+      {
+        "term": "minutes",
+        "count": 34
+      },
+      {
+        "term": "order",
+        "count": 33
+      },
+      {
+        "term": "told",
+        "count": 32
+      },
+      {
+        "term": "went",
+        "count": 32
+      },
+      {
+        "term": "did",
+        "count": 31
+      },
+      {
+        "term": "room",
+        "count": 31
+      }
+    ]
+  },
+  "tweets": {
+    "top_positive_terms": [
+      {
+        "term": "tweets",
+        "count": 86
+      },
+      {
+        "term": "user",
+        "count": 28
+      },
+      {
+        "term": "tomorrow",
+        "count": 17
+      },
+      {
+        "term": "night",
+        "count": 11
+      },
+      {
+        "term": "th",
+        "count": 10
+      },
+      {
+        "term": "today",
+        "count": 10
+      },
+      {
+        "term": "saturday",
+        "count": 9
+      },
+      {
+        "term": "day",
+        "count": 8
+      },
+      {
+        "term": "i'm",
+        "count": 8
+      },
+      {
+        "term": "friday",
+        "count": 7
+      },
+      {
+        "term": "great",
+        "count": 7
+      },
+      {
+        "term": "amp",
+        "count": 6
+      },
+      {
+        "term": "birthday",
+        "count": 6
+      },
+      {
+        "term": "happy",
+        "count": 6
+      },
+      {
+        "term": "time",
+        "count": 6
+      },
+      {
+        "term": "can't",
+        "count": 5
+      },
+      {
+        "term": "going",
+        "count": 5
+      },
+      {
+        "term": "just",
+        "count": 5
+      },
+      {
+        "term": "wait",
+        "count": 5
+      },
+      {
+        "term": "best",
+        "count": 4
+      }
+    ],
+    "top_negative_terms": [
+      {
+        "term": "tweets",
+        "count": 16
+      },
+      {
+        "term": "user",
+        "count": 9
+      },
+      {
+        "term": "news",
+        "count": 3
+      },
+      {
+        "term": "pay",
+        "count": 3
+      },
+      {
+        "term": "st",
+        "count": 3
+      },
+      {
+        "term": "amendment",
+        "count": 2
+      },
+      {
+        "term": "better",
+        "count": 2
+      },
+      {
+        "term": "ira",
+        "count": 2
+      },
+      {
+        "term": "mad",
+        "count": 2
+      },
+      {
+        "term": "make",
+        "count": 2
+      },
+      {
+        "term": "nd",
+        "count": 2
+      },
+      {
+        "term": "spurs",
+        "count": 2
+      },
+      {
+        "term": "th",
+        "count": 2
+      },
+      {
+        "term": "time",
+        "count": 2
+      },
+      {
+        "term": "accident",
+        "count": 1
+      },
+      {
+        "term": "actually",
+        "count": 1
+      },
+      {
+        "term": "add",
+        "count": 1
+      },
+      {
+        "term": "agreed",
+        "count": 1
+      },
+      {
+        "term": "ain't",
+        "count": 1
+      },
+      {
+        "term": "altogether",
+        "count": 1
+      }
+    ]
+  },
+  "unknown": {
+    "top_positive_terms": [],
+    "top_negative_terms": [
+      {
+        "term": "buffalo",
+        "count": 3
+      },
+      {
+        "term": "burger",
+        "count": 3
+      },
+      {
+        "term": "new",
+        "count": 2
+      },
+      {
+        "term": "bad",
+        "count": 1
+      },
+      {
+        "term": "burge",
+        "count": 1
+      },
+      {
+        "term": "carl's",
+        "count": 1
+      },
+      {
+        "term": "coupon",
+        "count": 1
+      },
+      {
+        "term": "experience",
+        "count": 1
+      },
+      {
+        "term": "free",
+        "count": 1
+      },
+      {
+        "term": "gross",
+        "count": 1
+      },
+      {
+        "term": "i've",
+        "count": 1
+      },
+      {
+        "term": "it's",
+        "count": 1
+      },
+      {
+        "term": "jr",
+        "count": 1
+      },
+      {
+        "term": "large",
+        "count": 1
+      },
+      {
+        "term": "meal",
+        "count": 1
+      },
+      {
+        "term": "medium",
+        "count": 1
+      },
+      {
+        "term": "negative",
+        "count": 1
+      },
+      {
+        "term": "nstopped",
+        "count": 1
+      },
+      {
+        "term": "offeres",
+        "count": 1
+      },
+      {
+        "term": "purchase",
+        "count": 1
+      }
+    ]
+  }
+}
