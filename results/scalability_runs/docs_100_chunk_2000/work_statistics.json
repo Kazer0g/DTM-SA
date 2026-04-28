@@ -2,27 +2,27 @@
   "sentiment_statistics": {
     "positive": {
       "document_count": 43,
-      "total_term_count": 1543,
-      "distinct_term_count": 1050,
-      "average_tokens_per_doc": 35.883720930232556,
+      "total_term_count": 1514,
+      "distinct_term_count": 1029,
+      "average_tokens_per_doc": 35.2093023255814,
       "min_tokens_per_doc": 4,
-      "max_tokens_per_doc": 171
+      "max_tokens_per_doc": 166
     },
     "neutral": {
       "document_count": 26,
-      "total_term_count": 834,
-      "distinct_term_count": 611,
-      "average_tokens_per_doc": 32.07692307692308,
+      "total_term_count": 824,
+      "distinct_term_count": 602,
+      "average_tokens_per_doc": 31.692307692307693,
       "min_tokens_per_doc": 6,
-      "max_tokens_per_doc": 257
+      "max_tokens_per_doc": 256
     },
     "negative": {
       "document_count": 31,
-      "total_term_count": 1585,
-      "distinct_term_count": 897,
-      "average_tokens_per_doc": 51.12903225806452,
+      "total_term_count": 1567,
+      "distinct_term_count": 880,
+      "average_tokens_per_doc": 50.54838709677419,
       "min_tokens_per_doc": 4,
-      "max_tokens_per_doc": 279
+      "max_tokens_per_doc": 276
     }
   },
   "top_terms_overall": [
@@ -77,6 +77,11 @@
       "count": 11
     },
     {
+      "term": "like",
+      "sentiment": "positive",
+      "count": 11
+    },
+    {
       "term": "service",
       "sentiment": "negative",
       "count": 11
@@ -94,11 +99,6 @@
     {
       "term": "like",
       "sentiment": "neutral",
-      "count": 10
-    },
-    {
-      "term": "like",
-      "sentiment": "positive",
       "count": 10
     },
     {
@@ -142,6 +142,11 @@
       "count": 8
     },
     {
+      "term": "best",
+      "sentiment": "positive",
+      "count": 8
+    },
+    {
       "term": "order",
       "sentiment": "negative",
       "count": 8
@@ -159,11 +164,6 @@
     {
       "term": "bar",
       "sentiment": "neutral",
-      "count": 7
-    },
-    {
-      "term": "best",
-      "sentiment": "positive",
       "count": 7
     },
     {

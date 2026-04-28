@@ -2,7 +2,7 @@
   "top_positive_terms": [
     {
       "term": "place",
-      "count": 149,
+      "count": 150,
       "examples": [
         {
           "message": "restaurants The bar itself was great. Service as well.  Food was surprisingly nice also.  Bartenders were attentive and friendly. The problem was the karaoke. Which is what we drove across town for.  I am presently looking for a fun venue for a large fundraiser for our company.   As a former kj, i can tell you that there is certain etiquette you should always observe.  Keep rotation fair and spaced out; even if they are your regulars (I observed the same girl do a back to back duet/solo and she was not even leaving).  You also need to pay attention to when your singer is ending and not stand there bs'ing with your regulars.  Especially in a noisy busy venue.  The KJs job is to lead the crowd for every singer who is brave enough to get up there.   Finally... The system itself is outdated.  Not enough speakers and poorly placed.  Get a better sound system, train the KJ to be courteous and this place would really be 5 stars.",
@@ -28,7 +28,7 @@
     },
     {
       "term": "great",
-      "count": 142,
+      "count": 146,
       "examples": [
         {
           "message": "restaurants Love Costco!! It has everything! Usually buy my fruits, veggie and meat. Also end up buying stuff that were not on my list. Hard to resist the deals and great price they have. They have a pretty good selection of wine, spirits and beer. Costco is also great w their returns. Ive returned something that was used because it broke. Had no receipt and they went back to my Amex connected w Costco one year back!!! Best part are the there free samples!! Portions are enough to make you full if you try most of them! Only downfall is I end up paying more than I anticipated because I end up buying more things than planned!!!!",
@@ -106,7 +106,7 @@
     },
     {
       "term": "like",
-      "count": 92,
+      "count": 93,
       "examples": [
         {
           "message": "restaurants This was the final nail in the coffin for LV partying.\\n\\nSeriously, this is considered the best of nightlife in LV??\\n\\nNegatives:\\nTop 40s music\\nconfetti every 10 minutes\\nevery loser with $200 can get in\\nabout 1000 bouncers\\n\\npositives:\\nevery loser with $200 can get in so getting drinks from them is easy\\napparently they people smoke up in the club if you tip the DJ (could be a negative, depending on your personal opinion)\\n\\nAfter a long weekend in LV I realized that its like one giant amateur night for partying. Sort of like New Years is everywhere else.",
@@ -184,7 +184,7 @@
     },
     {
       "term": "best",
-      "count": 67,
+      "count": 69,
       "examples": [
         {
           "message": "restaurants Love Costco!! It has everything! Usually buy my fruits, veggie and meat. Also end up buying stuff that were not on my list. Hard to resist the deals and great price they have. They have a pretty good selection of wine, spirits and beer. Costco is also great w their returns. Ive returned something that was used because it broke. Had no receipt and they went back to my Amex connected w Costco one year back!!! Best part are the there free samples!! Portions are enough to make you full if you try most of them! Only downfall is I end up paying more than I anticipated because I end up buying more things than planned!!!!",
@@ -236,7 +236,7 @@
     },
     {
       "term": "service",
-      "count": 57,
+      "count": 63,
       "examples": [
         {
           "message": "restaurants The bar itself was great. Service as well.  Food was surprisingly nice also.  Bartenders were attentive and friendly. The problem was the karaoke. Which is what we drove across town for.  I am presently looking for a fun venue for a large fundraiser for our company.   As a former kj, i can tell you that there is certain etiquette you should always observe.  Keep rotation fair and spaced out; even if they are your regulars (I observed the same girl do a back to back duet/solo and she was not even leaving).  You also need to pay attention to when your singer is ending and not stand there bs'ing with your regulars.  Especially in a noisy busy venue.  The KJs job is to lead the crowd for every singer who is brave enough to get up there.   Finally... The system itself is outdated.  Not enough speakers and poorly placed.  Get a better sound system, train the KJ to be courteous and this place would really be 5 stars.",
@@ -262,7 +262,7 @@
     },
     {
       "term": "it's",
-      "count": 55,
+      "count": 59,
       "examples": [
         {
           "message": "tweets \"3rd Annual Women's Day was another one for the books, it's getting bigger and better, Thank you all, great effort #TeamGDCF.\"",
@@ -366,7 +366,7 @@
     },
     {
       "term": "i've",
-      "count": 48,
+      "count": 49,
       "examples": [
         {
           "message": "restaurants I like this place. As a number of other people have mentioned, the chips and salsa are great. The horchata is also delicious and they give you free refills (utter madness but I love it). However, it wasn't the best mexican I've had, not even close to the top 5. For whatever reason, I was craving enchiladas. They did not turn out well. The sauce that came on the enchilada tasted like it was from a can. just terrible. My girlfriend's meal was much better. She had two steak tacos that looked pretty tasty. She really enjoyed  her meal. I'll be back to see if they just misfired on the enchiladas.\\n\\nUpdate: I came back and ordered the fish tacos. they were not good. won't be back.",
@@ -386,58 +386,6 @@
         },
         {
           "message": "restaurants I've had excellent luck with the pizza from this place -- some of my favorite in Pittsburgh! Cheap beer on tap too.",
-          "sentiment_tag": "positive"
-        }
-      ]
-    },
-    {
-      "term": "ni",
-      "count": 45,
-      "examples": [
-        {
-          "message": "restaurants This is a cute little coffee and gelato shop located in the Cosmopolitan. $9 for 2 scoops of gelato in a waffle cone was pretty steep, but all you need to know is that their straciatella flavor is amazing. Another thing is that I usually love Pistachio flavored things, but their pistachio gelato tasted more like peanut butter...\\n\\nI didn't try get to try the coffee that day because I lost in black jack, but perhaps next time?",
-          "sentiment_tag": "positive"
-        },
-        {
-          "message": "restaurants The fabulous Katie R. and I headed to Le Br\\u00fbloir on Fleury Ouest (FLO) for an Indie Coffee Passport and lunch date today. I very much enjoyed the experience.\\n\\nMy soy latt\\u00e9 was delicious, so much so that I thought it must have been made with \\\"real\\\" milk. I really like their espresso, which they roast in-house. \\n\\nI also had a grilled cheese sandwich with bacon called Le Reconfortant which was definitely comfort food. Yum! \\n\\nI liked the art on the walls and the sunny counter by the window and the scarecrows from the local Grade 5 class which decorated the street all along the FLO business area. Service was in both official languages: bonjour hello!\\n\\nFor those of you who aren't Ahunsicois, you can get to Le Br\\u00fbloir by taking the orange line to station Sauv\\u00e9, then the #180 bus (or a 15-minute walk). On Wednesdays in the summer, there is a weekly community picnic/food truck supper/local business promo in Tollhurst park, just a block up from the coffee shop.",
-          "sentiment_tag": "positive"
-        },
-        {
-          "message": "restaurants The lady runs this with her parents (her name isn't Rose) and they do an awesome job! She also gave me a discount out of nowhere when I came to hem two of my dress pants.\\n\\nThis is my to-go place now since they're reliable, on time, and the prices are pretty reasonable. Hemming for pants is $10 each and different tailoring are differently priced. Just call and ask!\\n\\nI wasn't in a rush to get my pants back so I gave her however much time she needed to hem but timing doesn't seem much of a problem for them. Of course, as I haven't needed anything done quickly, I can't really judge there yet. :)",
-          "sentiment_tag": "positive"
-        },
-        {
-          "message": "restaurants I really enjoy this place and I may have to visit again to give it another star. I have been here once for lunch and another time for happy hour. The prices during both of these times were very reasonable. What i was impressed with the most was the selection of beer that they have. Being here in AZ it was the first time I have seen any Rouge beer on tap. During happy hour all drinks were half off making a delicious brew of Rouge hazelnut brown an amazing $3.50. The appetizers aren't your normal fried bar food you would find most places either. Along with my friends we split the meatball appetizer, the stuffed portobello mushroom and the oven roasted wings (medium).\\n\\nThe meatball appetizer came on a triangle plate with a generous helping of their red sauce in the middle. The three meatballs were cut in half and placed on skewers laying lightly in the marinara sauce. The meatball was juicy and the sauce complimented it nicely. This is a true definition of an appetizer because it was just enough to start off your meal but not enough to make you full. I would take great taste over a full stomach when it comes to an appetizer any day. \\n\\nThe portobello mushroom also tasted great, stuffed with cheese and spinach with a drizzle of a balsamic vinaigrette on the top of it. Once again great taste but not so filling.\\n\\nThe wings were excellent, with them being oven roasted the flavor of the juicy chicken and the sauce on the wings was amazing. The meat was falling off the bone. \\n\\nI have also had the pizza from here and I love the creative specialty pies that are available. The pizza we had was a \\\"hot potato pie\\\" which came with potatoes, bacon, onion and a drizzle of sour cream. There was no red sauce with this pizza. The flavor combo was interesting and good. I was looking forward to eating the crust the most, it was delicious. \\n\\nMy recommendation is to try this place for happy hour and try a couple of appetizers off the menu with a tasty craft beer.\\n\\nQuick Note: I have always wanted to come in on a Wednesday for \\\"WTF?? Wednesdays\\\" where for $3 I believe you get a mystery beer in a brown paper bag haha.",
-          "sentiment_tag": "positive"
-        },
-        {
-          "message": "restaurants Oooooh Monta. Why does your restaurant have to be the size of my closet and your service atrocious so I have to give you 4 stars instead of 5?  I really like their ramen.  I repeat, I REALLY like their ramen.  But man, everything else is annoying. \\n\\nI came here with a group of 5 once (all newcomers so I was trying to show off the place).  Luckily, we showed up right when they opened so we got seated right away.  We were all squished on a table that clearly should have supported only 4 full grown adults.  But the ramen is so tender, the broth so hearty and flavorful, and the boiled egg and yolk so delicious.\\n\\nOn another occasion, I came here for dinner with 1 other person and ended up waiting about 1.5 hours because the place is so darn busy and there aren't enough seats.  I kid you not.  Several times we thought about leaving but couldn't come up with an alternative ramen joint that was remotely as good.  It's absolute cruelty.\\n\\nAlso, they don't seat you unless your entire party is there.  And I wouldn't recommend going with a party bigger than 4 or it's almost impossible to find somewhere to sit.  While their ramen is super delicious, they really need to move to a bigger location and give their staff some customer service classes.",
-          "sentiment_tag": "positive"
-        }
-      ]
-    },
-    {
-      "term": "nthe",
-      "count": 45,
-      "examples": [
-        {
-          "message": "restaurants This is my favorite Walmart in the Valley. \\n\\nThey have always been pretty speedy in checking me out. I absolutely hate waiting in line. I'm elated about the new self checkout lines they just installed. \\n\\nThe store is clean, and always well stocked. Partking is pretty reasonable too. A great place to pick up something quick, or putz around for an hour.",
-          "sentiment_tag": "positive"
-        },
-        {
-          "message": "restaurants I really enjoy this place and I may have to visit again to give it another star. I have been here once for lunch and another time for happy hour. The prices during both of these times were very reasonable. What i was impressed with the most was the selection of beer that they have. Being here in AZ it was the first time I have seen any Rouge beer on tap. During happy hour all drinks were half off making a delicious brew of Rouge hazelnut brown an amazing $3.50. The appetizers aren't your normal fried bar food you would find most places either. Along with my friends we split the meatball appetizer, the stuffed portobello mushroom and the oven roasted wings (medium).\\n\\nThe meatball appetizer came on a triangle plate with a generous helping of their red sauce in the middle. The three meatballs were cut in half and placed on skewers laying lightly in the marinara sauce. The meatball was juicy and the sauce complimented it nicely. This is a true definition of an appetizer because it was just enough to start off your meal but not enough to make you full. I would take great taste over a full stomach when it comes to an appetizer any day. \\n\\nThe portobello mushroom also tasted great, stuffed with cheese and spinach with a drizzle of a balsamic vinaigrette on the top of it. Once again great taste but not so filling.\\n\\nThe wings were excellent, with them being oven roasted the flavor of the juicy chicken and the sauce on the wings was amazing. The meat was falling off the bone. \\n\\nI have also had the pizza from here and I love the creative specialty pies that are available. The pizza we had was a \\\"hot potato pie\\\" which came with potatoes, bacon, onion and a drizzle of sour cream. There was no red sauce with this pizza. The flavor combo was interesting and good. I was looking forward to eating the crust the most, it was delicious. \\n\\nMy recommendation is to try this place for happy hour and try a couple of appetizers off the menu with a tasty craft beer.\\n\\nQuick Note: I have always wanted to come in on a Wednesday for \\\"WTF?? Wednesdays\\\" where for $3 I believe you get a mystery beer in a brown paper bag haha.",
-          "sentiment_tag": "positive"
-        },
-        {
-          "message": "restaurants OK, \\nSo you know how you go to a fast food joint and the burgers on the menu behind the counter are shown all nice and big and juicy, but when you order it, it turns out to be an overcooked, undersized, nothing remotely close to a sandwich even worthy of being called a reasonable facsimile thereof? Well, Fattburger has mastered this process...inversely. The picture on the menu did not even begin to do justice to the mammoth, gigantic, huge, swollen, bloated mass of beef served greasily to me between the two unfortunate slices of bun forced to bear the weight of this thing. To make matters worse (or better, depending on one's POV), I had an additional patty, avocado and bacon added to the behemoth. \\n\\nThe ride back to the hotel was arduous. The aroma of the fried beast filled the car, beckoning to my hunger to stagger at the next red light and take a large bite from this beefy buffet. Wisdom prevailed, however, as I knew that once the beast was unleashed, it would go neither quietly nor cleanly back into its now saturated paper encasing. Must hurry. \\nBarely, but successfully, I transported the package to my room, bag intact, where it was stripped down to its full, naked, delicious elegance. At last, we are alone, you and I. Come. \\n\\nWith all my hunger, I was still not able to finish. \\\"Fatt\\\" does NOT accurately describe the girth of this burger. Try as I might, a happy plate (bag rather) was not to be. Stomach capacity exceeded. Digestion activated. Food coma eminent. Not to worry. With a refrigerator and microwave readily available, we shall meet again very soon. Abdominal pain setting in. Oh Lord, please let me make it thru the night. \\n\\nIf you find yourself in Vegas, be sure to treat yourself to a Fattburger. I warn you, though. Do not underestimate this sandwich, for it is Fatter than its Fatt namesake. Also, I don't recommend more than one within a six month period. Your heart and grandkids will thank you. \\n\\n\\\"S\\\"",
-          "sentiment_tag": "positive"
-        },
-        {
-          "message": "restaurants I was pretty stoked to learn this place actually has private rooms.  It was a relief knowing that I would not have to down 5 shots of Patron before getting comfortable with the crowd (my group). They had a huge binder full of Spanish classics, which is a huge PLUS! Except, the videos playing on the screens were all Korean videos with no relation whatsoever to music that was playing :-/\\n\\nThe ladies room was a pain in the rear to access. They have 3 stalls and bathroom is tiny! I was there on a Friday night and line was out the door. Sucked it up and just hoped my bladder would not rupture! \\n\\nOverall, had a blast! Can't wait to go back but next time with the fam!",
-          "sentiment_tag": "positive"
-        },
-        {
-          "message": "restaurants Great Food served fast and cheerfully on a Sunday night in a town that pretty much rolls up the sidewalks at dusk.\\nAlright, that's not very fair to Phoenix, I'm sure there is plenty to do in the wee hours of the night if you know where to look and I don't.\\nFortunately I noticed Two Hippies Beach House yesterday night and remembered it tonight when I wanted some good food, fast and cheap and fun.\\nThe prices are a solid value, four tacos, chips and salsa, mango lemonade and a bottled water, all for under $14. Plenty of food for two and very filling. Unfortunately they take cash only. Fortunately they have an ATM with a very reasonable dollar fifty service charge right in the building. \\nDecor and atmosphere is fun and laid back. Outdoor seating is varied and if you can't find a comfy spot to sit and enjoy your food you are way to demanding.\\nFour tacos, one Green Beef, one Cactus, one Chicken, and one Carne Asada, were all very tasty. I opted out of the cabbage they use in leu of lettuce (crispness factor) out of consideration for my somewhat picky tummy. The Carne Asada had some gristly and fatty pieces and was overly peppery but still palatable. The green salsa could use a bit more kick. And the chips were fine, nothing to write home about.\\nHad a chance to speak with the owner since we closed the place down. Mo is a terrific guy who is more than happy to answer questions about his suppliers and general business philosophy as well as his life, family, hobbies and interests. We very much enjoyed talking with him and will check out the other restaurants in the group.",
           "sentiment_tag": "positive"
         }
       ]
@@ -464,6 +412,32 @@
         },
         {
           "message": "restaurants Unbelievable . MUST TRY. Great service and better food",
+          "sentiment_tag": "positive"
+        }
+      ]
+    },
+    {
+      "term": "i'm",
+      "count": 44,
+      "examples": [
+        {
+          "message": "restaurants This is my favorite Walmart in the Valley. \\n\\nThey have always been pretty speedy in checking me out. I absolutely hate waiting in line. I'm elated about the new self checkout lines they just installed. \\n\\nThe store is clean, and always well stocked. Partking is pretty reasonable too. A great place to pick up something quick, or putz around for an hour.",
+          "sentiment_tag": "positive"
+        },
+        {
+          "message": "tweets I saw Cowboys and Aliens... OHMYGAWD it was so stupid. Tomorrow i'm seeing The Help which i hope is better.",
+          "sentiment_tag": "positive"
+        },
+        {
+          "message": "tweets If you're truly my friend you'll play David Bowie's Greatest Hits when I'm about to have my 1st kid",
+          "sentiment_tag": "positive"
+        },
+        {
+          "message": "tweets Finally get to use my GC from Mother's Day for a facial and massage tomorrow! Now I can act like I'm the stay at...",
+          "sentiment_tag": "positive"
+        },
+        {
+          "message": "restaurants I've been to a couple of fine dining restaurants now, and this is by far, hands down, the best place I have ever been. The food is delicious, the service is spectacular, and the atmosphere is indescribably magical. The servers are very knowledgeable about the dishes' presentation and the chef's intended experience for eating each course. Furthermore, they are very attentive without being intrusive. Words cannot fully describe how much I love this place. Unfortunately, every restaurant after this will be compared to Le Cirque for their amazing food and impeccable service... \\n\\nThis review was originally made for my first visit in July 2013. I went again recently for Valentine's Day 2014 - again, spectacular service. The restaurant was EXTREMELY busy; however, the servers were still pleasant and when they came to our table, they gave us their full attention. I was pleasantly surprised that our previous waiters even remembered us and where we sat during our first visit! Although the dining experience was not as delightful due to the bustling environment, I still thoroughly enjoyed my visit as the food quality was magnificent, unaffected by the drastic increase of demand to produce each dish. I cannot say enough good things about this restaurant - I'm in love.",
           "sentiment_tag": "positive"
         }
       ]
@@ -516,6 +490,32 @@
         },
         {
           "message": "restaurants At first I was disappointed with Padre's menu.  I usually get tacos, rice, and beans, and they only had soft tacos.  But then I ventured out and got this amazing beef burrito that came with rice and beans.  Really glad I tried it.\\n\\nI was also pleased to see that they had Sol beer on the menu.  It is my favorite Mexican cerveza, and I usually can't find it in restaurants.",
+          "sentiment_tag": "positive"
+        }
+      ]
+    },
+    {
+      "term": "right",
+      "count": 42,
+      "examples": [
+        {
+          "message": "restaurants Stayed at the Aria and this was really the only meal-meal we ate in the hotel.  It was delicious!  The jalapeno margaritas are just the right amount of lime and spice.  My chicken fajitas were made with Jidori chicken (who does that!?!?!  Vegas, that's who) and were ridiculously good.  \\n\\nLike many restaurants in Vegas (and especially the newer casinos), it's loud so if you're looking to whisper sweet nothings in your honey's ear, she won't hear you.  Also, it seems to attract bachelorette parties (we saw three while we were there) so prepare for some shrieking with your guacamole.",
+          "sentiment_tag": "positive"
+        },
+        {
+          "message": "restaurants The @WestWindDriveIn  is located on N Rancho & Caresy right near @statoioncasinos TEXAS Station.\\n\\nJust $6.50 for Adults/KIDS ARE FREE for a Double-Feature of NEW release movies. If you stay late they do play a 3rd movie.\\n\\nBEST DEAL AROUND!!!\\n\\nThey have a snack bar with popcorn,Nathans hot dogs,pizza,nachos and soda plus video games and restrooms.\\n\\nDuring the summer bring your lawn chairs and BBQ they let you cook out and this place really gets rockin'",
+          "sentiment_tag": "positive"
+        },
+        {
+          "message": "restaurants Great Food served fast and cheerfully on a Sunday night in a town that pretty much rolls up the sidewalks at dusk.\\nAlright, that's not very fair to Phoenix, I'm sure there is plenty to do in the wee hours of the night if you know where to look and I don't.\\nFortunately I noticed Two Hippies Beach House yesterday night and remembered it tonight when I wanted some good food, fast and cheap and fun.\\nThe prices are a solid value, four tacos, chips and salsa, mango lemonade and a bottled water, all for under $14. Plenty of food for two and very filling. Unfortunately they take cash only. Fortunately they have an ATM with a very reasonable dollar fifty service charge right in the building. \\nDecor and atmosphere is fun and laid back. Outdoor seating is varied and if you can't find a comfy spot to sit and enjoy your food you are way to demanding.\\nFour tacos, one Green Beef, one Cactus, one Chicken, and one Carne Asada, were all very tasty. I opted out of the cabbage they use in leu of lettuce (crispness factor) out of consideration for my somewhat picky tummy. The Carne Asada had some gristly and fatty pieces and was overly peppery but still palatable. The green salsa could use a bit more kick. And the chips were fine, nothing to write home about.\\nHad a chance to speak with the owner since we closed the place down. Mo is a terrific guy who is more than happy to answer questions about his suppliers and general business philosophy as well as his life, family, hobbies and interests. We very much enjoyed talking with him and will check out the other restaurants in the group.",
+          "sentiment_tag": "positive"
+        },
+        {
+          "message": "restaurants Vince, the New Manager made it right. In short, I purchased a new tire 2 years ago, for my hot rod and put less than 3k miles on it before it went bad.  Defective tire. The two previous managers did nothing and soon 5 months went bye. Then a real professional showed up. Vince. In less than one day of speaking with him, he was able to get it figured out and he replaced my tire with a brand new one. all I paid was tax. Thank you Vince. Because of this, i will recommend friends and family. Frank k.",
+          "sentiment_tag": "positive"
+        },
+        {
+          "message": "restaurants Oooooh Monta. Why does your restaurant have to be the size of my closet and your service atrocious so I have to give you 4 stars instead of 5?  I really like their ramen.  I repeat, I REALLY like their ramen.  But man, everything else is annoying. \\n\\nI came here with a group of 5 once (all newcomers so I was trying to show off the place).  Luckily, we showed up right when they opened so we got seated right away.  We were all squished on a table that clearly should have supported only 4 full grown adults.  But the ramen is so tender, the broth so hearty and flavorful, and the boiled egg and yolk so delicious.\\n\\nOn another occasion, I came here for dinner with 1 other person and ended up waiting about 1.5 hours because the place is so darn busy and there aren't enough seats.  I kid you not.  Several times we thought about leaving but couldn't come up with an alternative ramen joint that was remotely as good.  It's absolute cruelty.\\n\\nAlso, they don't seat you unless your entire party is there.  And I wouldn't recommend going with a party bigger than 4 or it's almost impossible to find somewhere to sit.  While their ramen is super delicious, they really need to move to a bigger location and give their staff some customer service classes.",
           "sentiment_tag": "positive"
         }
       ]
@@ -576,7 +576,7 @@
     },
     {
       "term": "food",
-      "count": 53,
+      "count": 54,
       "examples": [
         {
           "message": "restaurants Like some others, we jumped on the Living Social deal to Vivace.  I really have no idea why they threw that bone out there, as I am fairly sure they have no need of it, but since they did, we used it.  Definitely glad they did (and that we did).\\n\\nThe service at Vivace is second to none, as is the scenery, inside and out, though the layout of the interior is a bit odd - perhaps it is those massive red chandeliers from the bizarro Ikea world.  Or maybe it is all just a bit disjointed rather than having a nice flow to the place.\\n\\nThere is what I would call a dining room to the right (with a bar), a bar to the left (with bar tables, but no dining room), and another dining area upstairs (also with a bar).  The bar downstairs also has a patio and the dining area upstairs has a balcony.\\n\\nUnfortunately, each time I have been there, it has been at least overcast outside, if not downright scary, making those outdoor spaces less than ideal.  Still, the heaters are nice - it just makes the view less than spectacular.  Not their fault, but it does impact the usability.\\n\\nWhich leaves the food.  We found it to be hit and miss.  Some items are average, like the meat and cheese platters.  Good, but not great.  Others, like the fish, have a nice crispy skin in one area, but the same skin is mush elsewhere.  Then you get a nice piece of meat, say the short rib, that is tasty, but man is it rich!  Had to stop after just a few bites.  Luckily it belonged to someone else - if it was mine, I would have been disappointed that I had to stop so quickly.",
@@ -628,7 +628,7 @@
     },
     {
       "term": "it's",
-      "count": 50,
+      "count": 51,
       "examples": [
         {
           "message": "tweets 'what's the date?' normal people; October 13th? Swiftie's; SWIFTOBER 13TH AAAAAAH IT'S SWIFT DAY!!!!",
@@ -654,7 +654,7 @@
     },
     {
       "term": "like",
-      "count": 43,
+      "count": 44,
       "examples": [
         {
           "message": "restaurants Like some others, we jumped on the Living Social deal to Vivace.  I really have no idea why they threw that bone out there, as I am fairly sure they have no need of it, but since they did, we used it.  Definitely glad they did (and that we did).\\n\\nThe service at Vivace is second to none, as is the scenery, inside and out, though the layout of the interior is a bit odd - perhaps it is those massive red chandeliers from the bizarro Ikea world.  Or maybe it is all just a bit disjointed rather than having a nice flow to the place.\\n\\nThere is what I would call a dining room to the right (with a bar), a bar to the left (with bar tables, but no dining room), and another dining area upstairs (also with a bar).  The bar downstairs also has a patio and the dining area upstairs has a balcony.\\n\\nUnfortunately, each time I have been there, it has been at least overcast outside, if not downright scary, making those outdoor spaces less than ideal.  Still, the heaters are nice - it just makes the view less than spectacular.  Not their fault, but it does impact the usability.\\n\\nWhich leaves the food.  We found it to be hit and miss.  Some items are average, like the meat and cheese platters.  Good, but not great.  Others, like the fish, have a nice crispy skin in one area, but the same skin is mush elsewhere.  Then you get a nice piece of meat, say the short rib, that is tasty, but man is it rich!  Had to stop after just a few bites.  Luckily it belonged to someone else - if it was mine, I would have been disappointed that I had to stop so quickly.",
@@ -835,6 +835,32 @@
       ]
     },
     {
+      "term": "service",
+      "count": 24,
+      "examples": [
+        {
+          "message": "restaurants Like some others, we jumped on the Living Social deal to Vivace.  I really have no idea why they threw that bone out there, as I am fairly sure they have no need of it, but since they did, we used it.  Definitely glad they did (and that we did).\\n\\nThe service at Vivace is second to none, as is the scenery, inside and out, though the layout of the interior is a bit odd - perhaps it is those massive red chandeliers from the bizarro Ikea world.  Or maybe it is all just a bit disjointed rather than having a nice flow to the place.\\n\\nThere is what I would call a dining room to the right (with a bar), a bar to the left (with bar tables, but no dining room), and another dining area upstairs (also with a bar).  The bar downstairs also has a patio and the dining area upstairs has a balcony.\\n\\nUnfortunately, each time I have been there, it has been at least overcast outside, if not downright scary, making those outdoor spaces less than ideal.  Still, the heaters are nice - it just makes the view less than spectacular.  Not their fault, but it does impact the usability.\\n\\nWhich leaves the food.  We found it to be hit and miss.  Some items are average, like the meat and cheese platters.  Good, but not great.  Others, like the fish, have a nice crispy skin in one area, but the same skin is mush elsewhere.  Then you get a nice piece of meat, say the short rib, that is tasty, but man is it rich!  Had to stop after just a few bites.  Luckily it belonged to someone else - if it was mine, I would have been disappointed that I had to stop so quickly.",
+          "sentiment_tag": "neutral"
+        },
+        {
+          "message": "restaurants I was initially a little intimidated by the super reflective front windows and lack of a clear entrance (it's in the back), but once I stepped inside Harley's I knew I had made a good eating choice. The vibe is dressy meets casual - sound like an oxymoron? I know, but it's true. You can wear jeans, but maybe toss on a nicer shirt if it is close to dinner time. More of a lunch crowd? Don't stress over what you are wearing too much. It is not the Olive Garden - thank baby Jesus - but you can still be casual. \\n\\nThe food has a home cooked feel. Nothing is super fancy, but nothing tastes pre-made either. The marinara is flavorful, the bread is delish, the pasta tastes fresh and well-cooked. The staff is friendly, but perhaps they have a frequent turnover as the service is a bit unpredictable (sometimes it's a bit slow, but the people are always kind). \\n\\nAll in all - if you want unbelievable cuisine, maybe go a little more fancy. But, if you are looking for well made, tasty, neighborhood Italian food - this is the place for you!",
+          "sentiment_tag": "neutral"
+        },
+        {
+          "message": "tweets Secret Service was at my house for Hillary's visit tomorrow. Quote of the day from one: \"If you see the Agents start to run - you run too\".",
+          "sentiment_tag": "neutral"
+        },
+        {
+          "message": "restaurants It was ok. Actually the food and mixed drinks on tap were delicious! The service was awful  though. Training recommended as phoenix is on the rise! It's trendy and i will stop in very soon.",
+          "sentiment_tag": "neutral"
+        },
+        {
+          "message": "restaurants Went there to grab lunch while on biz travel that was not too far from the airport. Menu was nothing special. Service was prompt. Food was good.",
+          "sentiment_tag": "neutral"
+        }
+      ]
+    },
+    {
       "term": "little",
       "count": 23,
       "examples": [
@@ -861,34 +887,8 @@
       ]
     },
     {
-      "term": "service",
-      "count": 22,
-      "examples": [
-        {
-          "message": "restaurants Like some others, we jumped on the Living Social deal to Vivace.  I really have no idea why they threw that bone out there, as I am fairly sure they have no need of it, but since they did, we used it.  Definitely glad they did (and that we did).\\n\\nThe service at Vivace is second to none, as is the scenery, inside and out, though the layout of the interior is a bit odd - perhaps it is those massive red chandeliers from the bizarro Ikea world.  Or maybe it is all just a bit disjointed rather than having a nice flow to the place.\\n\\nThere is what I would call a dining room to the right (with a bar), a bar to the left (with bar tables, but no dining room), and another dining area upstairs (also with a bar).  The bar downstairs also has a patio and the dining area upstairs has a balcony.\\n\\nUnfortunately, each time I have been there, it has been at least overcast outside, if not downright scary, making those outdoor spaces less than ideal.  Still, the heaters are nice - it just makes the view less than spectacular.  Not their fault, but it does impact the usability.\\n\\nWhich leaves the food.  We found it to be hit and miss.  Some items are average, like the meat and cheese platters.  Good, but not great.  Others, like the fish, have a nice crispy skin in one area, but the same skin is mush elsewhere.  Then you get a nice piece of meat, say the short rib, that is tasty, but man is it rich!  Had to stop after just a few bites.  Luckily it belonged to someone else - if it was mine, I would have been disappointed that I had to stop so quickly.",
-          "sentiment_tag": "neutral"
-        },
-        {
-          "message": "restaurants I was initially a little intimidated by the super reflective front windows and lack of a clear entrance (it's in the back), but once I stepped inside Harley's I knew I had made a good eating choice. The vibe is dressy meets casual - sound like an oxymoron? I know, but it's true. You can wear jeans, but maybe toss on a nicer shirt if it is close to dinner time. More of a lunch crowd? Don't stress over what you are wearing too much. It is not the Olive Garden - thank baby Jesus - but you can still be casual. \\n\\nThe food has a home cooked feel. Nothing is super fancy, but nothing tastes pre-made either. The marinara is flavorful, the bread is delish, the pasta tastes fresh and well-cooked. The staff is friendly, but perhaps they have a frequent turnover as the service is a bit unpredictable (sometimes it's a bit slow, but the people are always kind). \\n\\nAll in all - if you want unbelievable cuisine, maybe go a little more fancy. But, if you are looking for well made, tasty, neighborhood Italian food - this is the place for you!",
-          "sentiment_tag": "neutral"
-        },
-        {
-          "message": "tweets Secret Service was at my house for Hillary's visit tomorrow. Quote of the day from one: \"If you see the Agents start to run - you run too\".",
-          "sentiment_tag": "neutral"
-        },
-        {
-          "message": "restaurants It was ok. Actually the food and mixed drinks on tap were delicious! The service was awful  though. Training recommended as phoenix is on the rise! It's trendy and i will stop in very soon.",
-          "sentiment_tag": "neutral"
-        },
-        {
-          "message": "restaurants Went there to grab lunch while on biz travel that was not too far from the airport. Menu was nothing special. Service was prompt. Food was good.",
-          "sentiment_tag": "neutral"
-        }
-      ]
-    },
-    {
       "term": "i'm",
-      "count": 21,
+      "count": 22,
       "examples": [
         {
           "message": "restaurants There is something about this Russian restaurant that always makes me feel like I'm having a homecooked meal.  You wouldn't guess based on the outward appearance, basically a storefront in the shopping center by the Copp's in Fitchburg, but this is really a top-notch restaurant.  I'd never really tried Russian cuisine other than the beef stroganoff that was my father's speciality and a couple of late-night stops at Pelmeni (RIP) before coming here with a friend last year.  He's part Polish descent and he kept saying how much the food reminded him of the meals his grandmother used to make when his family would visit Milwaukee years ago.  I'm not Russian or Polish and my two grandmothers' delicious meals were standard American fare, so I wasn't expecting to share his nostalgia.  But the food here has the unmistakeable quality of good comfort food that just feels like home.  \\n\\nI set the bar pretty high on my first visit, trying the \\\"Zarski\\\" stuffed pork loin with a spring salad and buckwheat (kasha).  This coupled with several Baltika #6 Porters made for a very filling meal and a strong desire to return.  The next time I came with my father, who went for the beef stroganoff to see how it measured up to his own.  This entree comes without accompanying noodles like my father has always done, but the beef with sauce is so rich and thick it did not seem to require anything else.  My father really enjoyed this, and has subsequently ordered it every time since, but his real love was the kasha.  I went with the stuffed cabbage, which is a dish that I've never really loved before.  Arbat's has a something more, maybe the spice or the tomato sauce, that puts it over the threshold.  This turned out to be the perfect meal on cold March night, and I came away convinced that this was going to be a regular destination.\\n\\nI've tried a decent amount of the menu to date, and I still put the stuffed pork loin with the kasha as my all-time favorite.  The pelmeni dumplings are delicious but it always seems like they're missing something without the spicy red sauce I used to get at Pelmeni on State.  The potato and cheese vareniki are really amazing, and the meatballs with mushroom sauce are pretty good themselves.  I'm personally a big fan of the Russian and Lithuanian beers that are served, but be careful because these are powerful - around 6 to 8% ABV - and come in big half-liter bottles.  There are only a couple of things that keep this place from being a no-doubt five star place.  The location does leave a bit to be desired for atmosphere, and the restrooms aren't even in the same place - you need to walk into the lobby of whatever is next door, and once the lights didn't even work.  Last winter we were seated next to the door, which led to cold blasts of February air every time someone came or went.  This didn't bother me as much as it did my mother, but it would be nice if they had some kind of curtain or something.  Also, there only seems to be one server every time I've been and on busy nights it can be a wait.  But these are minor trifles compared to the greatness of the food.  Whenever the winter seems to drag on forever or I just feel the need for something comforting, I'll make my way here.",
@@ -1068,7 +1068,7 @@
     },
     {
       "term": "food",
-      "count": 167,
+      "count": 168,
       "examples": [
         {
           "message": "restaurants Being owned by PF Chang's, I was really expecting to be wowed. Unfortunately this was not the case. I ordered the Spicy Korean Chicken, a cup of Hot and Sour Soup, and a drink. While the food was cooked perfectly there really was no flavor at all. The soup tasted like a beef broth made with buillion cubes without a single hint of sour or spice. The Spicy Korean Chicken was moist, but unless your idea of spicy is black pepper your out of luck. Yes, I know you can add some spice after the fact but when you order something spicy you expect SOME form of heat. Overall, it was not worth my $12 for lunch. I will give it another shot as I know this may have been a one off, but right now I'd rather eat at Panda Express.",
@@ -1146,7 +1146,7 @@
     },
     {
       "term": "good",
-      "count": 112,
+      "count": 113,
       "examples": [
         {
           "message": "restaurants Pros: Cool atmosphere. Great beer/drink selection. Fun location.\\n\\nCons: We waited forever for a table. There's no good waiting space. We ordered a cheese plate and it was sooooo sad. The presentation was terrible. Our friend ended up with a terrible case of food poisoning from their Flank Steak \\\"special\\\".\\n\\nI like this place for the drinks and their patio is lovely when the weather is good. But...I don't think I'll ever return for the food.",
@@ -1172,7 +1172,7 @@
     },
     {
       "term": "service",
-      "count": 108,
+      "count": 113,
       "examples": [
         {
           "message": "restaurants First time coming here & NEVER coming back. Came here in the afternoon, maybe that's why it wasn't busy. \\n\\nWe were helped by Danielle, who didn't look happy that they actually had customers. Anyway, we ordered half a dozen donuts and a coffee. It was obvious our donuts weren't fresh because they were hard and dry. The coffee was just alright, we could've gone to Starbucks or the Human Bean just down the street. \\n\\nCrappy donuts & bad service is probably why they were so dead & explains the other bad review on here.",
@@ -1198,7 +1198,7 @@
     },
     {
       "term": "went",
-      "count": 83,
+      "count": 84,
       "examples": [
         {
           "message": "restaurants I went to this place for late night food so there was not a whole lot of choice that I knew of.  The food was your typical bar food.  It was nothing spectacular but I would go back if I had to for some food.  One thing that was funny...my buddy tried to order Negro Modelo since there were signs advertising this beer and it was no longer available.",
@@ -1224,7 +1224,7 @@
     },
     {
       "term": "don't",
-      "count": 78,
+      "count": 80,
       "examples": [
         {
           "message": "restaurants If I could give this place 0 stars I would! Want there on Veterans Day for my fathers birthday. There was a group of about 15 of us in the bar. Only 4 tables in the dinning room with 3 servers and a manager. It took us 20 minutes to even get a drink order for me my mother my boyfriend and 20 month old son. At that point she was already trying to get a food order from us, are you kidding me?! Got our order in and being a waitress I always ask tables with. Kids if they want the kid food to come out first. Not only did she not ask, his come out last!\\n\\nMom got the brisket. I don't know why they even bothered to bring it out. You could see the fat just sitting on top. Got the salmon which was ok, but it was supposed to come with two sides but only got one. When I asked about it they aid they would get it. Maybe 5 minutes later got my Mac and cheese side. Lukewarm at best and the cheese on top wasn't even melted. My boyfriend never got one refill on his soda, even when he put it to the end of the table. \\n\\nNeedless to say it was a HORRIBLE experience and I will never be going back!",
@@ -1250,7 +1250,7 @@
     },
     {
       "term": "i'm",
-      "count": 75,
+      "count": 76,
       "examples": [
         {
           "message": "restaurants I usually never write reviews on yelp, but I feel the need to in this situation because it is unbelievable how awful this place has become. First, let me clarify that I love my doctor, Dr. Bui. He is the ONLY reason why I still continue to go to this office. However, I try to avoid calling or making appointments as much as possible. I have been going to this office for over 15 years, but for the past year or so everything besides Dr. Bui is absolutely horrible. Words cannot describe how awful the front desk and office is. Without fail, every time I call the office for a need, the person on the other line is unbelievably rude. In addition, there is hardly a time when I get put on hold for less than 30 minuets, because no one knows what they're doing because. The reason I say that they don't know what they're doing is because the last time I called, while on hold, I had to tell them 3 separate times what the reason for my call was. They kept putting me back on hold and forgetting to transfer me then asking me why I was on hold again. Also, if I suddenly become sick and call to make an appointment to see a doctor as soon as possible, who ever answers the phone is almost excited and enjoys telling me that Dr. Bui is completely booked for appointments for at least a week in advanced. So pretty much I have to plan when I'm sick. The worst part is I know that when I speak to \\\"Martha\\\" I need to prepare to be spoken to in the rudest, most unprofessional manner ever.  Finally, expect to wait for at least at least 20 minuets, after  your scheduled appointment.  :)",
@@ -1458,7 +1458,7 @@
     },
     {
       "term": "told",
-      "count": 61,
+      "count": 62,
       "examples": [
         {
           "message": "restaurants My dining companion (formally known as Mom) and I are in Verrado every Thursday night for chiropractor night. Since it's dinner time by the time we're done, we decided to pop \\\"downtown\\\" for some food and wine. Neither of us have dined in Verrado except for at the golf club, but being familiar with the sister wine and coffee bar in Goodyear, Ground Control seemed like a decent option.\\n\\nDecent was probably apt, but I wouldn't go as far to call it \\\"excellent,\\\" or \\\"must try,\\\" or even \\\"a really good choice.\\\" We walked in and, without a sign, waited for someone to seat us or invite us to seat ourselves. Mom finally asked a server, who told us to have at. We chose a table in the back that was half booth, but as soon as we sat, I realized the table setting, consisting of some coasters, and plastic holder for sugars, and the salt and pepper, were rather habberdash, with an extra plastic holder on the other side of the table, alone and empty. But the table looked clean so we forged ahead. A few minutes later, the bartender appeared and took out drink and food order. We both ordered the same wine, which the bartender returned to inform us several minutes later, he ran out of, but would provide the other version of pinot grigio, the more expensive version, at the price of the one we requested. This was completely reasonable and earns the bartender a star. \\n\\nOur food took a little longer because Mom ordered the Shepherd's pie, but arrived timely enough for the half-full restaurant. As soon as my Ham and Brie panini with salad was in front of me, I realized I was hungrier than the cook must have estimated, and asked for a side of fries. The salad was a nice, fresh looking mix of spinach and bright greens nearly drowned in balsamic. The \\\"sandwich\\\"was a couple pieces of ham smooshed between two sad pieces of rosemary flat-with-a-capital-F flatbread. I peeled the mess apart to study it, and found two teeny tiny pieces of brie for each half of the sandwich, and two slices of soft apples on only one half. I forged ahead and bit into my extremely dry, bland meal. I ate about three-quarters of the sandwich before I gave up and went to town scraping most of the balsamic off my salad, and this from a girl who loves her some bals. The chef brought out my fries, which were pretty good, and asked how the food was. Mom and I both hate to cause a scene, so we assured him everything was fine.\\n\\nMom, meanwhile, kept fishing in her shepherd's pie for veggies beyond the couple of peas I saw her scrape out. Her evaluation after the meal was that the mashed potatoes were good, but not lumpy, as she prefers, and there was a ton of ground beef but very few veggies. \\n\\nBut our wine was good, and the bartender gets no complaints from me. \\n\\nI know Verrado is a bit out in the boonies to say the least, but it would be really nice if some Cen Pho-type restaurant took a chance out there. Ground Control's atmosphere has potential, but it's still pretty generic looking; maybe some local artists could contribute to the decor. The food, at least the ones we sampled tonight, is mediocre at best. The group a few tables down from us, however, seemed delighted with their burgers, so maybe that's the way to go. I'm more than willing to give Ground Control another shot, especially because I love supporting small business owners, but it isn't at the top of my list.",

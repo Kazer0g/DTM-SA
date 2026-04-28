@@ -2,27 +2,27 @@
   "sentiment_statistics": {
     "positive": {
       "document_count": 406,
-      "total_term_count": 13744,
-      "distinct_term_count": 4770,
-      "average_tokens_per_doc": 33.85221674876847,
+      "total_term_count": 13526,
+      "distinct_term_count": 4648,
+      "average_tokens_per_doc": 33.31527093596059,
       "min_tokens_per_doc": 1,
-      "max_tokens_per_doc": 383
+      "max_tokens_per_doc": 379
     },
     "neutral": {
       "document_count": 282,
-      "total_term_count": 6064,
-      "distinct_term_count": 2830,
-      "average_tokens_per_doc": 21.50354609929078,
+      "total_term_count": 6000,
+      "distinct_term_count": 2780,
+      "average_tokens_per_doc": 21.27659574468085,
       "min_tokens_per_doc": 0,
-      "max_tokens_per_doc": 257
+      "max_tokens_per_doc": 256
     },
     "negative": {
       "document_count": 312,
-      "total_term_count": 17680,
-      "distinct_term_count": 4890,
-      "average_tokens_per_doc": 56.666666666666664,
+      "total_term_count": 17404,
+      "distinct_term_count": 4757,
+      "average_tokens_per_doc": 55.782051282051285,
       "min_tokens_per_doc": 1,
-      "max_tokens_per_doc": 298
+      "max_tokens_per_doc": 293
     }
   },
   "top_terms_overall": [
@@ -34,7 +34,7 @@
     {
       "term": "food",
       "sentiment": "negative",
-      "count": 167
+      "count": 168
     },
     {
       "term": "like",
@@ -44,12 +44,12 @@
     {
       "term": "place",
       "sentiment": "positive",
-      "count": 149
+      "count": 150
     },
     {
       "term": "great",
       "sentiment": "positive",
-      "count": 142
+      "count": 146
     },
     {
       "term": "good",
@@ -62,24 +62,24 @@
       "count": 115
     },
     {
+      "term": "good",
+      "sentiment": "negative",
+      "count": 113
+    },
+    {
+      "term": "service",
+      "sentiment": "negative",
+      "count": 113
+    },
+    {
       "term": "food",
       "sentiment": "positive",
       "count": 112
     },
     {
-      "term": "good",
-      "sentiment": "negative",
-      "count": 112
-    },
-    {
-      "term": "service",
-      "sentiment": "negative",
-      "count": 108
-    },
-    {
       "term": "like",
       "sentiment": "positive",
-      "count": 92
+      "count": 93
     },
     {
       "term": "user",
@@ -89,17 +89,17 @@
     {
       "term": "went",
       "sentiment": "negative",
-      "count": 83
+      "count": 84
     },
     {
       "term": "don't",
       "sentiment": "negative",
-      "count": 78
+      "count": 80
     },
     {
       "term": "i'm",
       "sentiment": "negative",
-      "count": 75
+      "count": 76
     },
     {
       "term": "it's",
@@ -127,14 +127,14 @@
       "count": 72
     },
     {
-      "term": "order",
-      "sentiment": "negative",
+      "term": "best",
+      "sentiment": "positive",
       "count": 69
     },
     {
-      "term": "best",
-      "sentiment": "positive",
-      "count": 67
+      "term": "order",
+      "sentiment": "negative",
+      "count": 69
     },
     {
       "term": "came",
@@ -152,6 +152,11 @@
       "count": 63
     },
     {
+      "term": "service",
+      "sentiment": "positive",
+      "count": 63
+    },
+    {
       "term": "said",
       "sentiment": "negative",
       "count": 62
@@ -159,7 +164,7 @@
     {
       "term": "told",
       "sentiment": "negative",
-      "count": 61
+      "count": 62
     },
     {
       "term": "bad",
@@ -172,19 +177,19 @@
       "count": 59
     },
     {
-      "term": "service",
-      "sentiment": "positive",
-      "count": 57
-    },
-    {
       "term": "it's",
       "sentiment": "positive",
-      "count": 55
+      "count": 59
     },
     {
       "term": "room",
       "sentiment": "negative",
       "count": 55
+    },
+    {
+      "term": "food",
+      "sentiment": "neutral",
+      "count": 54
     },
     {
       "term": "nice",
@@ -199,11 +204,6 @@
     {
       "term": "asked",
       "sentiment": "negative",
-      "count": 53
-    },
-    {
-      "term": "food",
-      "sentiment": "neutral",
       "count": 53
     },
     {
@@ -222,12 +222,12 @@
       "count": 51
     },
     {
-      "term": "minutes",
-      "sentiment": "negative",
+      "term": "it's",
+      "sentiment": "neutral",
       "count": 51
     },
     {
-      "term": "nthe",
+      "term": "minutes",
       "sentiment": "negative",
       "count": 51
     },
@@ -242,12 +242,12 @@
       "count": 51
     },
     {
-      "term": "it's",
-      "sentiment": "neutral",
-      "count": 50
+      "term": "day",
+      "sentiment": "positive",
+      "count": 49
     },
     {
-      "term": "day",
+      "term": "i've",
       "sentiment": "positive",
       "count": 49
     },
@@ -262,19 +262,19 @@
       "count": 49
     },
     {
-      "term": "i've",
-      "sentiment": "positive",
-      "count": 48
-    },
-    {
       "term": "table",
       "sentiment": "negative",
       "count": 48
     },
     {
-      "term": "ni",
+      "term": "did",
       "sentiment": "negative",
-      "count": 47
+      "count": 46
+    },
+    {
+      "term": "experience",
+      "sentiment": "negative",
+      "count": 46
     }
   ]
 }

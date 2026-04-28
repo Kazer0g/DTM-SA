@@ -1,7 +1,7 @@
 {
     "model_name": "sentiment_tfidf_logistic_regression",
     "model_type": "TF-IDF + Logistic Regression",
-    "created_at": "2026-04-28T23:00:43",
+    "created_at": "2026-04-28T23:37:22",
     "selected_candidate": "high_data_accuracy_logreg",
     "candidate_validation_scores": [
         {

@@ -2,7 +2,7 @@
   "top_positive_terms": [
     {
       "term": "place",
-      "count": 79,
+      "count": 80,
       "examples": [
         {
           "message": "restaurants The bar itself was great. Service as well.  Food was surprisingly nice also.  Bartenders were attentive and friendly. The problem was the karaoke. Which is what we drove across town for.  I am presently looking for a fun venue for a large fundraiser for our company.   As a former kj, i can tell you that there is certain etiquette you should always observe.  Keep rotation fair and spaced out; even if they are your regulars (I observed the same girl do a back to back duet/solo and she was not even leaving).  You also need to pay attention to when your singer is ending and not stand there bs'ing with your regulars.  Especially in a noisy busy venue.  The KJs job is to lead the crowd for every singer who is brave enough to get up there.   Finally... The system itself is outdated.  Not enough speakers and poorly placed.  Get a better sound system, train the KJ to be courteous and this place would really be 5 stars.",
@@ -54,7 +54,7 @@
     },
     {
       "term": "great",
-      "count": 60,
+      "count": 62,
       "examples": [
         {
           "message": "restaurants Love Costco!! It has everything! Usually buy my fruits, veggie and meat. Also end up buying stuff that were not on my list. Hard to resist the deals and great price they have. They have a pretty good selection of wine, spirits and beer. Costco is also great w their returns. Ive returned something that was used because it broke. Had no receipt and they went back to my Amex connected w Costco one year back!!! Best part are the there free samples!! Portions are enough to make you full if you try most of them! Only downfall is I end up paying more than I anticipated because I end up buying more things than planned!!!!",
@@ -106,7 +106,7 @@
     },
     {
       "term": "like",
-      "count": 48,
+      "count": 49,
       "examples": [
         {
           "message": "restaurants This was the final nail in the coffin for LV partying.\\n\\nSeriously, this is considered the best of nightlife in LV??\\n\\nNegatives:\\nTop 40s music\\nconfetti every 10 minutes\\nevery loser with $200 can get in\\nabout 1000 bouncers\\n\\npositives:\\nevery loser with $200 can get in so getting drinks from them is easy\\napparently they people smoke up in the club if you tip the DJ (could be a negative, depending on your personal opinion)\\n\\nAfter a long weekend in LV I realized that its like one giant amateur night for partying. Sort of like New Years is everywhere else.",
@@ -158,7 +158,7 @@
     },
     {
       "term": "best",
-      "count": 33,
+      "count": 34,
       "examples": [
         {
           "message": "restaurants Love Costco!! It has everything! Usually buy my fruits, veggie and meat. Also end up buying stuff that were not on my list. Hard to resist the deals and great price they have. They have a pretty good selection of wine, spirits and beer. Costco is also great w their returns. Ive returned something that was used because it broke. Had no receipt and they went back to my Amex connected w Costco one year back!!! Best part are the there free samples!! Portions are enough to make you full if you try most of them! Only downfall is I end up paying more than I anticipated because I end up buying more things than planned!!!!",
@@ -235,6 +235,32 @@
       ]
     },
     {
+      "term": "service",
+      "count": 29,
+      "examples": [
+        {
+          "message": "restaurants The bar itself was great. Service as well.  Food was surprisingly nice also.  Bartenders were attentive and friendly. The problem was the karaoke. Which is what we drove across town for.  I am presently looking for a fun venue for a large fundraiser for our company.   As a former kj, i can tell you that there is certain etiquette you should always observe.  Keep rotation fair and spaced out; even if they are your regulars (I observed the same girl do a back to back duet/solo and she was not even leaving).  You also need to pay attention to when your singer is ending and not stand there bs'ing with your regulars.  Especially in a noisy busy venue.  The KJs job is to lead the crowd for every singer who is brave enough to get up there.   Finally... The system itself is outdated.  Not enough speakers and poorly placed.  Get a better sound system, train the KJ to be courteous and this place would really be 5 stars.",
+          "sentiment_tag": "positive"
+        },
+        {
+          "message": "tweets Veteran day program for DDA on the 12th let us not forget the men of POW*MIA and I want to thank all the soldiers for their service.",
+          "sentiment_tag": "positive"
+        },
+        {
+          "message": "restaurants The fabulous Katie R. and I headed to Le Br\\u00fbloir on Fleury Ouest (FLO) for an Indie Coffee Passport and lunch date today. I very much enjoyed the experience.\\n\\nMy soy latt\\u00e9 was delicious, so much so that I thought it must have been made with \\\"real\\\" milk. I really like their espresso, which they roast in-house. \\n\\nI also had a grilled cheese sandwich with bacon called Le Reconfortant which was definitely comfort food. Yum! \\n\\nI liked the art on the walls and the sunny counter by the window and the scarecrows from the local Grade 5 class which decorated the street all along the FLO business area. Service was in both official languages: bonjour hello!\\n\\nFor those of you who aren't Ahunsicois, you can get to Le Br\\u00fbloir by taking the orange line to station Sauv\\u00e9, then the #180 bus (or a 15-minute walk). On Wednesdays in the summer, there is a weekly community picnic/food truck supper/local business promo in Tollhurst park, just a block up from the coffee shop.",
+          "sentiment_tag": "positive"
+        },
+        {
+          "message": "restaurants Who doesn't love ice cream? \\n\\nTheir sorbets are my favourite, namely framboise (raspberry)! All of their flavours are succulent, rich, mouth-watering, satisfying, and homemade. The service is great, friendly, and welcoming. When you walk in, you get an old school feel of Montreal, it doesn't come off generic at all. I went on an especially warm-almost-summer day after venturing along Bernard street, and it hit the spot. \\n\\nPS. They even have sorbet/ice cream macarons and cakes, HOW COOL IS THAT!!",
+          "sentiment_tag": "positive"
+        },
+        {
+          "message": "restaurants I would definitely come here again! Really fun place, unique and great tasting food, and you can see them making the noodles!!!!!\\n\\nWOW the food is impeccable. Everything from the dumplings to the noodles are fresh, flavorful, and served beautifully. Both the cold noodle dishes and hot ones are amazing.  The dumplings burst with flavor and pair amazingly with the thin noodles. I recommend the Sesame Cold Noodles with Chicken and the Hot Spicy Wonton Noodles as entrees -- both are delicious!\\n\\nIt is really cool to see the chefs making fresh noodles, nice touch to the place! Awkwardly, the Thai iced tea we ordered was bought from the place next door... Also, I wish they had more choices for protein, particularly the ability to substitute tofu in dishes or swap out pork for chicken. The service is great -- our waiter was always available and routinely provided refills on drinks. Definitely check this place out!!!!!!",
+          "sentiment_tag": "positive"
+        }
+      ]
+    },
+    {
       "term": "it's",
       "count": 27,
       "examples": [
@@ -256,32 +282,6 @@
         },
         {
           "message": "restaurants There is no better way to spend a beautiful Sunday morning in March than sitting outside in the shade eating good food in a lovely atmosphere.This place is so fun! I even like using the restroom, it's a treat in itself. However it wasn't as clean as I'd hoped but the place was so busy I'll let them slide on that one. My family ordered the March special, all the items featured on \\\"Diners, Drive-ins, and Dives\\\" for $31, it was so much food and very good. Loved the onion rings. I will try the date shake next time.",
-          "sentiment_tag": "positive"
-        }
-      ]
-    },
-    {
-      "term": "service",
-      "count": 27,
-      "examples": [
-        {
-          "message": "restaurants The bar itself was great. Service as well.  Food was surprisingly nice also.  Bartenders were attentive and friendly. The problem was the karaoke. Which is what we drove across town for.  I am presently looking for a fun venue for a large fundraiser for our company.   As a former kj, i can tell you that there is certain etiquette you should always observe.  Keep rotation fair and spaced out; even if they are your regulars (I observed the same girl do a back to back duet/solo and she was not even leaving).  You also need to pay attention to when your singer is ending and not stand there bs'ing with your regulars.  Especially in a noisy busy venue.  The KJs job is to lead the crowd for every singer who is brave enough to get up there.   Finally... The system itself is outdated.  Not enough speakers and poorly placed.  Get a better sound system, train the KJ to be courteous and this place would really be 5 stars.",
-          "sentiment_tag": "positive"
-        },
-        {
-          "message": "tweets Veteran day program for DDA on the 12th let us not forget the men of POW*MIA and I want to thank all the soldiers for their service.",
-          "sentiment_tag": "positive"
-        },
-        {
-          "message": "restaurants The fabulous Katie R. and I headed to Le Br\\u00fbloir on Fleury Ouest (FLO) for an Indie Coffee Passport and lunch date today. I very much enjoyed the experience.\\n\\nMy soy latt\\u00e9 was delicious, so much so that I thought it must have been made with \\\"real\\\" milk. I really like their espresso, which they roast in-house. \\n\\nI also had a grilled cheese sandwich with bacon called Le Reconfortant which was definitely comfort food. Yum! \\n\\nI liked the art on the walls and the sunny counter by the window and the scarecrows from the local Grade 5 class which decorated the street all along the FLO business area. Service was in both official languages: bonjour hello!\\n\\nFor those of you who aren't Ahunsicois, you can get to Le Br\\u00fbloir by taking the orange line to station Sauv\\u00e9, then the #180 bus (or a 15-minute walk). On Wednesdays in the summer, there is a weekly community picnic/food truck supper/local business promo in Tollhurst park, just a block up from the coffee shop.",
-          "sentiment_tag": "positive"
-        },
-        {
-          "message": "restaurants Who doesn't love ice cream? \\n\\nTheir sorbets are my favourite, namely framboise (raspberry)! All of their flavours are succulent, rich, mouth-watering, satisfying, and homemade. The service is great, friendly, and welcoming. When you walk in, you get an old school feel of Montreal, it doesn't come off generic at all. I went on an especially warm-almost-summer day after venturing along Bernard street, and it hit the spot. \\n\\nPS. They even have sorbet/ice cream macarons and cakes, HOW COOL IS THAT!!",
-          "sentiment_tag": "positive"
-        },
-        {
-          "message": "restaurants I would definitely come here again! Really fun place, unique and great tasting food, and you can see them making the noodles!!!!!\\n\\nWOW the food is impeccable. Everything from the dumplings to the noodles are fresh, flavorful, and served beautifully. Both the cold noodle dishes and hot ones are amazing.  The dumplings burst with flavor and pair amazingly with the thin noodles. I recommend the Sesame Cold Noodles with Chicken and the Hot Spicy Wonton Noodles as entrees -- both are delicious!\\n\\nIt is really cool to see the chefs making fresh noodles, nice touch to the place! Awkwardly, the Thai iced tea we ordered was bought from the place next door... Also, I wish they had more choices for protein, particularly the ability to substitute tofu in dishes or swap out pork for chicken. The service is great -- our waiter was always available and routinely provided refills on drinks. Definitely check this place out!!!!!!",
           "sentiment_tag": "positive"
         }
       ]
@@ -365,7 +365,7 @@
       ]
     },
     {
-      "term": "nthe",
+      "term": "i'm",
       "count": 23,
       "examples": [
         {
@@ -373,19 +373,19 @@
           "sentiment_tag": "positive"
         },
         {
-          "message": "restaurants I really enjoy this place and I may have to visit again to give it another star. I have been here once for lunch and another time for happy hour. The prices during both of these times were very reasonable. What i was impressed with the most was the selection of beer that they have. Being here in AZ it was the first time I have seen any Rouge beer on tap. During happy hour all drinks were half off making a delicious brew of Rouge hazelnut brown an amazing $3.50. The appetizers aren't your normal fried bar food you would find most places either. Along with my friends we split the meatball appetizer, the stuffed portobello mushroom and the oven roasted wings (medium).\\n\\nThe meatball appetizer came on a triangle plate with a generous helping of their red sauce in the middle. The three meatballs were cut in half and placed on skewers laying lightly in the marinara sauce. The meatball was juicy and the sauce complimented it nicely. This is a true definition of an appetizer because it was just enough to start off your meal but not enough to make you full. I would take great taste over a full stomach when it comes to an appetizer any day. \\n\\nThe portobello mushroom also tasted great, stuffed with cheese and spinach with a drizzle of a balsamic vinaigrette on the top of it. Once again great taste but not so filling.\\n\\nThe wings were excellent, with them being oven roasted the flavor of the juicy chicken and the sauce on the wings was amazing. The meat was falling off the bone. \\n\\nI have also had the pizza from here and I love the creative specialty pies that are available. The pizza we had was a \\\"hot potato pie\\\" which came with potatoes, bacon, onion and a drizzle of sour cream. There was no red sauce with this pizza. The flavor combo was interesting and good. I was looking forward to eating the crust the most, it was delicious. \\n\\nMy recommendation is to try this place for happy hour and try a couple of appetizers off the menu with a tasty craft beer.\\n\\nQuick Note: I have always wanted to come in on a Wednesday for \\\"WTF?? Wednesdays\\\" where for $3 I believe you get a mystery beer in a brown paper bag haha.",
+          "message": "tweets I saw Cowboys and Aliens... OHMYGAWD it was so stupid. Tomorrow i'm seeing The Help which i hope is better.",
           "sentiment_tag": "positive"
         },
         {
-          "message": "restaurants OK, \\nSo you know how you go to a fast food joint and the burgers on the menu behind the counter are shown all nice and big and juicy, but when you order it, it turns out to be an overcooked, undersized, nothing remotely close to a sandwich even worthy of being called a reasonable facsimile thereof? Well, Fattburger has mastered this process...inversely. The picture on the menu did not even begin to do justice to the mammoth, gigantic, huge, swollen, bloated mass of beef served greasily to me between the two unfortunate slices of bun forced to bear the weight of this thing. To make matters worse (or better, depending on one's POV), I had an additional patty, avocado and bacon added to the behemoth. \\n\\nThe ride back to the hotel was arduous. The aroma of the fried beast filled the car, beckoning to my hunger to stagger at the next red light and take a large bite from this beefy buffet. Wisdom prevailed, however, as I knew that once the beast was unleashed, it would go neither quietly nor cleanly back into its now saturated paper encasing. Must hurry. \\nBarely, but successfully, I transported the package to my room, bag intact, where it was stripped down to its full, naked, delicious elegance. At last, we are alone, you and I. Come. \\n\\nWith all my hunger, I was still not able to finish. \\\"Fatt\\\" does NOT accurately describe the girth of this burger. Try as I might, a happy plate (bag rather) was not to be. Stomach capacity exceeded. Digestion activated. Food coma eminent. Not to worry. With a refrigerator and microwave readily available, we shall meet again very soon. Abdominal pain setting in. Oh Lord, please let me make it thru the night. \\n\\nIf you find yourself in Vegas, be sure to treat yourself to a Fattburger. I warn you, though. Do not underestimate this sandwich, for it is Fatter than its Fatt namesake. Also, I don't recommend more than one within a six month period. Your heart and grandkids will thank you. \\n\\n\\\"S\\\"",
+          "message": "tweets If you're truly my friend you'll play David Bowie's Greatest Hits when I'm about to have my 1st kid",
           "sentiment_tag": "positive"
         },
         {
-          "message": "restaurants I was pretty stoked to learn this place actually has private rooms.  It was a relief knowing that I would not have to down 5 shots of Patron before getting comfortable with the crowd (my group). They had a huge binder full of Spanish classics, which is a huge PLUS! Except, the videos playing on the screens were all Korean videos with no relation whatsoever to music that was playing :-/\\n\\nThe ladies room was a pain in the rear to access. They have 3 stalls and bathroom is tiny! I was there on a Friday night and line was out the door. Sucked it up and just hoped my bladder would not rupture! \\n\\nOverall, had a blast! Can't wait to go back but next time with the fam!",
+          "message": "tweets Finally get to use my GC from Mother's Day for a facial and massage tomorrow! Now I can act like I'm the stay at...",
           "sentiment_tag": "positive"
         },
         {
-          "message": "restaurants Great Food served fast and cheerfully on a Sunday night in a town that pretty much rolls up the sidewalks at dusk.\\nAlright, that's not very fair to Phoenix, I'm sure there is plenty to do in the wee hours of the night if you know where to look and I don't.\\nFortunately I noticed Two Hippies Beach House yesterday night and remembered it tonight when I wanted some good food, fast and cheap and fun.\\nThe prices are a solid value, four tacos, chips and salsa, mango lemonade and a bottled water, all for under $14. Plenty of food for two and very filling. Unfortunately they take cash only. Fortunately they have an ATM with a very reasonable dollar fifty service charge right in the building. \\nDecor and atmosphere is fun and laid back. Outdoor seating is varied and if you can't find a comfy spot to sit and enjoy your food you are way to demanding.\\nFour tacos, one Green Beef, one Cactus, one Chicken, and one Carne Asada, were all very tasty. I opted out of the cabbage they use in leu of lettuce (crispness factor) out of consideration for my somewhat picky tummy. The Carne Asada had some gristly and fatty pieces and was overly peppery but still palatable. The green salsa could use a bit more kick. And the chips were fine, nothing to write home about.\\nHad a chance to speak with the owner since we closed the place down. Mo is a terrific guy who is more than happy to answer questions about his suppliers and general business philosophy as well as his life, family, hobbies and interests. We very much enjoyed talking with him and will check out the other restaurants in the group.",
+          "message": "restaurants I've been to a couple of fine dining restaurants now, and this is by far, hands down, the best place I have ever been. The food is delicious, the service is spectacular, and the atmosphere is indescribably magical. The servers are very knowledgeable about the dishes' presentation and the chef's intended experience for eating each course. Furthermore, they are very attentive without being intrusive. Words cannot fully describe how much I love this place. Unfortunately, every restaurant after this will be compared to Le Cirque for their amazing food and impeccable service... \\n\\nThis review was originally made for my first visit in July 2013. I went again recently for Valentine's Day 2014 - again, spectacular service. The restaurant was EXTREMELY busy; however, the servers were still pleasant and when they came to our table, they gave us their full attention. I was pleasantly surprised that our previous waiters even remembered us and where we sat during our first visit! Although the dining experience was not as delightful due to the bustling environment, I still thoroughly enjoyed my visit as the food quality was magnificent, unaffected by the drastic increase of demand to produce each dish. I cannot say enough good things about this restaurant - I'm in love.",
           "sentiment_tag": "positive"
         }
       ]
@@ -443,6 +443,46 @@
       ]
     },
     {
+      "term": "came",
+      "count": 21,
+      "examples": [
+        {
+          "message": "restaurants group of 12 of us had a great time and great meal.  ordered lots of appetizers that went around the table - tasty assortment!  several craft beer fans in the group were very pleased.  one person ordered a wine cooler which came in an interesting bottle and it was very good.",
+          "sentiment_tag": "positive"
+        },
+        {
+          "message": "restaurants The lady runs this with her parents (her name isn't Rose) and they do an awesome job! She also gave me a discount out of nowhere when I came to hem two of my dress pants.\\n\\nThis is my to-go place now since they're reliable, on time, and the prices are pretty reasonable. Hemming for pants is $10 each and different tailoring are differently priced. Just call and ask!\\n\\nI wasn't in a rush to get my pants back so I gave her however much time she needed to hem but timing doesn't seem much of a problem for them. Of course, as I haven't needed anything done quickly, I can't really judge there yet. :)",
+          "sentiment_tag": "positive"
+        },
+        {
+          "message": "restaurants I like this place. As a number of other people have mentioned, the chips and salsa are great. The horchata is also delicious and they give you free refills (utter madness but I love it). However, it wasn't the best mexican I've had, not even close to the top 5. For whatever reason, I was craving enchiladas. They did not turn out well. The sauce that came on the enchilada tasted like it was from a can. just terrible. My girlfriend's meal was much better. She had two steak tacos that looked pretty tasty. She really enjoyed  her meal. I'll be back to see if they just misfired on the enchiladas.\\n\\nUpdate: I came back and ordered the fish tacos. they were not good. won't be back.",
+          "sentiment_tag": "positive"
+        },
+        {
+          "message": "restaurants I really enjoy this place and I may have to visit again to give it another star. I have been here once for lunch and another time for happy hour. The prices during both of these times were very reasonable. What i was impressed with the most was the selection of beer that they have. Being here in AZ it was the first time I have seen any Rouge beer on tap. During happy hour all drinks were half off making a delicious brew of Rouge hazelnut brown an amazing $3.50. The appetizers aren't your normal fried bar food you would find most places either. Along with my friends we split the meatball appetizer, the stuffed portobello mushroom and the oven roasted wings (medium).\\n\\nThe meatball appetizer came on a triangle plate with a generous helping of their red sauce in the middle. The three meatballs were cut in half and placed on skewers laying lightly in the marinara sauce. The meatball was juicy and the sauce complimented it nicely. This is a true definition of an appetizer because it was just enough to start off your meal but not enough to make you full. I would take great taste over a full stomach when it comes to an appetizer any day. \\n\\nThe portobello mushroom also tasted great, stuffed with cheese and spinach with a drizzle of a balsamic vinaigrette on the top of it. Once again great taste but not so filling.\\n\\nThe wings were excellent, with them being oven roasted the flavor of the juicy chicken and the sauce on the wings was amazing. The meat was falling off the bone. \\n\\nI have also had the pizza from here and I love the creative specialty pies that are available. The pizza we had was a \\\"hot potato pie\\\" which came with potatoes, bacon, onion and a drizzle of sour cream. There was no red sauce with this pizza. The flavor combo was interesting and good. I was looking forward to eating the crust the most, it was delicious. \\n\\nMy recommendation is to try this place for happy hour and try a couple of appetizers off the menu with a tasty craft beer.\\n\\nQuick Note: I have always wanted to come in on a Wednesday for \\\"WTF?? Wednesdays\\\" where for $3 I believe you get a mystery beer in a brown paper bag haha.",
+          "sentiment_tag": "positive"
+        },
+        {
+          "message": "restaurants I've been to a couple of fine dining restaurants now, and this is by far, hands down, the best place I have ever been. The food is delicious, the service is spectacular, and the atmosphere is indescribably magical. The servers are very knowledgeable about the dishes' presentation and the chef's intended experience for eating each course. Furthermore, they are very attentive without being intrusive. Words cannot fully describe how much I love this place. Unfortunately, every restaurant after this will be compared to Le Cirque for their amazing food and impeccable service... \\n\\nThis review was originally made for my first visit in July 2013. I went again recently for Valentine's Day 2014 - again, spectacular service. The restaurant was EXTREMELY busy; however, the servers were still pleasant and when they came to our table, they gave us their full attention. I was pleasantly surprised that our previous waiters even remembered us and where we sat during our first visit! Although the dining experience was not as delightful due to the bustling environment, I still thoroughly enjoyed my visit as the food quality was magnificent, unaffected by the drastic increase of demand to produce each dish. I cannot say enough good things about this restaurant - I'm in love.",
+          "sentiment_tag": "positive"
+        }
+      ]
+    },
+    {
+      "term": "la",
+      "count": 21,
+      "examples": [
+        {
+          "message": "restaurants J'\\u00e9tais curieuse de d\\u00e9couvrir ce restaurant aux influences de la Turquie, de la Syrie et de la Palestine. C'est bien ce qu'on retrouve dans notre assiette. Mon velout\\u00e9 amandes et safran servi avec un rognon de boeuf ainsi que les feuilles de vigne farcies et tahini \\u00e9taient d\\u00e9licieux. On retrouve aussi un choix impressionnant de vins turcs d'importation priv\\u00e9e.\\n\\nLa facture est un peu moins agr\\u00e9able. 150 $/personne pour le menu d\\u00e9gustation, 80 $ pour le menu cocktail ajoutez 80 $ en plus si vous souhaitez un accord mets et vins.",
+          "sentiment_tag": "positive"
+        },
+        {
+          "message": "restaurants J'ai eu l'occasion d'\\u00eatre invit\\u00e9 dans se restaurant tr\\u00e8s particulier qui porte bien son nom. En effet ce restaurant situ\\u00e9 au sommet de la tour Delta est un restaurant panoramique (et qui tourne). Il faut une heure au restaurant pour faire un tour complet mais honn\\u00eatement vous ferez \\u00e0 coup sur un tour.\\n\\nLe concept de restaurant est sympa et en plus de cela il s'agit d'un buffet unique pour un prix relativement \\u00e9lev\\u00e9 de 60dollars par personnes (sans les taxes). Je pense que l'on paye un peu la vue mais pas uniquement. Le service est vraiment agr\\u00e9able, r\\u00e9actif et digne d'un grand restaurant (enfin presque). Cot\\u00e9 nourriture comme il s'agit d'un buffet il et difficile de vous dire tout ce qui est disponible mais on y trouve en entr\\u00e9 des salades, du homard, du saumon et d'autres produit divers et vari\\u00e9s. La partie entr\\u00e9e est la seule qui se trouve sur la partie tournante et qui est donc toujours  au m\\u00eame endroit par rapport \\u00e0 bous. Par contre du fait de la rotation du restaurant vous ne bougerez pas en m\\u00eame temps que les plats et dessert et des fois c'est d\\u00e9concertant de faire tout le tour pour trouver son plat et retrouver sa table. \\n\\nPour les plats il y a un large choix de plat chaud ou de pattes faites \\u00e0 la commande avec pleins de recettes diff\\u00e9rentes. Pour la qualit\\u00e9 rien \\u00e0 redire et tout est maintenu au chaud. Il en est de m\\u00eame pour le fromage et les dessert puisque le buffet vous laisse une grande libert\\u00e9 de choix et d'assortiment.\\nC'est bien joli de parler de la nourriture dans un restaurant mais cela ne fait pas tout. Par exemple la d\\u00e9coration est totalement horrible avec de la moquette par terre et des \\\" \\u0153uvres \\\" d'art \\u00e0 certains endroit qui laissent perplexe. Perso je trouve que pour un restaurant de ce style c'est un peu vieillot. Le cot\\u00e9 tournant est sympa pour la vu m\\u00eame si malheureusement la localisation de la tour ne permet pas d'avoir une vie exceptionnel tout le temps (une grand partie donne un peu sur la p\\u00e9riph\\u00e9rie et pas sur le centre). Le cot\\u00e9 tournant est aussi d\\u00e9concertant lorsque vous allez au toilettes puisque ces dernier se trouve a l'\\u00e9tage inf\\u00e9rieur sur la partie fixe : autant dire que vous avez de la chance si vous retomber pile sur votre table.\\n\\nAu final ca reste une exp\\u00e9rience qui n'est pas donn\\u00e9e mais qu'il est int\\u00e9ressant de faire surtout si vous avez une grosse faim vu le buffet \\u00e0 volont\\u00e9.",
+          "sentiment_tag": "positive"
+        }
+      ]
+    },
+    {
       "term": "staff",
       "count": 21,
       "examples": [
@@ -464,46 +504,6 @@
         },
         {
           "message": "restaurants This is an amazing establishment with some of the most customer service oriented staff I have ever came across.. Roberto Liendo is the GM and he made this dining experience one to truly remember!! Deff recommend this place while in vegas",
-          "sentiment_tag": "positive"
-        }
-      ]
-    },
-    {
-      "term": "i'm",
-      "count": 20,
-      "examples": [
-        {
-          "message": "restaurants This is my favorite Walmart in the Valley. \\n\\nThey have always been pretty speedy in checking me out. I absolutely hate waiting in line. I'm elated about the new self checkout lines they just installed. \\n\\nThe store is clean, and always well stocked. Partking is pretty reasonable too. A great place to pick up something quick, or putz around for an hour.",
-          "sentiment_tag": "positive"
-        },
-        {
-          "message": "tweets I saw Cowboys and Aliens... OHMYGAWD it was so stupid. Tomorrow i'm seeing The Help which i hope is better.",
-          "sentiment_tag": "positive"
-        },
-        {
-          "message": "tweets If you're truly my friend you'll play David Bowie's Greatest Hits when I'm about to have my 1st kid",
-          "sentiment_tag": "positive"
-        },
-        {
-          "message": "tweets Finally get to use my GC from Mother's Day for a facial and massage tomorrow! Now I can act like I'm the stay at...",
-          "sentiment_tag": "positive"
-        },
-        {
-          "message": "restaurants I've been to a couple of fine dining restaurants now, and this is by far, hands down, the best place I have ever been. The food is delicious, the service is spectacular, and the atmosphere is indescribably magical. The servers are very knowledgeable about the dishes' presentation and the chef's intended experience for eating each course. Furthermore, they are very attentive without being intrusive. Words cannot fully describe how much I love this place. Unfortunately, every restaurant after this will be compared to Le Cirque for their amazing food and impeccable service... \\n\\nThis review was originally made for my first visit in July 2013. I went again recently for Valentine's Day 2014 - again, spectacular service. The restaurant was EXTREMELY busy; however, the servers were still pleasant and when they came to our table, they gave us their full attention. I was pleasantly surprised that our previous waiters even remembered us and where we sat during our first visit! Although the dining experience was not as delightful due to the bustling environment, I still thoroughly enjoyed my visit as the food quality was magnificent, unaffected by the drastic increase of demand to produce each dish. I cannot say enough good things about this restaurant - I'm in love.",
-          "sentiment_tag": "positive"
-        }
-      ]
-    },
-    {
-      "term": "la",
-      "count": 20,
-      "examples": [
-        {
-          "message": "restaurants J'\\u00e9tais curieuse de d\\u00e9couvrir ce restaurant aux influences de la Turquie, de la Syrie et de la Palestine. C'est bien ce qu'on retrouve dans notre assiette. Mon velout\\u00e9 amandes et safran servi avec un rognon de boeuf ainsi que les feuilles de vigne farcies et tahini \\u00e9taient d\\u00e9licieux. On retrouve aussi un choix impressionnant de vins turcs d'importation priv\\u00e9e.\\n\\nLa facture est un peu moins agr\\u00e9able. 150 $/personne pour le menu d\\u00e9gustation, 80 $ pour le menu cocktail ajoutez 80 $ en plus si vous souhaitez un accord mets et vins.",
-          "sentiment_tag": "positive"
-        },
-        {
-          "message": "restaurants J'ai eu l'occasion d'\\u00eatre invit\\u00e9 dans se restaurant tr\\u00e8s particulier qui porte bien son nom. En effet ce restaurant situ\\u00e9 au sommet de la tour Delta est un restaurant panoramique (et qui tourne). Il faut une heure au restaurant pour faire un tour complet mais honn\\u00eatement vous ferez \\u00e0 coup sur un tour.\\n\\nLe concept de restaurant est sympa et en plus de cela il s'agit d'un buffet unique pour un prix relativement \\u00e9lev\\u00e9 de 60dollars par personnes (sans les taxes). Je pense que l'on paye un peu la vue mais pas uniquement. Le service est vraiment agr\\u00e9able, r\\u00e9actif et digne d'un grand restaurant (enfin presque). Cot\\u00e9 nourriture comme il s'agit d'un buffet il et difficile de vous dire tout ce qui est disponible mais on y trouve en entr\\u00e9 des salades, du homard, du saumon et d'autres produit divers et vari\\u00e9s. La partie entr\\u00e9e est la seule qui se trouve sur la partie tournante et qui est donc toujours  au m\\u00eame endroit par rapport \\u00e0 bous. Par contre du fait de la rotation du restaurant vous ne bougerez pas en m\\u00eame temps que les plats et dessert et des fois c'est d\\u00e9concertant de faire tout le tour pour trouver son plat et retrouver sa table. \\n\\nPour les plats il y a un large choix de plat chaud ou de pattes faites \\u00e0 la commande avec pleins de recettes diff\\u00e9rentes. Pour la qualit\\u00e9 rien \\u00e0 redire et tout est maintenu au chaud. Il en est de m\\u00eame pour le fromage et les dessert puisque le buffet vous laisse une grande libert\\u00e9 de choix et d'assortiment.\\nC'est bien joli de parler de la nourriture dans un restaurant mais cela ne fait pas tout. Par exemple la d\\u00e9coration est totalement horrible avec de la moquette par terre et des \\\" \\u0153uvres \\\" d'art \\u00e0 certains endroit qui laissent perplexe. Perso je trouve que pour un restaurant de ce style c'est un peu vieillot. Le cot\\u00e9 tournant est sympa pour la vu m\\u00eame si malheureusement la localisation de la tour ne permet pas d'avoir une vie exceptionnel tout le temps (une grand partie donne un peu sur la p\\u00e9riph\\u00e9rie et pas sur le centre). Le cot\\u00e9 tournant est aussi d\\u00e9concertant lorsque vous allez au toilettes puisque ces dernier se trouve a l'\\u00e9tage inf\\u00e9rieur sur la partie fixe : autant dire que vous avez de la chance si vous retomber pile sur votre table.\\n\\nAu final ca reste une exp\\u00e9rience qui n'est pas donn\\u00e9e mais qu'il est int\\u00e9ressant de faire surtout si vous avez une grosse faim vu le buffet \\u00e0 volont\\u00e9.",
           "sentiment_tag": "positive"
         }
       ]
@@ -642,7 +642,7 @@
     },
     {
       "term": "like",
-      "count": 24,
+      "count": 25,
       "examples": [
         {
           "message": "restaurants Like some others, we jumped on the Living Social deal to Vivace.  I really have no idea why they threw that bone out there, as I am fairly sure they have no need of it, but since they did, we used it.  Definitely glad they did (and that we did).\\n\\nThe service at Vivace is second to none, as is the scenery, inside and out, though the layout of the interior is a bit odd - perhaps it is those massive red chandeliers from the bizarro Ikea world.  Or maybe it is all just a bit disjointed rather than having a nice flow to the place.\\n\\nThere is what I would call a dining room to the right (with a bar), a bar to the left (with bar tables, but no dining room), and another dining area upstairs (also with a bar).  The bar downstairs also has a patio and the dining area upstairs has a balcony.\\n\\nUnfortunately, each time I have been there, it has been at least overcast outside, if not downright scary, making those outdoor spaces less than ideal.  Still, the heaters are nice - it just makes the view less than spectacular.  Not their fault, but it does impact the usability.\\n\\nWhich leaves the food.  We found it to be hit and miss.  Some items are average, like the meat and cheese platters.  Good, but not great.  Others, like the fish, have a nice crispy skin in one area, but the same skin is mush elsewhere.  Then you get a nice piece of meat, say the short rib, that is tasty, but man is it rich!  Had to stop after just a few bites.  Luckily it belonged to someone else - if it was mine, I would have been disappointed that I had to stop so quickly.",
@@ -1138,7 +1138,7 @@
     },
     {
       "term": "good",
-      "count": 48,
+      "count": 49,
       "examples": [
         {
           "message": "restaurants Pros: Cool atmosphere. Great beer/drink selection. Fun location.\\n\\nCons: We waited forever for a table. There's no good waiting space. We ordered a cheese plate and it was sooooo sad. The presentation was terrible. Our friend ended up with a terrible case of food poisoning from their Flank Steak \\\"special\\\".\\n\\nI like this place for the drinks and their patio is lovely when the weather is good. But...I don't think I'll ever return for the food.",
@@ -1164,7 +1164,7 @@
     },
     {
       "term": "service",
-      "count": 48,
+      "count": 49,
       "examples": [
         {
           "message": "restaurants First time coming here & NEVER coming back. Came here in the afternoon, maybe that's why it wasn't busy. \\n\\nWe were helped by Danielle, who didn't look happy that they actually had customers. Anyway, we ordered half a dozen donuts and a coffee. It was obvious our donuts weren't fresh because they were hard and dry. The coffee was just alright, we could've gone to Starbucks or the Human Bean just down the street. \\n\\nCrappy donuts & bad service is probably why they were so dead & explains the other bad review on here.",
@@ -1294,7 +1294,7 @@
     },
     {
       "term": "i'm",
-      "count": 36,
+      "count": 37,
       "examples": [
         {
           "message": "restaurants I usually never write reviews on yelp, but I feel the need to in this situation because it is unbelievable how awful this place has become. First, let me clarify that I love my doctor, Dr. Bui. He is the ONLY reason why I still continue to go to this office. However, I try to avoid calling or making appointments as much as possible. I have been going to this office for over 15 years, but for the past year or so everything besides Dr. Bui is absolutely horrible. Words cannot describe how awful the front desk and office is. Without fail, every time I call the office for a need, the person on the other line is unbelievably rude. In addition, there is hardly a time when I get put on hold for less than 30 minuets, because no one knows what they're doing because. The reason I say that they don't know what they're doing is because the last time I called, while on hold, I had to tell them 3 separate times what the reason for my call was. They kept putting me back on hold and forgetting to transfer me then asking me why I was on hold again. Also, if I suddenly become sick and call to make an appointment to see a doctor as soon as possible, who ever answers the phone is almost excited and enjoys telling me that Dr. Bui is completely booked for appointments for at least a week in advanced. So pretty much I have to plan when I'm sick. The worst part is I know that when I speak to \\\"Martha\\\" I need to prepare to be spoken to in the rudest, most unprofessional manner ever.  Finally, expect to wait for at least at least 20 minuets, after  your scheduled appointment.  :)",
