@@ -1,0 +1,123 @@
+{
+    "model_name": "sentiment_tfidf_logistic_regression",
+    "model_type": "TF-IDF + Logistic Regression",
+    "created_at": "2026-04-27T14:05:15",
+    "random_state": 42,
+    "sample_size_per_dataset": 12000,
+    "training_data": {
+        "total_rows": 32544,
+        "rows_by_category": {
+            "restaurants": 12000,
+            "tweets": 12000,
+            "movies": 8544
+        },
+        "rows_by_label": {
+            "positive": 13183,
+            "negative": 9929,
+            "neutral": 9432
+        },
+        "rows_by_source_dataset": {
+            "Yelp/yelp_review_full": 12000,
+            "cardiffnlp/tweet_eval": 12000,
+            "SetFit/sst5": 8544
+        }
+    },
+    "datasets": {
+        "movies": "SetFit/sst5",
+        "restaurants": "Yelp/yelp_review_full",
+        "tweets": "cardiffnlp/tweet_eval"
+    },
+    "label_format": [
+        "negative",
+        "neutral",
+        "positive"
+    ],
+    "model_parameters": {
+        "vectorizer": {
+            "type": "TfidfVectorizer",
+            "lowercase": true,
+            "stop_words": "english",
+            "max_features": 50000,
+            "ngram_range": [
+                1,
+                2
+            ]
+        },
+        "classifier": {
+            "type": "LogisticRegression",
+            "max_iter": 1000,
+            "class_weight": "balanced"
+        }
+    },
+    "metrics": {
+        "accuracy": 0.6486403441388846,
+        "precision_macro": 0.6427676653078933,
+        "recall_macro": 0.6456139598624234,
+        "f1_macro": 0.6433078099307853,
+        "precision_weighted": 0.6529982555024826,
+        "recall_weighted": 0.6486403441388846,
+        "f1_weighted": 0.6498637217759106,
+        "classification_report": {
+            "negative": {
+                "precision": 0.6589731512011304,
+                "recall": 0.7044310171198389,
+                "f1-score": 0.6809442686785105,
+                "support": 1986.0
+            },
+            "neutral": {
+                "precision": 0.5400503778337532,
+                "recall": 0.5683987274655355,
+                "f1-score": 0.5538620511495738,
+                "support": 1886.0
+            },
+            "positive": {
+                "precision": 0.7292794668887963,
+                "recall": 0.664012135001896,
+                "f1-score": 0.6951171099642716,
+                "support": 2637.0
+            },
+            "accuracy": 0.6486403441388846,
+            "macro avg": {
+                "precision": 0.6427676653078933,
+                "recall": 0.6456139598624234,
+                "f1-score": 0.6433078099307853,
+                "support": 6509.0
+            },
+            "weighted avg": {
+                "precision": 0.6529982555024826,
+                "recall": 0.6486403441388846,
+                "f1-score": 0.6498637217759106,
+                "support": 6509.0
+            }
+        },
+        "confusion_matrix": {
+            "labels": [
+                "negative",
+                "neutral",
+                "positive"
+            ],
+            "matrix": [
+                [
+                    1399,
+                    359,
+                    228
+                ],
+                [
+                    392,
+                    1072,
+                    422
+                ],
+                [
+                    332,
+                    554,
+                    1751
+                ]
+            ]
+        }
+    },
+    "saved_files": {
+        "vectorizer": "./model/models/tfidf_vectorizer.pkl",
+        "model": "./model/models/sentiment_model.pkl",
+        "metadata": "./model/metadata/sentiment_model_metadata.json"
+    }
+}
