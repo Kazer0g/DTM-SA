@@ -19,10 +19,13 @@ from sklearn.metrics import (
 )
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.linear_model import LogisticRegression
+from sklearn.pipeline import FeatureUnion
+from sklearn.svm import LinearSVC
 
 
 RANDOM_STATE = 42
-SAMPLE_SIZE = 12000
+# Larger per-dataset sample improves generalization across domains.
+SAMPLE_SIZE = 60000
 
 ARTIFACTS_DIR = "."
 MODEL_DIR = os.path.join(ARTIFACTS_DIR, "models")
@@ -110,21 +113,223 @@ def sample_dataset(df):
     )
 
 
-def build_model():
-    print("Building TF-IDF + Logistic Regression pipeline...")
-    return Pipeline([
-        ("tfidf", TfidfVectorizer(
-            lowercase=True,
-            stop_words="english",
-            max_features=50000,
-            ngram_range=(1, 2)
-        )),
-        ("classifier", LogisticRegression(
-            max_iter=1000,
-            class_weight="balanced",
-            random_state=RANDOM_STATE
-        ))
-    ])
+def build_candidate_models():
+    """
+    Candidate models keep the same core architecture (TF-IDF + LogisticRegression)
+    and differ only in hyperparameters.
+    """
+    return [
+        (
+            "baseline",
+            Pipeline([
+                ("tfidf", TfidfVectorizer(
+                    lowercase=True,
+                    stop_words="english",
+                    max_features=50000,
+                    ngram_range=(1, 2)
+                )),
+                ("classifier", LogisticRegression(
+                    max_iter=1000,
+                    class_weight="balanced",
+                    random_state=RANDOM_STATE
+                ))
+            ])
+        ),
+        (
+            "improved_tfidf_sublinear",
+            Pipeline([
+                ("tfidf", TfidfVectorizer(
+                    lowercase=True,
+                    stop_words="english",
+                    max_features=80000,
+                    ngram_range=(1, 2),
+                    min_df=2,
+                    max_df=0.98,
+                    sublinear_tf=True
+                )),
+                ("classifier", LogisticRegression(
+                    max_iter=1500,
+                    class_weight="balanced",
+                    C=2.0,
+                    random_state=RANDOM_STATE
+                ))
+            ])
+        ),
+        (
+            "improved_regularized",
+            Pipeline([
+                ("tfidf", TfidfVectorizer(
+                    lowercase=True,
+                    stop_words="english",
+                    max_features=70000,
+                    ngram_range=(1, 2),
+                    min_df=2,
+                    sublinear_tf=True
+                )),
+                ("classifier", LogisticRegression(
+                    max_iter=2000,
+                    class_weight="balanced",
+                    C=1.2,
+                    solver="lbfgs",
+                    random_state=RANDOM_STATE
+                ))
+            ])
+        ),
+        (
+            "linear_svm_word_ngrams",
+            Pipeline([
+                ("tfidf", TfidfVectorizer(
+                    lowercase=True,
+                    stop_words="english",
+                    max_features=120000,
+                    ngram_range=(1, 3),
+                    min_df=2,
+                    sublinear_tf=True
+                )),
+                ("classifier", LinearSVC(
+                    C=1.2,
+                    class_weight="balanced",
+                    random_state=RANDOM_STATE
+                ))
+            ])
+        ),
+        (
+            "linear_svm_word_char",
+            Pipeline([
+                ("tfidf", FeatureUnion([
+                    ("word_tfidf", TfidfVectorizer(
+                        lowercase=True,
+                        stop_words="english",
+                        max_features=90000,
+                        ngram_range=(1, 2),
+                        min_df=2,
+                        sublinear_tf=True
+                    )),
+                    ("char_tfidf", TfidfVectorizer(
+                        analyzer="char_wb",
+                        ngram_range=(3, 5),
+                        min_df=2,
+                        sublinear_tf=True
+                    )),
+                ])),
+                ("classifier", LinearSVC(
+                    C=1.0,
+                    class_weight="balanced",
+                    random_state=RANDOM_STATE
+                ))
+            ])
+        ),
+        (
+            "accuracy_focused_logreg",
+            Pipeline([
+                ("tfidf", TfidfVectorizer(
+                    lowercase=True,
+                    stop_words="english",
+                    max_features=120000,
+                    ngram_range=(1, 2),
+                    min_df=2,
+                    max_df=0.99,
+                    sublinear_tf=True
+                )),
+                ("classifier", LogisticRegression(
+                    max_iter=2000,
+                    class_weight=None,
+                    C=2.5,
+                    solver="lbfgs",
+                    random_state=RANDOM_STATE
+                ))
+            ])
+        ),
+        (
+            "accuracy_focused_logreg_ngrams3",
+            Pipeline([
+                ("tfidf", TfidfVectorizer(
+                    lowercase=True,
+                    stop_words="english",
+                    max_features=140000,
+                    ngram_range=(1, 3),
+                    min_df=2,
+                    max_df=0.99,
+                    sublinear_tf=True
+                )),
+                ("classifier", LogisticRegression(
+                    max_iter=2500,
+                    class_weight=None,
+                    C=2.0,
+                    solver="lbfgs",
+                    random_state=RANDOM_STATE
+                ))
+            ])
+        ),
+        (
+            "high_data_accuracy_logreg",
+            Pipeline([
+                ("tfidf", TfidfVectorizer(
+                    lowercase=True,
+                    stop_words="english",
+                    max_features=220000,
+                    ngram_range=(1, 2),
+                    min_df=2,
+                    max_df=0.98,
+                    sublinear_tf=True
+                )),
+                ("classifier", LogisticRegression(
+                    max_iter=3000,
+                    class_weight=None,
+                    C=1.0,
+                    solver="lbfgs",
+                    random_state=RANDOM_STATE
+                ))
+            ])
+        ),
+    ]
+
+
+def select_best_model(X_train, y_train):
+    """
+    Select the best candidate by accuracy on a validation split.
+    This improves model quality while staying deterministic and lightweight.
+    """
+    X_subtrain, X_val, y_subtrain, y_val = train_test_split(
+        X_train,
+        y_train,
+        test_size=0.15,
+        random_state=RANDOM_STATE,
+        stratify=y_train
+    )
+
+    best_name = None
+    best_model = None
+    best_score = -1.0
+    best_f1_for_tie_break = -1.0
+    model_scores = []
+
+    for model_name, candidate in build_candidate_models():
+        print(f"Training candidate model: {model_name}")
+        candidate.fit(X_subtrain, y_subtrain)
+        val_pred = candidate.predict(X_val)
+        val_accuracy = accuracy_score(y_val, val_pred)
+        val_f1_macro = f1_score(y_val, val_pred, average="macro", zero_division=0)
+        model_scores.append({
+            "model_name": model_name,
+            "validation_accuracy": float(val_accuracy),
+            "validation_f1_macro": float(val_f1_macro),
+        })
+        print(f"Validation accuracy ({model_name}): {val_accuracy:.4f}")
+        print(f"Validation macro F1 ({model_name}): {val_f1_macro:.4f}")
+
+        better_accuracy = val_accuracy > best_score
+        tie_with_better_f1 = val_accuracy == best_score and val_f1_macro > best_f1_for_tie_break
+        if better_accuracy or tie_with_better_f1:
+            best_score = val_accuracy
+            best_f1_for_tie_break = val_f1_macro
+            best_name = model_name
+            best_model = candidate
+
+    print(f"Selected model: {best_name} (validation accuracy={best_score:.4f}, macro F1={best_f1_for_tie_break:.4f})")
+    # Refit selected model on the full training split used for final evaluation.
+    best_model.fit(X_train, y_train)
+    return best_name, best_model, model_scores, best_score, best_f1_for_tie_break
 
 
 def calculate_metrics(model, X_test, y_test):
@@ -158,12 +363,50 @@ def calculate_metrics(model, X_test, y_test):
     }
 
 
-def save_metadata(data, metrics):
+def save_metadata(data, metrics, selected_model_name, candidate_scores):
     print("Saving model metadata...")
+    vectorizer_step = metrics["model_snapshot"]["tfidf"]
+    classifier_step = metrics["model_snapshot"]["classifier"]
+
+    vectorizer_info = {
+        "type": type(vectorizer_step).__name__,
+    }
+    if isinstance(vectorizer_step, TfidfVectorizer):
+        vectorizer_info.update({
+            "lowercase": bool(vectorizer_step.lowercase),
+            "stop_words": vectorizer_step.stop_words,
+            "max_features": vectorizer_step.max_features,
+            "ngram_range": list(vectorizer_step.ngram_range),
+            "min_df": vectorizer_step.min_df,
+            "max_df": vectorizer_step.max_df,
+            "sublinear_tf": bool(vectorizer_step.sublinear_tf)
+        })
+    elif isinstance(vectorizer_step, FeatureUnion):
+        vectorizer_info["transformers"] = [name for name, _ in vectorizer_step.transformer_list]
+        vectorizer_info["notes"] = "FeatureUnion of word and character TF-IDF branches"
+
+    classifier_info = {
+        "type": type(classifier_step).__name__,
+    }
+    if isinstance(classifier_step, LogisticRegression):
+        classifier_info.update({
+            "max_iter": classifier_step.max_iter,
+            "class_weight": classifier_step.class_weight,
+            "C": classifier_step.C,
+            "solver": classifier_step.solver
+        })
+    elif isinstance(classifier_step, LinearSVC):
+        classifier_info.update({
+            "class_weight": classifier_step.class_weight,
+            "C": classifier_step.C,
+            "loss": classifier_step.loss
+        })
     metadata = {
         "model_name": "sentiment_tfidf_logistic_regression",
         "model_type": "TF-IDF + Logistic Regression",
         "created_at": datetime.now().isoformat(timespec="seconds"),
+        "selected_candidate": selected_model_name,
+        "candidate_validation_scores": candidate_scores,
 
         "random_state": RANDOM_STATE,
         "sample_size_per_dataset": SAMPLE_SIZE,
@@ -188,21 +431,13 @@ def save_metadata(data, metrics):
         ],
 
         "model_parameters": {
-            "vectorizer": {
-                "type": "TfidfVectorizer",
-                "lowercase": True,
-                "stop_words": "english",
-                "max_features": 50000,
-                "ngram_range": [1, 2]
-            },
-            "classifier": {
-                "type": "LogisticRegression",
-                "max_iter": 1000,
-                "class_weight": "balanced"
-            }
+            "vectorizer": vectorizer_info,
+            "classifier": classifier_info
         },
 
-        "metrics": metrics,
+        "metrics": {
+            key: value for key, value in metrics.items() if key != "model_snapshot"
+        },
 
         "saved_files": {
             "vectorizer": VECTORIZER_PATH,
@@ -254,14 +489,18 @@ def main():
     print(f"Train set: {len(X_train)} samples")
     print(f"Test set: {len(X_test)} samples")
 
-    print("\n6. Training the model...")
-    model = build_model()
-    print("Fitting model on training data...")
-    model.fit(X_train, y_train)
-    print("Model training completed")
+    print("\n6. Training and selecting the best model...")
+    selected_model_name, model, candidate_scores, best_val_acc, best_val_f1 = select_best_model(X_train, y_train)
+    print("Best candidate selected and refit on full training split")
 
     print("\n7. Evaluating model on test set...")
     metrics = calculate_metrics(model, X_test, y_test)
+    metrics["validation_accuracy_best_candidate"] = float(best_val_acc)
+    metrics["validation_f1_macro_best_candidate"] = float(best_val_f1)
+    metrics["model_snapshot"] = {
+        "tfidf": model.named_steps["tfidf"],
+        "classifier": model.named_steps["classifier"],
+    }
     print("Evaluation completed")
 
     print("\n8. Saving model artifacts...")
@@ -293,7 +532,7 @@ def main():
     joblib.dump(model.named_steps['tfidf'], VECTORIZER_PATH)
     joblib.dump(model.named_steps['classifier'], MODEL_PATH)
     
-    save_metadata(data, metrics)
+    save_metadata(data, metrics, selected_model_name, candidate_scores)
 
     print("\nTraining completed successfully!")
     print("Vectorizer saved:", VECTORIZER_PATH)

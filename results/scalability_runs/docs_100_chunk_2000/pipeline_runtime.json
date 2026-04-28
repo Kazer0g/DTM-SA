@@ -3,7 +3,8 @@
   "chunksize": 2000,
   "workers": 1,
   "top_n": 20,
-  "elapsed_seconds": 3.6778832499403507,
+  "elapsed_seconds": 5.2137337080203,
   "predictions_path": "../results/scalability_runs/docs_100_chunk_2000/predictions.csv",
-  "group_report_path": "../results/scalability_runs/docs_100_chunk_2000/group_term_sentiment_report.json"
+  "group_report_path": "../results/scalability_runs/docs_100_chunk_2000/group_term_sentiment_report.json",
+  "work_statistics_path": "../results/scalability_runs/docs_100_chunk_2000/work_statistics.json"
 }

@@ -50,6 +50,33 @@ def validate_term_frequencies(df: pd.DataFrame, sample_size: int = 50) -> Dict[s
 
 def validate_sentiment(predictions_df: pd.DataFrame, labels_df: pd.DataFrame) -> Dict[str, object]:
     merged = predictions_df.merge(labels_df[["row_id", "sentiment"]], on="row_id", how="inner")
+
+    # Fallback alignment:
+    # Spark CSV row order can differ from pandas file order, so row_id matching may
+    # under-report quality. For datasets that contain group/text, align by
+    # (group, text, duplicate_index_within_group_text) to get stable pairing.
+    if (
+        len(merged) != len(predictions_df)
+        and {"group", "text"}.issubset(predictions_df.columns)
+        and {"group", "text"}.issubset(labels_df.columns)
+    ):
+        pred_copy = predictions_df.copy()
+        label_copy = labels_df.copy()
+
+        pred_copy["text"] = pred_copy["text"].fillna("").astype(str)
+        pred_copy["group"] = pred_copy["group"].fillna("unknown").astype(str)
+        label_copy["text"] = label_copy["text"].fillna("").astype(str)
+        label_copy["group"] = label_copy["group"].fillna("unknown").astype(str)
+
+        pred_copy["_dup_idx"] = pred_copy.groupby(["group", "text"]).cumcount()
+        label_copy["_dup_idx"] = label_copy.groupby(["group", "text"]).cumcount()
+
+        merged = pred_copy.merge(
+            label_copy[["group", "text", "_dup_idx", "sentiment"]],
+            on=["group", "text", "_dup_idx"],
+            how="inner",
+        )
+
     if merged.empty:
         return {"accuracy": None, "classification_report": {}, "confusion_matrix": []}
 

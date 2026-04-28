@@ -54,11 +54,20 @@ def flatten_top_terms(
     group_report: Dict[str, Dict[str, List[Dict[str, int]]]], sentiment_key: str, top_n: int
 ) -> List[Tuple[str, int]]:
     aggregate: Dict[str, int] = {}
-    for _group, payload in group_report.items():
-        for item in payload.get(sentiment_key, []):
+    if isinstance(group_report.get(sentiment_key), list):
+        # New format: report already stores overall top terms by sentiment.
+        for item in group_report.get(sentiment_key, []):
             term = str(item["term"])
             count = int(item["count"])
             aggregate[term] = aggregate.get(term, 0) + count
+    else:
+        # Backward compatibility: old format nested by group.
+        for _group, payload in group_report.items():
+            if isinstance(payload, dict):
+                for item in payload.get(sentiment_key, []):
+                    term = str(item["term"])
+                    count = int(item["count"])
+                    aggregate[term] = aggregate.get(term, 0) + count
     ranked = sorted(aggregate.items(), key=lambda x: x[1], reverse=True)
     return ranked[:top_n]
 

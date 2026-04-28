@@ -1,0 +1,280 @@
+{
+  "sentiment_statistics": {
+    "positive": {
+      "document_count": 9556,
+      "total_term_count": 324885,
+      "distinct_term_count": 27050,
+      "average_tokens_per_doc": 33.9980117203851,
+      "min_tokens_per_doc": 1,
+      "max_tokens_per_doc": 419
+    },
+    "neutral": {
+      "document_count": 6563,
+      "total_term_count": 141885,
+      "distinct_term_count": 19355,
+      "average_tokens_per_doc": 21.618924272436384,
+      "min_tokens_per_doc": 0,
+      "max_tokens_per_doc": 437
+    },
+    "negative": {
+      "document_count": 6713,
+      "total_term_count": 363213,
+      "distinct_term_count": 23874,
+      "average_tokens_per_doc": 54.10591389840608,
+      "min_tokens_per_doc": 0,
+      "max_tokens_per_doc": 418
+    }
+  },
+  "top_terms_overall": [
+    {
+      "term": "food",
+      "sentiment": "negative",
+      "count": 3681
+    },
+    {
+      "term": "good",
+      "sentiment": "positive",
+      "count": 3498
+    },
+    {
+      "term": "great",
+      "sentiment": "positive",
+      "count": 3435
+    },
+    {
+      "term": "like",
+      "sentiment": "negative",
+      "count": 3185
+    },
+    {
+      "term": "place",
+      "sentiment": "negative",
+      "count": 3091
+    },
+    {
+      "term": "place",
+      "sentiment": "positive",
+      "count": 2963
+    },
+    {
+      "term": "food",
+      "sentiment": "positive",
+      "count": 2805
+    },
+    {
+      "term": "time",
+      "sentiment": "negative",
+      "count": 2553
+    },
+    {
+      "term": "good",
+      "sentiment": "negative",
+      "count": 2526
+    },
+    {
+      "term": "service",
+      "sentiment": "negative",
+      "count": 2462
+    },
+    {
+      "term": "like",
+      "sentiment": "positive",
+      "count": 2292
+    },
+    {
+      "term": "it's",
+      "sentiment": "positive",
+      "count": 1899
+    },
+    {
+      "term": "time",
+      "sentiment": "positive",
+      "count": 1897
+    },
+    {
+      "term": "user",
+      "sentiment": "neutral",
+      "count": 1871
+    },
+    {
+      "term": "don't",
+      "sentiment": "negative",
+      "count": 1835
+    },
+    {
+      "term": "got",
+      "sentiment": "negative",
+      "count": 1690
+    },
+    {
+      "term": "service",
+      "sentiment": "positive",
+      "count": 1645
+    },
+    {
+      "term": "didn't",
+      "sentiment": "negative",
+      "count": 1633
+    },
+    {
+      "term": "it's",
+      "sentiment": "negative",
+      "count": 1589
+    },
+    {
+      "term": "love",
+      "sentiment": "positive",
+      "count": 1564
+    },
+    {
+      "term": "said",
+      "sentiment": "negative",
+      "count": 1500
+    },
+    {
+      "term": "best",
+      "sentiment": "positive",
+      "count": 1434
+    },
+    {
+      "term": "good",
+      "sentiment": "neutral",
+      "count": 1417
+    },
+    {
+      "term": "did",
+      "sentiment": "negative",
+      "count": 1405
+    },
+    {
+      "term": "people",
+      "sentiment": "negative",
+      "count": 1382
+    },
+    {
+      "term": "went",
+      "sentiment": "negative",
+      "count": 1351
+    },
+    {
+      "term": "ordered",
+      "sentiment": "negative",
+      "count": 1344
+    },
+    {
+      "term": "told",
+      "sentiment": "negative",
+      "count": 1331
+    },
+    {
+      "term": "came",
+      "sentiment": "negative",
+      "count": 1329
+    },
+    {
+      "term": "order",
+      "sentiment": "negative",
+      "count": 1319
+    },
+    {
+      "term": "minutes",
+      "sentiment": "negative",
+      "count": 1303
+    },
+    {
+      "term": "user",
+      "sentiment": "positive",
+      "count": 1268
+    },
+    {
+      "term": "i'm",
+      "sentiment": "negative",
+      "count": 1254
+    },
+    {
+      "term": "nice",
+      "sentiment": "positive",
+      "count": 1253
+    },
+    {
+      "term": "better",
+      "sentiment": "negative",
+      "count": 1206
+    },
+    {
+      "term": "i'm",
+      "sentiment": "positive",
+      "count": 1184
+    },
+    {
+      "term": "asked",
+      "sentiment": "negative",
+      "count": 1172
+    },
+    {
+      "term": "room",
+      "sentiment": "negative",
+      "count": 1162
+    },
+    {
+      "term": "know",
+      "sentiment": "negative",
+      "count": 1142
+    },
+    {
+      "term": "like",
+      "sentiment": "neutral",
+      "count": 1128
+    },
+    {
+      "term": "going",
+      "sentiment": "negative",
+      "count": 1119
+    },
+    {
+      "term": "little",
+      "sentiment": "positive",
+      "count": 1113
+    },
+    {
+      "term": "bad",
+      "sentiment": "negative",
+      "count": 1102
+    },
+    {
+      "term": "day",
+      "sentiment": "positive",
+      "count": 1093
+    },
+    {
+      "term": "way",
+      "sentiment": "negative",
+      "count": 1091
+    },
+    {
+      "term": "got",
+      "sentiment": "positive",
+      "count": 1070
+    },
+    {
+      "term": "place",
+      "sentiment": "neutral",
+      "count": 1065
+    },
+    {
+      "term": "food",
+      "sentiment": "neutral",
+      "count": 1053
+    },
+    {
+      "term": "i've",
+      "sentiment": "positive",
+      "count": 1033
+    },
+    {
+      "term": "night",
+      "sentiment": "positive",
+      "count": 995
+    }
+  ]
+}

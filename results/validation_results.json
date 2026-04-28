@@ -1,144 +1,144 @@
 {
   "term_frequency_validation": {
     "checked_rows": 50,
-    "unique_terms": 989,
-    "token_total": 1629,
-    "overlap_tokens": 1629,
+    "unique_terms": 937,
+    "token_total": 1452,
+    "overlap_tokens": 1452,
     "match_ratio": 1.0,
     "top_terms": [
       [
         "restaurants",
-        21
-      ],
-      [
-        "food",
-        20
-      ],
-      [
-        "room",
-        19
-      ],
-      [
-        "movies",
-        17
+        28
       ],
       [
         "tweets",
-        12
+        22
       ],
       [
-        "bed",
-        11
+        "food",
+        17
       ],
       [
         "place",
-        10
-      ],
-      [
-        "good",
-        10
-      ],
-      [
-        "right",
-        10
-      ],
-      [
-        "like",
-        10
+        16
       ],
       [
         "great",
-        10
+        12
       ],
       [
-        "got",
-        10
+        "time",
+        9
       ],
       [
         "just",
         9
       ],
       [
-        "didn't",
+        "like",
         9
       ],
       [
-        "staff",
+        "bar",
         9
       ],
       [
-        "went",
-        9
-      ],
-      [
-        "day",
-        9
-      ],
-      [
-        "say",
-        9
-      ],
-      [
-        "told",
+        "service",
         8
       ],
       [
-        "did",
+        "know",
+        8
+      ],
+      [
+        "coffee",
         7
+      ],
+      [
+        "people",
+        7
+      ],
+      [
+        "really",
+        7
+      ],
+      [
+        "good",
+        7
+      ],
+      [
+        "went",
+        7
+      ],
+      [
+        "ordered",
+        6
+      ],
+      [
+        "day",
+        6
+      ],
+      [
+        "going",
+        6
+      ],
+      [
+        "user",
+        6
       ]
     ]
   },
   "sentiment_validation": {
-    "samples_compared": 6509,
-    "accuracy": 0.6397296051620832,
+    "samples_compared": 22832,
+    "accuracy": 0.7005080588647512,
     "classification_report": {
       "negative": {
-        "precision": 0.6534983341266064,
-        "recall": 0.6913393756294058,
-        "f1-score": 0.6718864692928799,
-        "support": 1986.0
+        "precision": 0.7588261582005065,
+        "recall": 0.7401918047079338,
+        "f1-score": 0.7493931592497242,
+        "support": 6882.0
       },
       "neutral": {
-        "precision": 0.5289783889980354,
-        "recall": 0.5710498409331919,
-        "f1-score": 0.549209586945436,
-        "support": 1886.0
+        "precision": 0.5907359439280817,
+        "recall": 0.5640913720355012,
+        "f1-score": 0.577106281631438,
+        "support": 6873.0
       },
       "positive": {
-        "precision": 0.7225969645868465,
-        "recall": 0.6499810390595373,
-        "f1-score": 0.684368137352765,
-        "support": 2637.0
+        "precision": 0.7349309334449561,
+        "recall": 0.7737137820865925,
+        "f1-score": 0.7538238608919658,
+        "support": 9077.0
       },
-      "accuracy": 0.6397296051620832,
+      "accuracy": 0.7005080588647512,
       "macro avg": {
-        "precision": 0.6350245625704961,
-        "recall": 0.637456751874045,
-        "f1-score": 0.635154731197027,
-        "support": 6509.0
+        "precision": 0.6948310118578481,
+        "recall": 0.6926656529433425,
+        "f1-score": 0.6934411005910427,
+        "support": 22832.0
       },
       "weighted avg": {
-        "precision": 0.6454123719221462,
-        "recall": 0.6397296051620832,
-        "f1-score": 0.6413972326308178,
-        "support": 6509.0
+        "precision": 0.6987271306163918,
+        "recall": 0.7005080588647512,
+        "f1-score": 0.6992919753383782,
+        "support": 22832.0
       }
     },
     "confusion_matrix": [
       [
-        1373,
-        378,
-        235
+        5094,
+        1115,
+        673
       ],
       [
-        386,
-        1077,
-        423
+        1136,
+        3877,
+        1860
       ],
       [
-        342,
-        581,
-        1714
+        483,
+        1571,
+        7023
       ]
     ]
   }

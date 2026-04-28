@@ -1,9 +1,10 @@
 {
-  "processed_docs": 6509,
+  "processed_docs": 22832,
   "chunksize": 2000,
   "workers": 1,
   "top_n": 20,
-  "elapsed_seconds": 8.15450708300341,
+  "elapsed_seconds": 21.771217833040282,
   "predictions_path": "../results/predictions.csv",
-  "group_report_path": "../results/group_term_sentiment_report.json"
+  "group_report_path": "../results/group_term_sentiment_report.json",
+  "work_statistics_path": "../results/work_statistics.json"
 }

@@ -1,0 +1,173 @@
+{
+    "model_name": "sentiment_tfidf_logistic_regression",
+    "model_type": "TF-IDF + Logistic Regression",
+    "created_at": "2026-04-28T23:00:43",
+    "selected_candidate": "high_data_accuracy_logreg",
+    "candidate_validation_scores": [
+        {
+            "model_name": "baseline",
+            "validation_accuracy": 0.6936496350364963,
+            "validation_f1_macro": 0.6899963170103908
+        },
+        {
+            "model_name": "improved_tfidf_sublinear",
+            "validation_accuracy": 0.6936496350364963,
+            "validation_f1_macro": 0.6895960217651821
+        },
+        {
+            "model_name": "improved_regularized",
+            "validation_accuracy": 0.6959124087591241,
+            "validation_f1_macro": 0.6921992087578763
+        },
+        {
+            "model_name": "linear_svm_word_ngrams",
+            "validation_accuracy": 0.6823357664233577,
+            "validation_f1_macro": 0.6751407651147364
+        },
+        {
+            "model_name": "linear_svm_word_char",
+            "validation_accuracy": 0.6976642335766423,
+            "validation_f1_macro": 0.6897253107358406
+        },
+        {
+            "model_name": "accuracy_focused_logreg",
+            "validation_accuracy": 0.6948905109489051,
+            "validation_f1_macro": 0.6869958393551187
+        },
+        {
+            "model_name": "accuracy_focused_logreg_ngrams3",
+            "validation_accuracy": 0.6972992700729927,
+            "validation_f1_macro": 0.6896258660836582
+        },
+        {
+            "model_name": "high_data_accuracy_logreg",
+            "validation_accuracy": 0.6985401459854015,
+            "validation_f1_macro": 0.6908045054884155
+        }
+    ],
+    "random_state": 42,
+    "sample_size_per_dataset": 60000,
+    "training_data": {
+        "total_rows": 114159,
+        "rows_by_category": {
+            "restaurants": 60000,
+            "tweets": 45615,
+            "movies": 8544
+        },
+        "rows_by_label": {
+            "positive": 45386,
+            "negative": 34410,
+            "neutral": 34363
+        },
+        "rows_by_source_dataset": {
+            "Yelp/yelp_review_full": 60000,
+            "cardiffnlp/tweet_eval": 45615,
+            "SetFit/sst5": 8544
+        }
+    },
+    "datasets": {
+        "movies": "SetFit/sst5",
+        "restaurants": "Yelp/yelp_review_full",
+        "tweets": "cardiffnlp/tweet_eval"
+    },
+    "label_format": [
+        "negative",
+        "neutral",
+        "positive"
+    ],
+    "model_parameters": {
+        "vectorizer": {
+            "type": "TfidfVectorizer",
+            "lowercase": true,
+            "stop_words": "english",
+            "max_features": 220000,
+            "ngram_range": [
+                1,
+                2
+            ],
+            "min_df": 2,
+            "max_df": 0.98,
+            "sublinear_tf": true
+        },
+        "classifier": {
+            "type": "LogisticRegression",
+            "max_iter": 3000,
+            "class_weight": null,
+            "C": 1.0,
+            "solver": "lbfgs"
+        }
+    },
+    "metrics": {
+        "accuracy": 0.7005080588647512,
+        "precision_macro": 0.6948310118578481,
+        "recall_macro": 0.6926656529433425,
+        "f1_macro": 0.6934411005910427,
+        "precision_weighted": 0.6987271306163918,
+        "recall_weighted": 0.7005080588647512,
+        "f1_weighted": 0.6992919753383782,
+        "classification_report": {
+            "negative": {
+                "precision": 0.7588261582005065,
+                "recall": 0.7401918047079338,
+                "f1-score": 0.7493931592497242,
+                "support": 6882.0
+            },
+            "neutral": {
+                "precision": 0.5907359439280817,
+                "recall": 0.5640913720355012,
+                "f1-score": 0.577106281631438,
+                "support": 6873.0
+            },
+            "positive": {
+                "precision": 0.7349309334449561,
+                "recall": 0.7737137820865925,
+                "f1-score": 0.7538238608919658,
+                "support": 9077.0
+            },
+            "accuracy": 0.7005080588647512,
+            "macro avg": {
+                "precision": 0.6948310118578481,
+                "recall": 0.6926656529433425,
+                "f1-score": 0.6934411005910427,
+                "support": 22832.0
+            },
+            "weighted avg": {
+                "precision": 0.6987271306163918,
+                "recall": 0.7005080588647512,
+                "f1-score": 0.6992919753383782,
+                "support": 22832.0
+            }
+        },
+        "confusion_matrix": {
+            "labels": [
+                "negative",
+                "neutral",
+                "positive"
+            ],
+            "matrix": [
+                [
+                    5094,
+                    1115,
+                    673
+                ],
+                [
+                    1136,
+                    3877,
+                    1860
+                ],
+                [
+                    483,
+                    1571,
+                    7023
+                ]
+            ]
+        },
+        "validation_accuracy_best_candidate": 0.6985401459854015,
+        "validation_f1_macro_best_candidate": 0.6908045054884155
+    },
+    "saved_files": {
+        "vectorizer": "./models/tfidf_vectorizer.pkl",
+        "model": "./models/sentiment_model.pkl",
+        "metadata": "./metadata/sentiment_model_metadata.json"
+    }
+}
