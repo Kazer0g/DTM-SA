@@ -1,0 +1,145 @@
+{
+  "term_frequency_validation": {
+    "checked_rows": 50,
+    "unique_terms": 454,
+    "token_total": 738,
+    "overlap_tokens": 738,
+    "match_ratio": 1.0,
+    "top_terms": [
+      [
+        "the",
+        39
+      ],
+      [
+        "and",
+        30
+      ],
+      [
+        "of",
+        18
+      ],
+      [
+        "'s",
+        14
+      ],
+      [
+        "that",
+        12
+      ],
+      [
+        "is",
+        11
+      ],
+      [
+        "to",
+        10
+      ],
+      [
+        "in",
+        9
+      ],
+      [
+        "with",
+        9
+      ],
+      [
+        "this",
+        9
+      ],
+      [
+        "for",
+        8
+      ],
+      [
+        "film",
+        7
+      ],
+      [
+        "as",
+        6
+      ],
+      [
+        "but",
+        6
+      ],
+      [
+        "you",
+        6
+      ],
+      [
+        "an",
+        6
+      ],
+      [
+        "all",
+        5
+      ],
+      [
+        "on",
+        4
+      ],
+      [
+        "have",
+        4
+      ],
+      [
+        "are",
+        4
+      ]
+    ]
+  },
+  "sentiment_validation": {
+    "samples_compared": 35835,
+    "accuracy": 0.6783312404074229,
+    "classification_report": {
+      "negative": {
+        "precision": 0.6754946956587164,
+        "recall": 0.7888586240224936,
+        "f1-score": 0.7277885862516212,
+        "support": 11381.0
+      },
+      "neutral": {
+        "precision": 0.6297117516629712,
+        "recall": 0.43487415063642454,
+        "f1-score": 0.5144636286442117,
+        "support": 10449.0
+      },
+      "positive": {
+        "precision": 0.7036795407098121,
+        "recall": 0.7701535166012139,
+        "f1-score": 0.7354174479255446,
+        "support": 14005.0
+      },
+      "accuracy": 0.6783312404074229,
+      "macro avg": {
+        "precision": 0.6696286626771667,
+        "recall": 0.6646287637533773,
+        "f1-score": 0.6592232209404592,
+        "support": 35835.0
+      },
+      "weighted avg": {
+        "precision": 0.6731601839558854,
+        "recall": 0.6783312404074229,
+        "f1-score": 0.6685674260926558,
+        "support": 35835.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        8978,
+        1104,
+        1299
+      ],
+      [
+        2662,
+        4544,
+        3243
+      ],
+      [
+        1651,
+        1568,
+        10786
+      ]
+    ]
+  }
+}

@@ -1,0 +1,45 @@
+src/__pycache__
+
+*.py[cod]
+*.pyo
+.Python
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+.env
+.python-version
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE/editor
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Local outputs and large artifacts
+outputs/
+*.log
+*.pkl
+*.parquet
+
+# Test/coverage artifacts
+.coverage
+htmlcov/
+
+# Spark local artifacts
+metastore_db/
+spark-warehouse/

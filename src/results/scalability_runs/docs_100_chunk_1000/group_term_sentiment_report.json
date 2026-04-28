@@ -1,0 +1,168 @@
+{
+  "movies": {
+    "top_positive_terms": [
+      {
+        "term": "the",
+        "count": 43
+      },
+      {
+        "term": "and",
+        "count": 29
+      },
+      {
+        "term": "of",
+        "count": 21
+      },
+      {
+        "term": "is",
+        "count": 17
+      },
+      {
+        "term": "'s",
+        "count": 15
+      },
+      {
+        "term": "to",
+        "count": 14
+      },
+      {
+        "term": "it",
+        "count": 13
+      },
+      {
+        "term": "in",
+        "count": 12
+      },
+      {
+        "term": "that",
+        "count": 12
+      },
+      {
+        "term": "an",
+        "count": 9
+      },
+      {
+        "term": "be",
+        "count": 9
+      },
+      {
+        "term": "as",
+        "count": 8
+      },
+      {
+        "term": "for",
+        "count": 7
+      },
+      {
+        "term": "but",
+        "count": 6
+      },
+      {
+        "term": "this",
+        "count": 6
+      },
+      {
+        "term": "film",
+        "count": 5
+      },
+      {
+        "term": "movie",
+        "count": 5
+      },
+      {
+        "term": "all",
+        "count": 4
+      },
+      {
+        "term": "at",
+        "count": 4
+      },
+      {
+        "term": "good",
+        "count": 4
+      }
+    ],
+    "top_negative_terms": [
+      {
+        "term": "the",
+        "count": 31
+      },
+      {
+        "term": "and",
+        "count": 18
+      },
+      {
+        "term": "of",
+        "count": 14
+      },
+      {
+        "term": "'s",
+        "count": 12
+      },
+      {
+        "term": "in",
+        "count": 10
+      },
+      {
+        "term": "it",
+        "count": 10
+      },
+      {
+        "term": "that",
+        "count": 10
+      },
+      {
+        "term": "to",
+        "count": 10
+      },
+      {
+        "term": "is",
+        "count": 9
+      },
+      {
+        "term": "for",
+        "count": 8
+      },
+      {
+        "term": "its",
+        "count": 7
+      },
+      {
+        "term": "with",
+        "count": 7
+      },
+      {
+        "term": "an",
+        "count": 5
+      },
+      {
+        "term": "as",
+        "count": 5
+      },
+      {
+        "term": "has",
+        "count": 4
+      },
+      {
+        "term": "lrb",
+        "count": 4
+      },
+      {
+        "term": "movie",
+        "count": 4
+      },
+      {
+        "term": "rrb",
+        "count": 4
+      },
+      {
+        "term": "so",
+        "count": 4
+      },
+      {
+        "term": "something",
+        "count": 4
+      }
+    ]
+  }
+}
