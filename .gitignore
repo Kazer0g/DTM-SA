@@ -10,6 +10,8 @@ __pycache__/
 .venv/
 venv/
 env/
+.env
+.python-version
 
 # Build artifacts
 build/
@@ -32,3 +34,11 @@ outputs/
 *.log
 *.pkl
 *.parquet
+
+# Test/coverage artifacts
+.coverage
+htmlcov/
+
+# Spark local artifacts
+metastore_db/
+spark-warehouse/
