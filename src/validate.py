@@ -7,12 +7,18 @@ from typing import Dict
 
 import pandas as pd
 from sklearn.metrics import accuracy_score, classification_report, confusion_matrix
+from sklearn.feature_extraction.text import ENGLISH_STOP_WORDS
 
 TOKEN_PATTERN = re.compile(r"[A-Za-z']+")
+STOP_WORDS = set(ENGLISH_STOP_WORDS)
 
 
 def tokenize(text: str):
-    return [token for token in TOKEN_PATTERN.findall(str(text).lower()) if len(token) > 1]
+    return [
+        token
+        for token in TOKEN_PATTERN.findall(str(text).lower())
+        if len(token) > 1 and token not in STOP_WORDS
+    ]
 
 
 def validate_term_frequencies(df: pd.DataFrame, sample_size: int = 50) -> Dict[str, object]:

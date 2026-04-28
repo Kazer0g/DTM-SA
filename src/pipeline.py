@@ -17,15 +17,21 @@ from pyspark.sql.types import (
     StructType,
 )
 from pyspark.sql.window import Window
+from sklearn.feature_extraction.text import ENGLISH_STOP_WORDS
 
 TOKEN_PATTERN = re.compile(r"[A-Za-z']+")
 SENTIMENTS_FOR_TOP = ("positive", "negative")
+STOP_WORDS = set(ENGLISH_STOP_WORDS)
 
 
 def tokenize(text: str) -> List[str]:
     if not isinstance(text, str):
         return []
-    return [token for token in TOKEN_PATTERN.findall(text.lower()) if len(token) > 1]
+    return [
+        token
+        for token in TOKEN_PATTERN.findall(text.lower())
+        if len(token) > 1 and token not in STOP_WORDS
+    ]
 
 
 def load_artifacts(
